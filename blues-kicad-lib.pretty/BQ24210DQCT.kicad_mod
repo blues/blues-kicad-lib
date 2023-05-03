@@ -40,7 +40,7 @@
   (pad "9" smd roundrect (at 0.95 -0.5) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp 1fb0e880-8736-4b37-813f-30b701546732))
   (pad "10" smd roundrect (at 0.95 -1) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp c097d8a7-28c3-48f4-acd3-b48cb01e30a5))
   (pad "11" smd rect (at 0 0) (size 0.84 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9f5e01a8-cf88-4bc7-9e1e-f442a35a6a62))
-  (model "/Users/ethan/Development/blues-kicad-lib/3d-models/BQ24210DQCT.step"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/BQ24210DQCT.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

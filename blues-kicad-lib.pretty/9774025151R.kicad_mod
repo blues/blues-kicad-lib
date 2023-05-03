@@ -64,7 +64,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/DIST-WASMSIM0250.stp"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/DIST-WASMSIM0250.step"
     (offset (xyz 0.00005 0.00011 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -0 -0 -180))
