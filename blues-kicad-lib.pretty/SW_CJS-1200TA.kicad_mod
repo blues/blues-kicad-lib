@@ -1,6 +1,7 @@
 (footprint "SW_CJS-1200TA" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Imported from Notecarrier-F")
+  (solder_mask_margin 0.1)
   (fp_text reference "SW1" (at 2.7178 3.048 -180 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
     (tstamp 38ab0f71-67fe-4872-9226-c5144362bb5b)
@@ -8,6 +9,10 @@
   (fp_text value "CJS-1200TA" (at 2.7305 -4.8387 -180 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
     (tstamp 1781d0f2-0a69-4bdf-b8e4-46cbb16ba293)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp e823e39f-fbc6-4e6e-87a3-2fe873727057)
   )
   (fp_line (start -2.7 -1.25) (end -2.7 1.25)
     (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 20eb873a-82ab-41d2-bfac-8ed532adf9e2))
@@ -63,9 +68,9 @@
     (thermal_bridge_angle 45) (tstamp 6032d2bd-0819-4c97-9405-2d2f7a1c5933))
   (pad "3" smd rect (at 1.75 1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp cb82595d-9d98-46b3-955e-b59c69c4e8c7))
-  (model "${BLUES_KICAD_LIB_DIR}/3d-models/CJS-1200TA--3DModel-STEP-56544.step"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/SW-CJS1200TA.step"
     (offset (xyz -0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 -0 0))
+    (rotate (xyz 0 -0 0))
   )
 )
