@@ -1,6 +1,6 @@
-(footprint "J-75-0050-MOS-M2-E" (version 20221018) (generator pcbnew)
+(footprint "J-75-0050-MOS-M2-E_smaller-mask" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "M.2 Key E connector")
+  (descr "M.2 Key E connector, with 1.6mm mask for the 1.6mm hole instead of 1.8mm to suit Notecarrier-A.")
   (tags "mini pcie m2")
   (attr smd)
   (fp_text reference "REF**" (at -12.5 6.35 180) (layer "F.SilkS") hide
@@ -36,7 +36,8 @@
   (fp_line (start 11.1 3.15) (end 11.1 -6.1)
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 0a756ac1-dba2-489b-960e-f412b336fec7))
   (pad "" np_thru_hole circle (at -10 0) (size 1.3 1.3) (drill 1.1) (layers "*.Mask") (tstamp c9477933-0fd0-4ea4-9dd5-7a8e44b46479))
-  (pad "" np_thru_hole circle (at 10 0) (size 1.8 1.8) (drill 1.6) (layers "*.Mask") (tstamp 69055302-1b59-4b1d-abae-4405946cb184))
+  (pad "" np_thru_hole circle (at 10 0) (size 1.6 1.6) (drill 1.6) (layers "*.Mask")
+    (clearance 0.1) (tstamp 69055302-1b59-4b1d-abae-4405946cb184))
   (pad "1" smd rect (at -9.25 -5.275) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (tstamp 545fef2b-5eb5-41ed-a485-b1b15f34dd53))
   (pad "2" smd rect (at -9 2.275) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask")

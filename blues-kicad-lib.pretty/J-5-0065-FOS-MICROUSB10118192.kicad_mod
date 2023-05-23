@@ -72,4 +72,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/J-5-0065-FOS-USB10118192-NOF.step" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

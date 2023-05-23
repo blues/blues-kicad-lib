@@ -1,4 +1,4 @@
-(footprint "CS-C-0402" (version 20221018) (generator pcbnew)
+(footprint "CS-C-0402_NO-FILL" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Capacitor SMD 0402 (1005 Metric), ported from OrCad")
   (tags "capacitor")
@@ -35,6 +35,20 @@
     (solder_mask_margin 0.05) (tstamp f0d6bdbe-8dea-4984-9c52-f76168ceed26))
   (pad "2" smd rect (at 0.45 0) (size 0.62 0.62) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (tstamp 07bccb1b-781c-4561-a379-63c349828818))
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ce18b0b6-084f-4b1c-aef6-dc3aaa82051c) (hatch edge 0.5)
+    (connect_pads (clearance 0))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy -0.89 -0.43)
+        (xy 0.89 -0.43)
+        (xy 0.89 0.43)
+        (xy -0.89 0.43)
+      )
+    )
+  )
   (model "${BLUES_KICAD_LIB_DIR}/3d-models/CS-C-0402.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

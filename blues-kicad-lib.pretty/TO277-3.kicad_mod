@@ -27,6 +27,8 @@
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp b3d4e1d0-4203-49f9-9704-f3ae82b43a42))
   (fp_line (start 2.41 -3.425) (end -2.41 -3.425)
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 1c95d994-4f97-4e75-93d2-6d56ce882003))
+  (fp_line (start 2.41 -2.1807) (end -2.41 -2.1807)
+    (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 48beb2da-aad2-46dc-8c81-f2f3f110895e))
   (fp_line (start 2.41 3.425) (end -2.41 3.425)
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 76c0c298-f45d-4ca6-a736-82bf4f1a44ab))
   (fp_line (start 2.41 3.425) (end 2.41 -3.425)
