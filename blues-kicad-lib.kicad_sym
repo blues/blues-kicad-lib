@@ -2452,7 +2452,7 @@
         (number "37" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -20.32 0 0) (length 2.54)
-        (name "NC38" (effects (font (size 1.27 1.27))))
+        (name "AUX5" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 20.32 0 180) (length 2.54)
