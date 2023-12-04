@@ -1,0 +1,15 @@
+(footprint "FIDUCIAL-F" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Imported from Notecarrier-F")
+  (clearance 1)
+  (fp_text reference "FID3" (at 2.2733 -1.3081 -90 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 13936d37-1bee-4982-b235-fa2e7e06fbd7)
+  )
+  (fp_text value "TPS" (at -3.7973 -1.3081 -90 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 1d580d73-321a-49f0-845c-033df50d0af7)
+  )
+  (pad "" smd circle (at 0 -0.065) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 1) (solder_paste_margin -1) (tstamp a75387d2-96e2-404e-b700-11ba19bc4884))
+)
