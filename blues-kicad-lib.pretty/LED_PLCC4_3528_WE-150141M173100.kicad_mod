@@ -1,0 +1,221 @@
+(footprint "LED_PLCC4_3528_WE-150141M173100"
+  (version 20241229)
+  (generator "songbird")
+  (generator_version "1.0")
+  (layer "F.Cu")
+  (descr "Wuerth 150141M173100 WL-SFTW RGB LED, PLCC-4 3.2x2.8x1.9 mm. Land pattern from datasheet rev 002.011 p.1: 4 pads 1.5x0.9 mm, centres (+-1.55, +-0.7). Pin 1 common anode top-right, 2 blue bottom-right, 3 red top-left (polarity mark corner), 4 green bottom-left.")
+  (tags "LED RGB PLCC-4 3528 Wuerth")
+  (property "Reference" "REF**"
+    (at 0 -2.8 0)
+    (layer "F.SilkS")
+    (uuid "4c162648-31cc-4eb4-90cd-25a4491b2913")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Value" "LED_PLCC4_3528_WE-150141M173100"
+    (at 0 2.8 0)
+    (layer "F.Fab")
+    (uuid "681276a6-dc85-477b-8286-e46749dd2481")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Datasheet" "reference/datasheets/150141M173100.pdf"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "f771129e-2645-4180-bbe5-1b4b4bb01418")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Description" "Wuerth WL-SFTW RGB TOP LED 3528 PLCC-4, common anode"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "2ee18203-fc47-480b-803e-a36d2eea29a3")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (attr smd)
+  (fp_line
+    (start -1.75 -1.4)
+    (end 1.75 -1.4)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "f11edff5-c3ea-4fc5-bd23-4d5acefb0f45")
+  )
+  (fp_line
+    (start 1.75 -1.4)
+    (end 1.75 1.4)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "2c3195e6-2d77-43b5-9bce-ccc009f8c3ec")
+  )
+  (fp_line
+    (start 1.75 1.4)
+    (end -1.75 1.4)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "888c2c7a-db9d-41e3-8f72-b52227629319")
+  )
+  (fp_line
+    (start -1.75 1.4)
+    (end -1.75 -1.4)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "39d2617b-2f9c-4e63-8513-62d8d8959054")
+  )
+  (fp_circle
+    (center 0 0)
+    (end 1.2 0)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (fill no)
+    (layer "F.Fab")
+    (uuid "1afc482a-1857-4b88-81b5-860aebcd0edd")
+  )
+  (fp_line
+    (start -1.75 -0.8)
+    (end -1.15 -1.4)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "aaae26dd-ca76-444d-8b78-38132926d032")
+  )
+  (fp_line
+    (start -0.6 -1.55)
+    (end 0.6 -1.55)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "a61d4981-0f9c-4231-8a7f-9dbcb5c45f69")
+  )
+  (fp_line
+    (start -0.6 1.55)
+    (end 0.6 1.55)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "2bde168b-d50c-4973-a767-ff0d4c373ca5")
+  )
+  (fp_line
+    (start -2.55 -1.55)
+    (end -2.55 -0.6)
+    (stroke
+      (width 0.15)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "5892bd13-475d-4395-bfb0-0429a7e79ce8")
+  )
+  (fp_line
+    (start -2.55 -1.55)
+    (end -1.9 -1.55)
+    (stroke
+      (width 0.15)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "503cef62-4c90-423d-ba20-3577d7aea5c1")
+  )
+  (fp_line
+    (start -2.55 -1.65)
+    (end 2.55 -1.65)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "08516ec5-1bd7-45d6-ba70-97544faf601e")
+  )
+  (fp_line
+    (start 2.55 -1.65)
+    (end 2.55 1.65)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "0856567f-63c0-478d-b9e5-5156a48bd4ea")
+  )
+  (fp_line
+    (start 2.55 1.65)
+    (end -2.55 1.65)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "9b8159c5-b9c5-4e89-9537-c1f02d7e24d9")
+  )
+  (fp_line
+    (start -2.55 1.65)
+    (end -2.55 -1.65)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "01f621d0-0001-4b57-a215-0e1302afe507")
+  )
+  (pad "1" smd rect
+    (at 1.55 -0.7)
+    (size 1.5 0.9)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "ddaf07aa-369e-4196-86b8-d5e6d925c27c")
+  )
+  (pad "2" smd rect
+    (at 1.55 0.7)
+    (size 1.5 0.9)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "54c7808d-3263-4248-9c41-24f1e60c7852")
+  )
+  (pad "3" smd rect
+    (at -1.55 -0.7)
+    (size 1.5 0.9)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "c8684c3d-e4bc-4f46-ae42-823f270c4799")
+  )
+  (pad "4" smd rect
+    (at -1.55 0.7)
+    (size 1.5 0.9)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "05d23e85-2456-4392-93b3-3cdb0021e87f")
+  )
+  (embedded_fonts no)
+)
