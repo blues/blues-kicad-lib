@@ -4,7 +4,7 @@
   (generator_version "9.0")
   (layer "F.Cu")
   (tags "QFN BQ25628 charger")
-  (descr "TI BQ25628 charger, WQFN-18 3.0x2.5 mm, 0.4 mm pitch, exposed pad. From TI RYK0018A drawing.")
+  (descr "TI BQ25628 charger, WQFN-18 (RYK) 3.0x2.5 mm, 0.4 mm pitch. No exposed thermal pad; pins 8, 9, 15, 16 and 17 are the extended power leads. Land pattern from the Notecarrier CX design.")
   (attr smd)
   (property "Reference" "REF**"
     (at -3.30182 0.1568 180)
@@ -33,7 +33,7 @@
       (justify left bottom)
     )
   )
-  (property "Datasheet" ""
+  (property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25628.pdf"
     (at 0 0 0)
     (layer "F.Fab")
     (hide yes)

@@ -2,7 +2,6 @@
   (version 20241229)
   (generator "pcbnew")
   (generator_version "9.0")
-  (locked yes)
   (layer "F.Cu")
   (tags "SOD-523 ESD diode")
   (descr "onsemi SOD-523 (case 502-01), used for ESD5Z series ESD diodes.")

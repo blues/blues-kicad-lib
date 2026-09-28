@@ -2,7 +2,6 @@
   (version 20241229)
   (generator "pcbnew")
   (generator_version "9.0")
-  (locked yes)
   (layer "F.Cu")
   (tags "TVS SMB DO-214AA SM6T")
   (descr "ST SM6T series Transil TVS, SMB (DO-214AA). Pad 1 cathode.")

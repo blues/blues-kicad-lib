@@ -7400,7 +7400,7 @@
           )
         )
       )
-      (pin open_collector line
+      (pin input line
         (at -20.32 5.08 270)
         (length 5.08)
         (name "SCL"
@@ -8311,7 +8311,7 @@
           )
         )
       )
-      (pin input line
+      (pin bidirectional line
         (at -10.16 -2.54 0)
         (length 2.54)
         (name "SDO"

@@ -2,7 +2,6 @@
   (version 20241229)
   (generator "pcbnew")
   (generator_version "9.0")
-  (locked yes)
   (layer "F.Cu")
   (tags "STDC14 SWD debug Samtec FTSH")
   (descr "Samtec FTSH-107-01-L-DV-K, 2x7 1.27 mm SMT header, STDC14 (ST-Link V3 SWD + VCP) debug connector.")
@@ -33,7 +32,7 @@
       )
     )
   )
-  (property "Datasheet" ""
+  (property "Datasheet" "https://www.samtec.com/products/ftsh-107-01-l-dv-k"
     (at 0 0 0)
     (layer "F.Fab")
     (hide yes)

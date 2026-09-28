@@ -27,7 +27,7 @@
       )
     )
   )
-  (property "Datasheet" "reference/datasheets/150141M173100.pdf"
+  (property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141M173100.pdf"
     (at 0 0 0)
     (layer "F.Fab")
     (hide yes)
