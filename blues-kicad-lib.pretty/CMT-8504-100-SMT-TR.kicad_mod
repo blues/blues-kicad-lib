@@ -1,0 +1,282 @@
+(footprint "CMT-8504-100-SMT-TR"
+  (version 20241229)
+  (generator "songbird")
+  (generator_version "1.0")
+  (layer "F.Cu")
+  (descr "Same Sky CMT-8504-100-SMT-TR magnetic transducer, 8.5x8.5x4.0 mm SMT. Land pattern from datasheet p.2 (rev 09/11/2024): 4 x 2.5 mm square pads, 9.5 mm outer span, 4.5 mm inner gap. Pad 1 (+) top-left, pad 2 (-) bottom-left, right pair are dummy (mechanical) pads. Sound port dia 2.0 at centre. Polarity: '+' laser mark on top near pad 1.")
+  (tags "buzzer transducer magnetic CMT-8504")
+  (property "Reference" "REF**"
+    (at 0 -6.2 0)
+    (layer "F.SilkS")
+    (uuid "fa272bab-4d8e-4067-8516-14d498622a60")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Value" "CMT-8504-100-SMT-TR"
+    (at 0 6.2 0)
+    (layer "F.Fab")
+    (uuid "7266c121-cb32-4a09-aa9c-6b63bf829fbe")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Datasheet" "https://www.sameskydevices.com/product/resource/cmt-8504-100-smt-tr.pdf"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "10957acf-b6c0-4ffc-b289-090d333fe4ea")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Description" "Magnetic transducer 8.5x8.5x4mm SMT"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "687a284e-833c-4887-ad2e-208a65e56992")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (attr smd)
+  (fp_line
+    (start -2.65 -4.25)
+    (end 2.65 -4.25)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "138f3dd5-5a07-466e-a489-bf37b7b1e056")
+  )
+  (fp_line
+    (start 2.65 -4.25)
+    (end 4.25 -2.65)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "f48b93f3-ff36-40d1-b65a-845c0eaa6dc4")
+  )
+  (fp_line
+    (start 4.25 -2.65)
+    (end 4.25 2.65)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "8f17a70a-544c-4a9e-bbe0-9a1a58e54ed3")
+  )
+  (fp_line
+    (start 4.25 2.65)
+    (end 2.65 4.25)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "5e8b21a6-0cc4-4a86-aacc-0d92572883b7")
+  )
+  (fp_line
+    (start 2.65 4.25)
+    (end -2.65 4.25)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "6709673e-c7de-41f9-8d10-c31dad2007e8")
+  )
+  (fp_line
+    (start -2.65 4.25)
+    (end -4.25 2.65)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "3b1d5164-6efc-46f9-bdea-89ba7e489779")
+  )
+  (fp_line
+    (start -4.25 2.65)
+    (end -4.25 -2.65)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "69b9c5b7-be8d-4ae6-a2c6-b676fc5616ac")
+  )
+  (fp_line
+    (start -4.25 -2.65)
+    (end -2.65 -4.25)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (layer "F.Fab")
+    (uuid "334673b1-d534-47a3-b9ed-ad4986d2d9e5")
+  )
+  (fp_circle
+    (center 0 0)
+    (end 1.0 0)
+    (stroke
+      (width 0.1)
+      (type default)
+    )
+    (fill no)
+    (layer "F.Fab")
+    (uuid "745f2ff0-01d2-4dca-8bf9-fb1c82671e07")
+  )
+  (fp_line
+    (start -2.0 -4.35)
+    (end 2.0 -4.35)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "84e85efd-902e-47f8-b7f6-972b9e58e944")
+  )
+  (fp_line
+    (start -2.0 4.35)
+    (end 2.0 4.35)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "80181a64-86f3-4081-87f4-6244a891a02c")
+  )
+  (fp_line
+    (start -4.35 -2.0)
+    (end -4.35 2.0)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "d7a7a974-df57-4706-8fea-a87ca1639cf3")
+  )
+  (fp_line
+    (start 4.35 -2.0)
+    (end 4.35 2.0)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "dc119700-e684-43d0-be98-dd0bb0088aed")
+  )
+  (fp_line
+    (start -5.6 -3.5)
+    (end -4.8 -3.5)
+    (stroke
+      (width 0.15)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "1e44a4be-7cee-4732-9d3b-909c738145ab")
+  )
+  (fp_line
+    (start -5.2 -3.9)
+    (end -5.2 -3.1)
+    (stroke
+      (width 0.15)
+      (type default)
+    )
+    (layer "F.SilkS")
+    (uuid "93855bc4-be5d-4a45-b5eb-2a3bffcaa47d")
+  )
+  (fp_circle
+    (center 0 0)
+    (end 1.0 0)
+    (stroke
+      (width 0.12)
+      (type default)
+    )
+    (fill no)
+    (layer "F.SilkS")
+    (uuid "2f34ee5d-f540-4687-ac0e-a85bcda73dde")
+  )
+  (fp_line
+    (start -5.0 -5.0)
+    (end 5.0 -5.0)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "92d8b2df-b308-4feb-bb7f-e959567eff3e")
+  )
+  (fp_line
+    (start 5.0 -5.0)
+    (end 5.0 5.0)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "5d483eeb-a945-4c84-ac14-7aa18fe7bf06")
+  )
+  (fp_line
+    (start 5.0 5.0)
+    (end -5.0 5.0)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "d3981819-a11d-47f2-98c7-c2bd52c1833a")
+  )
+  (fp_line
+    (start -5.0 5.0)
+    (end -5.0 -5.0)
+    (stroke
+      (width 0.05)
+      (type default)
+    )
+    (layer "F.CrtYd")
+    (uuid "880065f3-fc32-46db-b6e1-5bd4f2e99c4a")
+  )
+  (pad "1" smd rect
+    (at -3.5 -3.5)
+    (size 2.5 2.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "ee436328-1aeb-430f-8316-9eb098e2b1aa")
+  )
+  (pad "2" smd rect
+    (at -3.5 3.5)
+    (size 2.5 2.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "12da7ef5-3958-4abf-a65e-1dcc62f85572")
+  )
+  (pad "" smd rect
+    (at 3.5 -3.5)
+    (size 2.5 2.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "b6377ef7-9042-4c13-aff1-d39052f2f5db")
+  )
+  (pad "" smd rect
+    (at 3.5 3.5)
+    (size 2.5 2.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "d31ac77a-45f5-4504-afb6-e1261938ac66")
+  )
+  (embedded_fonts no)
+)
