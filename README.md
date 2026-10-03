@@ -40,7 +40,7 @@ The directory name must remain `3d-models` to ensure the links to footprints sta
 
 ## KiCad version
 
-The library is written in the KiCad 9 file formats (symbol library `20241209`, footprints `20241229`) and needs KiCad 9 or later. It was upgraded with `kicad-cli sym upgrade` / `kicad-cli fp upgrade` in October 2026, after every design that uses it had moved to KiCad 9; until then the symbol file had been kept in the KiCad 7 format. Keep it that way: an edit saved by a newer KiCad should be followed by upgrading the rest of the library the same way.
+The library is written in the KiCad 9 file formats (symbol library `20241209`, footprints `20241229`) and needs KiCad 9 or later. It was upgraded with `kicad-cli sym upgrade` / `kicad-cli fp upgrade` in October 2026, after every design that uses it had moved to KiCad 9; until then the symbol file had been kept in the KiCad 7 format. Keep it that way: `tools/check_library.py` fails if footprint files are ever in mixed format versions again, so an edit saved by a newer KiCad should be followed by upgrading the rest of the library the same way.
 
 ## Where the parts come from
 
@@ -58,9 +58,10 @@ A footprint added to `blues-kicad-lib.pretty` should have its `Reference` field 
 
 A symbol added to `blues-kicad-lib.kicad_sym` carries only the fields described above: `Reference`, `Value`, `Footprint`, `Datasheet`, the description and the keywords. Manufacturer part numbers, distributor numbers and BOM notes belong in the project that uses the symbol. Pin names and numbers should be read from the manufacturer's drawing rather than the datasheet's text tables where the two can be compared; the two have been known to disagree.
 
-Before opening a pull request, check that KiCad loads every part:
+Before opening a pull request, run the library check (KiCad 9's `kicad-cli` on `PATH`, or set `KICAD_CLI`):
 
 ```
-kicad-cli sym export svg -o /tmp/symcheck blues-kicad-lib.kicad_sym
-mkdir -p /tmp/fpcheck && kicad-cli fp export svg -o /tmp/fpcheck blues-kicad-lib.pretty
+python3 tools/check_library.py
 ```
+
+It fails on anything that would break a user of the library: a model linked by a path other than `${BLUES_KICAD_LIB_DIR}/3d-models/<file>`, a linked model file that is not in `3d-models`, a model in `3d-models` that no footprint links, a footprint that still references a `kicad-embed://` model or is locked, a symbol whose `Footprint` field names a footprint this library does not have or uses a stale nickname, footprint files in mixed format versions, or anything `kicad-cli` cannot load and plot. It also lists, without failing, footprints that do not yet follow the conventions above. The same check runs on every push and pull request in GitHub Actions, inside the `kicad/kicad:9.0.9` image.

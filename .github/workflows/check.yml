@@ -1,0 +1,15 @@
+name: check library
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check footprints, symbols and 3D model links with KiCad 9
+        run: >
+          docker run --rm -v "$PWD:/work" -w /work -u root
+          kicad/kicad:9.0.9 python3 tools/check_library.py
