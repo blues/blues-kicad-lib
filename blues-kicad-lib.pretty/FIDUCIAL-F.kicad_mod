@@ -1,15 +1,69 @@
-(footprint "FIDUCIAL-F" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Imported from Notecarrier-F")
-  (clearance 1)
-  (fp_text reference "FID3" (at 2.2733 -1.3081 -90 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 13936d37-1bee-4982-b235-fa2e7e06fbd7)
-  )
-  (fp_text value "TPS" (at -3.7973 -1.3081 -90 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 1d580d73-321a-49f0-845c-033df50d0af7)
-  )
-  (pad "" smd circle (at 0 -0.065) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (solder_mask_margin 1) (solder_paste_margin -1) (tstamp a75387d2-96e2-404e-b700-11ba19bc4884))
+(footprint "FIDUCIAL-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Imported from Notecarrier-F")
+	(property "Reference" "FID3"
+		(at 2.2733 -1.3081 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "13936d37-1bee-4982-b235-fa2e7e06fbd7")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TPS"
+		(at -3.7973 -1.3081 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1d580d73-321a-49f0-845c-033df50d0af7")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6904978e-05cd-4e6b-8783-b039d706cbc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a0bcbed-885e-4ada-957a-47f40a5bc540")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 1)
+	(pad "" smd circle
+		(at 0 -0.065)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 1)
+		(solder_paste_margin -1)
+		(uuid "a75387d2-96e2-404e-b700-11ba19bc4884")
+	)
+	(embedded_fonts no)
 )

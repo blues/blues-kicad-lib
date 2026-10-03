@@ -1,20 +1,67 @@
-(footprint "FORO-0330-U" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Mounting Hole 3.3mm, ported from OrCAD")
-  (tags "mounting hole 3.3mm")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -4.7) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d5c53125-86c0-41c8-8cbd-002dcb23f942)
-  )
-  (fp_text value "FORO-0330-U" (at 0 4.7) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 02c1cedf-8757-4ed3-ac90-b4242017447e)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0d29d895-dcfe-4439-a4eb-7301e2b1f857)
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 3.3 3.3) (drill 3.3) (layers "F&B.Cu" "*.Mask")
-    (solder_mask_margin 0.1) (clearance 2.65) (tstamp ec0396e3-1926-4a45-aa18-ff1122c48abd))
+(footprint "FORO-0330-U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.3mm, ported from OrCAD")
+	(tags "mounting hole 3.3mm")
+	(property "Reference" "REF**"
+		(at 0 -4.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d5c53125-86c0-41c8-8cbd-002dcb23f942")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FORO-0330-U"
+		(at 0 4.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02c1cedf-8757-4ed3-ac90-b4242017447e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b12e8ed6-ebc9-4f99-baa2-f2648f0391e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df5d11de-acd4-4d3a-ac0e-73c58d69f282")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.1)
+		(clearance 2.65)
+		(uuid "ec0396e3-1926-4a45-aa18-ff1122c48abd")
+	)
+	(embedded_fonts no)
 )

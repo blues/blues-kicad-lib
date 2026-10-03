@@ -1,213 +1,213 @@
 (footprint "SMB_SM6T6V8A"
-  (version 20241229)
-  (generator "pcbnew")
-  (generator_version "9.0")
-  (layer "F.Cu")
-  (tags "TVS SMB DO-214AA SM6T")
-  (descr "ST SM6T series Transil TVS, SMB (DO-214AA). Pad 1 cathode.")
-  (attr smd)
-  (property "Reference" "REF**"
-    (at 4.784598 1.053195 270)
-    (unlocked yes)
-    (layer "F.SilkS")
-    (hide yes)
-    (uuid "35892977-c33f-46ce-bd4f-afdca223d808")
-    (effects
-      (font
-        (size 1.524 1.524)
-        (thickness 0.254)
-      )
-    )
-  )
-  (property "Value" "SMB_SM6T6V8A"
-    (at -5.400802 4.10021 270)
-    (unlocked yes)
-    (layer "F.SilkS")
-    (hide yes)
-    (uuid "b510b349-d777-46f7-9cb5-70cc72619500")
-    (effects
-      (font
-        (size 1.524 1.524)
-        (thickness 0.254)
-      )
-    )
-  )
-  (property "Datasheet" ""
-    (at 0 0 0)
-    (layer "F.Fab")
-    (hide yes)
-    (uuid "cbebb651-c1a4-4b49-a86e-2ea25038752c")
-    (effects
-      (font
-        (size 1.27 1.27)
-        (thickness 0.15)
-      )
-    )
-  )
-  (property "Description" "TVS DIODE 5.8VWM 13.4VC SMB"
-    (at 0 0 0)
-    (layer "F.Fab")
-    (hide yes)
-    (uuid "a114eec7-d390-4a1b-b78b-c733a19a1c41")
-    (effects
-      (font
-        (size 1.27 1.27)
-        (thickness 0.15)
-      )
-    )
-  )
-  (fp_line
-    (start -2.95396 -1.80998)
-    (end 2.44603 -1.80998)
-    (stroke
-      (width 0.1)
-      (type solid)
-    )
-    (layer "B.Fab")
-    (uuid "7c78d7a5-6a83-43ac-9fce-3d4c6aa790eb")
-  )
-  (fp_line
-    (start -2.95396 -0.73495)
-    (end -1.87898 -1.80998)
-    (stroke
-      (width 0.1)
-      (type solid)
-    )
-    (layer "B.Fab")
-    (uuid "58ac92d3-a786-4965-8272-9a5cf183b099")
-  )
-  (fp_line
-    (start -2.95396 1.81002)
-    (end -2.95396 -1.80998)
-    (stroke
-      (width 0.1)
-      (type solid)
-    )
-    (layer "B.Fab")
-    (uuid "b338ace1-39f6-40a5-b3f0-79434ae7fc61")
-  )
-  (fp_line
-    (start -2.95396 1.81002)
-    (end 2.44603 1.81002)
-    (stroke
-      (width 0.1)
-      (type solid)
-    )
-    (layer "B.Fab")
-    (uuid "de77ee05-4555-4e0b-bf04-10a48827958b")
-  )
-  (fp_line
-    (start 2.44603 1.81002)
-    (end 2.44603 -1.80998)
-    (stroke
-      (width 0.1)
-      (type solid)
-    )
-    (layer "B.Fab")
-    (uuid "034c0366-7e34-4c88-9347-2b2cc1ff0218")
-  )
-  (fp_line
-    (start -3.804 -2.21999)
-    (end 3.29601 -2.21999)
-    (stroke
-      (width 0.05)
-      (type solid)
-    )
-    (layer "User.13")
-    (uuid "339bfad0-a715-43d7-8fe0-7282f4a61f44")
-  )
-  (fp_line
-    (start -3.804 2.22003)
-    (end -3.804 -2.21999)
-    (stroke
-      (width 0.05)
-      (type solid)
-    )
-    (layer "User.13")
-    (uuid "04f61e06-4c92-4426-a90f-2a93336108f3")
-  )
-  (fp_line
-    (start -3.804 2.22003)
-    (end 3.29601 2.22003)
-    (stroke
-      (width 0.05)
-      (type solid)
-    )
-    (layer "User.13")
-    (uuid "a9e3009c-73fa-4ab4-8afa-c3c43d269699")
-  )
-  (fp_line
-    (start 3.29601 2.22003)
-    (end 3.29601 -2.21999)
-    (stroke
-      (width 0.05)
-      (type solid)
-    )
-    (layer "User.13")
-    (uuid "68d62009-9272-4914-aa1b-47f5236070c8")
-  )
-  (pad "1" smd rect
-    (at -2.45399 0.00002)
-    (size 2.2 2.15)
-    (layers "F.Cu" "F.Mask" "F.Paste")
-    (uuid "1b814f1d-fecd-4ad6-a253-f367902ee11d")
-  )
-  (pad "2" smd rect
-    (at 1.946 0.00002)
-    (size 2.2 2.15)
-    (layers "F.Cu" "F.Mask" "F.Paste")
-    (uuid "3b75e4aa-3f8a-4401-b252-9c053af9227f")
-  )
-  (embedded_fonts no)
-  (model "${BLUES_KICAD_LIB_DIR}/3d-models/SM6T6V8A-E3_52.stp"
-    (offset
-      (xyz -0.254 -0 0)
-    )
-    (scale
-      (xyz 1 1 1)
-    )
-    (rotate
-      (xyz -0 -0 0)
-    )
-  )
-  (fp_line
-    (start -3.8 -2.05)
-    (end 3.3 -2.05)
-    (stroke
-      (width 0.05)
-      (type default)
-    )
-    (layer "F.CrtYd")
-    (uuid "3bfb6361-b6ab-4de4-9269-41f72aa9d41f")
-  )
-  (fp_line
-    (start 3.3 -2.05)
-    (end 3.3 2.05)
-    (stroke
-      (width 0.05)
-      (type default)
-    )
-    (layer "F.CrtYd")
-    (uuid "da2ba4c0-b349-4c47-b3ef-6596779fe418")
-  )
-  (fp_line
-    (start 3.3 2.05)
-    (end -3.8 2.05)
-    (stroke
-      (width 0.05)
-      (type default)
-    )
-    (layer "F.CrtYd")
-    (uuid "d2af0fe7-aac0-44a0-a8e8-92327bc595d4")
-  )
-  (fp_line
-    (start -3.8 2.05)
-    (end -3.8 -2.05)
-    (stroke
-      (width 0.05)
-      (type default)
-    )
-    (layer "F.CrtYd")
-    (uuid "20ec9b3d-7c51-41f9-9dab-44397002086a")
-  )
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ST SM6T series Transil TVS, SMB (DO-214AA). Pad 1 cathode.")
+	(tags "TVS SMB DO-214AA SM6T")
+	(property "Reference" "REF**"
+		(at 4.784598 1.053195 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "35892977-c33f-46ce-bd4f-afdca223d808")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SMB_SM6T6V8A"
+		(at -5.400802 4.10021 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b510b349-d777-46f7-9cb5-70cc72619500")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbebb651-c1a4-4b49-a86e-2ea25038752c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TVS DIODE 5.8VWM 13.4VC SMB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a114eec7-d390-4a1b-b78b-c733a19a1c41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.8 -2.05)
+		(end 3.3 -2.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bfb6361-b6ab-4de4-9269-41f72aa9d41f")
+	)
+	(fp_line
+		(start -3.8 2.05)
+		(end -3.8 -2.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "20ec9b3d-7c51-41f9-9dab-44397002086a")
+	)
+	(fp_line
+		(start 3.3 -2.05)
+		(end 3.3 2.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "da2ba4c0-b349-4c47-b3ef-6596779fe418")
+	)
+	(fp_line
+		(start 3.3 2.05)
+		(end -3.8 2.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2af0fe7-aac0-44a0-a8e8-92327bc595d4")
+	)
+	(fp_line
+		(start -2.95396 -1.80998)
+		(end 2.44603 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "7c78d7a5-6a83-43ac-9fce-3d4c6aa790eb")
+	)
+	(fp_line
+		(start -2.95396 -0.73495)
+		(end -1.87898 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "58ac92d3-a786-4965-8272-9a5cf183b099")
+	)
+	(fp_line
+		(start -2.95396 1.81002)
+		(end -2.95396 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b338ace1-39f6-40a5-b3f0-79434ae7fc61")
+	)
+	(fp_line
+		(start -2.95396 1.81002)
+		(end 2.44603 1.81002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "de77ee05-4555-4e0b-bf04-10a48827958b")
+	)
+	(fp_line
+		(start 2.44603 1.81002)
+		(end 2.44603 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "034c0366-7e34-4c88-9347-2b2cc1ff0218")
+	)
+	(fp_line
+		(start -3.804 -2.21999)
+		(end 3.29601 -2.21999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "339bfad0-a715-43d7-8fe0-7282f4a61f44")
+	)
+	(fp_line
+		(start -3.804 2.22003)
+		(end -3.804 -2.21999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "04f61e06-4c92-4426-a90f-2a93336108f3")
+	)
+	(fp_line
+		(start -3.804 2.22003)
+		(end 3.29601 2.22003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "a9e3009c-73fa-4ab4-8afa-c3c43d269699")
+	)
+	(fp_line
+		(start 3.29601 2.22003)
+		(end 3.29601 -2.21999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "68d62009-9272-4914-aa1b-47f5236070c8")
+	)
+	(pad "1" smd rect
+		(at -2.45399 0.00002)
+		(size 2.2 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b814f1d-fecd-4ad6-a253-f367902ee11d")
+	)
+	(pad "2" smd rect
+		(at 1.946 0.00002)
+		(size 2.2 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b75e4aa-3f8a-4401-b252-9c053af9227f")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SM6T6V8A-E3_52.stp"
+		(offset
+			(xyz -0.254 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
 )

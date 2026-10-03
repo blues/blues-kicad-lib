@@ -40,7 +40,7 @@ The directory name must remain `3d-models` to ensure the links to footprints sta
 
 ## KiCad version
 
-The library is used with KiCad 9 and later. The symbol file is still written in the KiCad 7 (`20220914`) format, and additions to it are made in that syntax so the file stays readable by KiCad 7. Newer footprint files are written in the current format by whichever KiCad saved them, so a few footprints need KiCad 9 or later; each `.kicad_mod` file carries its own version header.
+The library is written in the KiCad 9 file formats (symbol library `20241209`, footprints `20241229`) and needs KiCad 9 or later. It was upgraded with `kicad-cli sym upgrade` / `kicad-cli fp upgrade` in October 2026, after every design that uses it had moved to KiCad 9; until then the symbol file had been kept in the KiCad 7 format. Keep it that way: an edit saved by a newer KiCad should be followed by upgrading the rest of the library the same way.
 
 ## Where the parts come from
 
