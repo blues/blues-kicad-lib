@@ -1,0 +1,164 @@
+(footprint "DIOC_160X100X60"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DIOC_160X100X60: footprint from the Notecarrier F v1.5 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-F/v1.5/KiCad_format/Notecarrier-F-altium-import.pretty). Used there for ESDA7P120-1U1M.")
+	(tags "DIOC 160X100X60 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -0.78099 2.049898 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3cc8c175-985b-4698-be60-110ebee4efd6")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DIOC_160X100X60"
+		(at -0.22 -1.1212 180)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "452493ab-165d-426f-a5e7-d4175b2d00fa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3d267dc9-d7f9-489f-9030-9cad4743a977")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "58c4e401-78b9-4203-8bb0-844adb55ff2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 1.15001 -0.50006)
+		(end 1.45001 0.39993)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "46b638bd-9575-4875-912f-7b21b6d8811f")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "157ae1a2-8881-4add-a01b-fb6d64d7ea89")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "6f3858b0-1bae-4db2-97e5-866db399d652")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c5e1634d-b6cc-461c-81ee-d952f209265a")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "79e0a21a-677d-42a4-af98-d367fd4ec1b1")
+	)
+	(fp_rect
+		(start 0.49999 -0.50019)
+		(end 0.79999 0.49981)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.14")
+		(uuid "d0aa4ed2-3ad3-48a7-af81-4f2bb058bc4d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.4 -0.23675 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "f82427c4-0685-45e8-b494-e5ea643f5231")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.07)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.025)
+		(uuid "ef734061-89a2-4697-b258-c6b14778f7e9")
+	)
+	(pad "2" smd rect
+		(at 0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.025)
+		(uuid "3ab9e02a-cb6b-4045-8199-a3720a6ee3a1")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/ESDA7P120-1U1M.STEP"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

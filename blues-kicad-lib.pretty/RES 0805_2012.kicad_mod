@@ -1,0 +1,253 @@
+(footprint "RES 0805_2012"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RES 0805_2012: footprint from the Scoop v1.0 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Scoop/v1.0/KiCad_format/Scoop-altium-import.pretty). Used there for 178k, 82k.")
+	(tags "RES 0805 2012 altium scoop")
+	(property "Reference" "REF**"
+		(at 2.51381 0.15 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5cd8ce72-0b93-40ec-821d-339138a2a607")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RES 0805_2012"
+		(at 6.317105 2.2406 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3ffc5393-7f16-40ae-bcf7-dc7aa5c19742")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79cd28b7-6bae-4f85-9e31-86534180c004")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72349743-3cab-4bcf-b18d-a5fbe3162704")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -0.9)
+		(end -1.7 -0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19c29774-0bbf-42a1-bf8c-0b29abe12a92")
+	)
+	(fp_line
+		(start -1.7 -0.9)
+		(end 1.7 -0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c43182ea-e7d1-41ce-a342-686b56eb0a59")
+	)
+	(fp_line
+		(start -1.7 0.7)
+		(end -1.7 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7d5903a-df36-4a64-b00d-59f8ed00502c")
+	)
+	(fp_line
+		(start -1.7 0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95add480-ee49-4942-ac14-e98b7f50aa19")
+	)
+	(fp_line
+		(start 0 -0.9)
+		(end 0 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aea7ac0f-2823-4989-bbcf-d89bd20eefad")
+	)
+	(fp_line
+		(start 1.7 -0.9)
+		(end 1.7 -0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fa343c9-f812-4cb3-a882-e2b553f40eae")
+	)
+	(fp_line
+		(start 1.7 0.7)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29bd86ad-309a-4370-829c-ad7df3d0b2a0")
+	)
+	(fp_line
+		(start -1.1 -0.675)
+		(end -1.1 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "acfed3ba-2ec9-4c90-b560-7cd59ff54794")
+	)
+	(fp_line
+		(start -1.1 -0.675)
+		(end 1.1 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ca074f0e-57f7-455c-b80b-83fd54f9017f")
+	)
+	(fp_line
+		(start -1.1 0.675)
+		(end 1.1 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "47422dc8-3b1a-44f7-8171-c0be46a3d01f")
+	)
+	(fp_line
+		(start 1.1 -0.675)
+		(end 1.1 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "10587ed2-acfb-47a5-afe9-824de2991c3d")
+	)
+	(fp_line
+		(start -1.7 -0.95)
+		(end -1.7 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "620aa541-0862-4fa7-b94c-4e3e547160e5")
+	)
+	(fp_line
+		(start -1.7 -0.95)
+		(end 1.7 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1d47e313-f6d3-471c-a184-cb02c231a7ef")
+	)
+	(fp_line
+		(start -1.7 0.95)
+		(end 1.7 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "74224e37-56ce-4d9b-9d05-034c8a5ef638")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "9481a75d-7843-482b-a270-9c701dbc9a33")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "cf6c36ea-bd16-46a0-aebd-e42a696255f7")
+	)
+	(fp_line
+		(start 1.7 -0.95)
+		(end 1.7 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "b4c0e528-5822-4abc-a997-f8c4ed5ac643")
+	)
+	(pad "1" smd rect
+		(at -0.875 0 90)
+		(size 1.35 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86d03af0-e149-436b-a117-ec9e31395b53")
+	)
+	(pad "2" smd rect
+		(at 0.875 0 90)
+		(size 1.35 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "28258aeb-d2db-43cc-90d4-51893aa2ecea")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/0805 resistor.STEP"
+		(offset
+			(xyz -0 0.62505 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

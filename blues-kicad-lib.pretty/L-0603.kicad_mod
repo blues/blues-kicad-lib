@@ -1,0 +1,201 @@
+(footprint "L-0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L-0603: footprint from the Notecarrier XS v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XS/v1.2/KiCad_format/Notecarrier-XS-altium-import.pretty). Used there for MCKK1608T1R0MN. Other Blues boards carry a slightly different variant of this footprint (Notecarrier XM v1.2, Notecarrier CX v1.7).")
+	(tags "L 0603 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -1.66719 3.44581 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90134023-7578-4fd4-82d7-53d6b8e49f48")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "L-0603"
+		(at 6.8 -0.3735 270)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "e7ea5d32-e1ce-447b-8092-14a5b9efa197")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 270)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f174665c-29b9-489c-bb35-6b690cce4007")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 270)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "87a337f1-df68-4ca8-8d87-3c3ec443842a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.30008 -0.69992)
+		(end -1.30008 0.70009)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a7cf402-cff6-45db-a9a8-df9c4c52dfb7")
+	)
+	(fp_line
+		(start 0.15 -0.45)
+		(end -0.15 -0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3045df40-f666-4f5e-996a-c26fa58c6ad4")
+	)
+	(fp_line
+		(start 0.15 0.45)
+		(end -0.15 0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17467329-88ff-4131-adc3-dbf016e9f2b1")
+	)
+	(fp_line
+		(start 1.29992 -0.69992)
+		(end -1.30008 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "892f63cb-91c5-4380-82a8-a349abbdc0bb")
+	)
+	(fp_line
+		(start 1.29992 -0.69992)
+		(end 1.29992 0.70009)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3003870-0b2e-4ae0-afcb-f446c95ec35f")
+	)
+	(fp_line
+		(start 1.29992 0.70009)
+		(end -1.30008 0.70009)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68361549-90c6-42ef-bb27-63f05f0737ec")
+	)
+	(fp_line
+		(start -1.3 -0.7)
+		(end -1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "93251bdb-1996-4d23-bea2-bbc2d602c038")
+	)
+	(fp_line
+		(start 1.3 -0.7)
+		(end -1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "b563d09d-333a-43c6-8a75-0c076976708d")
+	)
+	(fp_line
+		(start 1.3 -0.7)
+		(end 1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "05023d60-919d-403d-8e6c-e780999bfcb1")
+	)
+	(fp_line
+		(start 1.3 0.7)
+		(end -1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "1006711a-0a78-40ad-aa2c-8eb0894f21cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 -0.3735 270)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "bddc0db6-b6e2-44ed-b1a5-a734d4f2e81e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 0 180)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "f65de9b5-bbc5-4dbf-9c23-ebbaf71d6b08")
+	)
+	(pad "2" smd rect
+		(at 0.725 0 180)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "4d28317a-0f41-49e9-85d5-cc1f8b972394")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/L-0603.STEP"
+		(offset
+			(xyz -0.00003 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

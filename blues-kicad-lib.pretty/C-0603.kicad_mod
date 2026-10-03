@@ -1,0 +1,201 @@
+(footprint "C-0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C-0603: footprint from the Notecarrier F v1.5 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-F/v1.5/KiCad_format/Notecarrier-F-altium-import.pretty). Used there for 1u. Other Blues boards carry a slightly different variant of this footprint (Notecarrier XS v1.2, Notecarrier X v1.2).")
+	(tags "C 0603 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 1.91891 -0.48441 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7e834faf-3457-4cdc-a8cd-efe0e172070a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "C-0603"
+		(at -0.3735 -0.43001 270)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "5b2787a1-96cd-441d-bbf5-e7b287b48e99")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "bd0a31a4-3880-4fa3-8759-de93265b3c12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "9b0eeb46-2051-427f-a3c0-3d92898941cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f9ee660-7232-4d1e-a5b3-821c19b12e42")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end -1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af871f57-b1bc-482b-8b07-ee23846319e3")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end 1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d59619-b4b6-4203-b72b-3b09c26a5232")
+	)
+	(fp_line
+		(start -0.1 0.4)
+		(end -0.1 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e99b55f-c2df-4ffe-9cff-71701485120f")
+	)
+	(fp_line
+		(start 0.1 0.4)
+		(end 0.1 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d071e62-61fd-41be-a4b5-83fb1e7361d6")
+	)
+	(fp_line
+		(start 1.3 0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "807eb71a-6c9b-4fe7-86fa-34bd36f38cb3")
+	)
+	(fp_line
+		(start -1.3 -0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "0a0e1972-7669-48e4-983f-a524757a179e")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end -1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "45f83240-f32a-429e-ba50-056fe83f60c0")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end 1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "d283c085-3783-4cbd-9acd-4bd39d987683")
+	)
+	(fp_line
+		(start 1.3 0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "f97c2a41-1a56-42e8-9725-b0517e6007f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3735 -0.43001 270)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "a3e2bcd1-d312-4a82-969b-95e4215a04cc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 0 90)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "a60890fc-6a1d-42b6-bf84-e0dddfdf7c4f")
+	)
+	(pad "2" smd rect
+		(at 0.725 0 90)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "662689fb-5c7d-44e7-90bc-a4c733338f7f")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/C-0603.step"
+		(offset
+			(xyz -0.00004 -0.47504 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

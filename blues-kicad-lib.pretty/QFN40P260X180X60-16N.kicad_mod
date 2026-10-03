@@ -69,4 +69,9 @@
     (thermal_bridge_angle 45) (tstamp 7e3e1de1-e97d-4f90-8414-a51249cab5f8))
   (pad "16" smd roundrect (at -0.6 -1.245 90) (size 0.463 0.22) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125)
     (thermal_bridge_angle 45) (tstamp 36715dba-e0a3-4026-8cd1-83dd6fe3cf11))
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/miniqfn16 v0.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

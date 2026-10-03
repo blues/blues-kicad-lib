@@ -1,0 +1,212 @@
+(footprint "HEADER_AA_002_NO_SILK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HEADER_AA_002_NO_SILK: footprint from the Scoop v1.0 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Scoop/v1.0/KiCad_format/Scoop-altium-import.pretty). Used there for Header 2-Pin, 0.100 inch (0.230 inch head).")
+	(tags "HEADER AA 002 NO SILK altium scoop")
+	(property "Reference" "REF**"
+		(at 5.0238 -0.62984 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2d77303e-e82f-4f3c-8946-0387a5d11fa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HEADER_AA_002_NO_SILK"
+		(at -2.9518 18.61396 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6550fec7-9509-47aa-aa4c-3f15e94f4185")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1cab3c47-1f42-44fc-bb5a-d52b6bdb0952")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "35c2a66b-db28-47d5-bc5c-0cb277e0e5fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 3.81032 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.12")
+		(uuid "9c2569b9-43bb-4e28-99f1-97f5ce23f424")
+	)
+	(fp_line
+		(start -1.26968 -1.26967)
+		(end -1.26967 1.26976)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.12")
+		(uuid "38701f73-f042-4fce-bfc6-1dc4be20368a")
+	)
+	(fp_line
+		(start -1.26967 1.26976)
+		(end 3.81032 1.26976)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.12")
+		(uuid "de2a28f9-f28d-4aa2-a045-e8a2817dbe41")
+	)
+	(fp_line
+		(start 3.81032 -1.27)
+		(end 3.81032 1.26976)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.12")
+		(uuid "5db04584-b594-43ce-b079-9a602d9897bf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.12")
+		(uuid "d949c60d-5916-4757-9471-52f3df401bb7")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "b599d1ce-0e2c-46f3-804d-428d85e15d87")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "6bb37beb-eec7-4ff6-a9a6-6f86feb1030f")
+	)
+	(fp_line
+		(start 0.889 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "d2ac4623-283b-492c-84e9-0ceec134854b")
+	)
+	(fp_line
+		(start 1.27 -0.381)
+		(end 1.27 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "95d3d13b-e464-4d0d-ba74-8a365fd3d51a")
+	)
+	(fp_line
+		(start 1.27 0)
+		(end 1.27 0.381)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c01dfe1b-be52-4ad4-ac31-ee17d02050fd")
+	)
+	(fp_line
+		(start 1.27 0)
+		(end 1.651 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "25fd3ff9-d2fd-4c24-8369-4d6148055b24")
+	)
+	(fp_line
+		(start 3.81 -1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "f8a7d305-fcd0-49f8-ad9d-95d1b7c1d274")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "7ef363f9-654f-44be-a41e-f9c4cc16b775")
+	)
+	(pad "2" thru_hole circle
+		(at 2.53999 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6e0bbcca-57fb-404b-bfcf-36c3aa0118cf")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/C002SAAN-RC.STEP"
+		(offset
+			(xyz -1.15344 -0.7698 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

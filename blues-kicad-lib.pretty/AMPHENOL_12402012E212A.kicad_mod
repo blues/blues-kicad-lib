@@ -1,0 +1,977 @@
+(footprint "AMPHENOL_12402012E212A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AMPHENOL_12402012E212A: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 12402012E212A.")
+	(tags "AMPHENOL 12402012E212A altium cygnet")
+	(property "Reference" "REF**"
+		(at -3.59443 -7.070598 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "85f7bc86-6a95-4b95-99a5-04c87ddee004")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AMPHENOL_12402012E212A"
+		(at 4.6579 4.461002 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bd240392-ff44-42bd-bcbc-98d5fd40d961")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb1a3d1a-49b1-482e-b8dd-1d793927a558")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB2.0, Type C, Top mount, CH 1.68mm, Dual Row SMT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab08faf8-089a-429f-ad5a-6ed5a939bf60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Amphenol ICC (Commercial Products)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a20014b-de33-42f4-8add-62b5d339b5b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d402adb2-e7d4-40ec-9779-a73442c49f70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "12402012E212A.SchLib"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47b4d8fd-ec9d-4eb4-ab13-11ec157674c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESIGN ITEM ID" "12402012E212A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fc545a0-029c-42da-85ac-a07da9d79fde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/12402012E212A/Amphenol/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3356c859-72ed-4174-95ea-868f20487a00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT TYPE" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c81d7cb6-60f5-49a4-bf1f-b2a52d4ba9d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN COUNT" "16"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92111bf7-1708-4415-9dc6-8b23fd07b92e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3b58e85-09fe-4509-97d2-43a5698752fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "12402012E212A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "841cff9d-ed19-4d3b-bf04-1ee26c9f4f72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2713146d-06a7-42d8-b3d7-0a22f9774aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/12402012E212A/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77915bec-72af-4454-956e-e75a455f2946")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECK_PRICES" "https://www.snapeda.com/parts/12402012E212A/Amphenol/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81a12e76-872a-4816-b137-b23a788ad770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a44b651f-926c-4707-ae43-d3b5cc3be067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN OPERATING TEMPERATURE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb64519e-1c96-4318-b026-e3932844550a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PINS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75d1f363-87d2-4ae2-96f9-53fa259119b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE/PACKAGE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a698725-0bd1-4be1-8832-1e3b392f3451")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36a6d070-f158-4aca-b876-4d80058f8fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOLTAGE RATING" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "390c3506-c801-478d-aa7f-66b87b6908bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS COMPLIANT" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e448599-b035-4813-ae57-19f1089ce0eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX OPERATING TEMPERATURE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7967523d-2319-422a-b87d-d60e2e7fa973")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "GENDER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a0b8b7d-6ef5-4457-b116-1f592c5fa07d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX CURRENT RATING" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65101d81-db16-4ba0-af5c-a801ba0abb5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONNECTOR TYPE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26a120d0-2c12-4507-b860-cfdf8938d36e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.47 -1.22)
+		(end -4.47 -2.81)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80538018-cbcf-4036-af0b-80a78e10b8fe")
+	)
+	(fp_line
+		(start -4.47 2.6)
+		(end -4.47 1.22)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bed45c5e-5983-4d4f-8273-4a0a3407da0b")
+	)
+	(fp_line
+		(start 4.47 -1.22)
+		(end 4.47 -2.81)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d32bdbf1-5116-4033-8bf0-1c987438de9c")
+	)
+	(fp_line
+		(start 4.47 2.6)
+		(end -4.47 2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "137aa80b-be8f-4f91-9589-812ec2fcdec5")
+	)
+	(fp_line
+		(start 4.47 2.6)
+		(end 4.47 1.22)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e11d3d4-4db5-4e9b-ad52-4341b2438d1c")
+	)
+	(fp_line
+		(start -4.32 -4.705)
+		(end -4.32 -3.655)
+		(stroke
+			(width 1.05)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "507f2210-d685-4ff7-8a36-fcd5137f6b1a")
+	)
+	(fp_line
+		(start -4.32 -0.45)
+		(end -4.32 0.45)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "e71963a0-3c7b-42c7-ac63-07c68f8d82e1")
+	)
+	(fp_line
+		(start 4.32 -4.705)
+		(end 4.32 -3.655)
+		(stroke
+			(width 1.05)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "5af16d3f-db45-4ac3-b0d3-e9e80036bed3")
+	)
+	(fp_line
+		(start 4.32 -0.45)
+		(end 4.32 0.45)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "0c584d3d-91ca-4c4d-b01e-bb42ccf5b7af")
+	)
+	(fp_line
+		(start -4.47 2.6)
+		(end -4.47 -4.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e3cdd1d9-e59c-431d-98ad-8b2e58f43299")
+	)
+	(fp_line
+		(start 4.47 -4.75)
+		(end -4.47 -4.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "46733ac7-e6a8-41f1-a54d-0a6be2bbe3c8")
+	)
+	(fp_line
+		(start 4.47 2.6)
+		(end -4.47 2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6e6b006a-bef3-4e6d-89ef-9ad403b4a8fa")
+	)
+	(fp_line
+		(start 4.47 2.6)
+		(end 4.47 -4.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f8a27acd-84a0-44fc-882b-b603a53077c7")
+	)
+	(fp_line
+		(start -5.095 2.85)
+		(end -5.095 -5.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e14b969b-9461-4b23-bd41-c53373772946")
+	)
+	(fp_line
+		(start 5.095 -5.57)
+		(end -5.095 -5.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "198e10d4-ffc7-488f-80ab-8a404d1e5e86")
+	)
+	(fp_line
+		(start 5.095 2.85)
+		(end -5.095 2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "0ea4e6ad-052c-4083-b6c2-8181ce90f3f9")
+	)
+	(fp_line
+		(start 5.095 2.85)
+		(end 5.095 -5.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "cd44123d-2e49-4955-8ee5-c717cb2b6580")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.89 -3.68)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "44074e97-7e48-4b62-bb20-c67a4b5b81b5")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In2.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In3.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In4.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In5.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In6.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In7.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In8.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In9.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In10.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In11.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In12.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In13.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In14.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In15.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In16.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In17.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In18.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In19.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In20.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In21.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In22.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In23.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In24.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In25.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In26.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In27.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In28.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In29.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In30.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -3.68)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "8be9bb24-6759-4b3f-8617-4fe38b86eded")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In2.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In3.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In4.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In5.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In6.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In7.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In8.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In9.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In10.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In11.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In12.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In13.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In14.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In15.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In16.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In17.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In18.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In19.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In20.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In21.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In22.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In23.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In24.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In25.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In26.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In27.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In28.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In29.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "In30.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 0.65 0.65)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "A1_B12" smd rect
+		(at -3.2 -4.75)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6609328d-a304-4bd1-822d-6e07933bfb5d")
+	)
+	(pad "A4_B9" smd rect
+		(at -2.4 -4.75)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5227f7a-9ff8-4671-a572-97992171ccba")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61c36396-ae98-4662-8c59-35c45eed13d5")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26012150-305f-4cff-a710-b286021b5c71")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7245ae50-df47-49e1-85da-7d236cd680eb")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d8c0025-d66a-4618-ad42-59bad02a98ce")
+	)
+	(pad "B1_A12" smd rect
+		(at 3.2 -4.75)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10f3f359-af11-4966-9390-c29af2598ef7")
+	)
+	(pad "B4_A9" smd rect
+		(at 2.4 -4.75)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7cd7cb3a-0529-4de1-ad27-85cfd7ef66c9")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a8ee822-044c-4e19-86ee-490ea5e302b4")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32585cec-4c25-4f54-9863-869a081f15bc")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5a4446b8-18d6-4958-bac8-9945dd47fe4c")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -4.75)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93287758-7ef0-4b5a-899e-b936bebe2c55")
+	)
+	(pad "SH1" thru_hole oval
+		(at -4.32 -4.19 90)
+		(size 2.1 1.05)
+		(drill oval 1.7 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1c381bd-6b56-4e57-bea7-786c3d8e10a7")
+	)
+	(pad "SH2" thru_hole oval
+		(at 4.32 -4.18 90)
+		(size 2.1 1.05)
+		(drill oval 1.7 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "259e1827-bb88-483e-8ee8-a8f504eb2c9f")
+	)
+	(pad "SH3" thru_hole oval
+		(at -4.32 0 90)
+		(size 1.8 0.9)
+		(drill oval 1.4 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0)
+		(uuid "20ee98da-aea7-47f2-b87e-58a1e0122635")
+	)
+	(pad "SH4" thru_hole oval
+		(at 4.32 0 90)
+		(size 1.8 0.9)
+		(drill oval 1.4 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bffa444b-fc6a-43fa-a08d-5ce1520f63b2")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/AMPHENOL_12402012E212A.STEP"
+		(offset
+			(xyz 39.89799 2.407 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

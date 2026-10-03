@@ -1,0 +1,427 @@
+(footprint "CONN S2B-PH-SM4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN S2B-PH-SM4: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for S2B-PH-SM4-K-TB. Other Blues boards carry a slightly different variant of this footprint (Notecarrier XS v1.2, Notecarrier X v1.2).")
+	(tags "CONN S2B PH SM4 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -3.202 -1.4 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bdffb644-859e-46a7-a96a-002ebceec55c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CONN S2B-PH-SM4"
+		(at 0.3797 4.34542 90)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "c31fe28d-037f-400d-871c-8799edf680c7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a59dee5-3bd1-46d9-8dfd-c72b7b9ebf47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.00mm pitch 2 pin side entry wire to board connector, SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6f8e619-b320-4375-b546-10e7d98d87cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2007-662"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff58f11f-3b59-48a8-93cc-76d8709c8e2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "JST"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83e89500-e2f9-423d-a35c-47c92914ada1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "S2B-PH-SM4-K-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e667f7-79ff-4518-9210-448a2b5922d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Hamin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6cf9118-3e65-49f6-9985-64904d39d05d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "19-06-2023"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ad25194-484b-4a8b-814a-f3f4a1e5fa36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8aa5602-45f6-4017-8498-fbbaa1695154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" "Digi-Key"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da76571c-d53a-48d3-8e8f-a0a3671a9365")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2988413-894f-48b1-a398-bf7ca57139a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "085ae999-22f1-4076-9ae5-5f031d211511")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 -1.1125)
+		(end -3.95 1.4375)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcfc7a29-998f-453e-9773-cddca4bc9345")
+	)
+	(fp_line
+		(start -3.95 1.4375)
+		(end -3.95 3.10001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f4d106a-1f91-4663-b989-4aa2ab70088a")
+	)
+	(fp_line
+		(start -3.95 1.4375)
+		(end -1.9375 1.4375)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a74a3983-0c8a-485e-91e8-35bd3d0560f7")
+	)
+	(fp_line
+		(start -3.95 3.10001)
+		(end -3.2 3.10001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1dce4409-208e-42b7-a4bf-edda8da11b66")
+	)
+	(fp_line
+		(start -3.2 1.43751)
+		(end -3.2 3.10001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e21e55c-7743-4b58-a1e5-0da74f94e606")
+	)
+	(fp_line
+		(start -2 -4.5625)
+		(end 2 -4.5625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1acff3c3-0738-466e-b27d-de7ec846e4ef")
+	)
+	(fp_line
+		(start 1.9375 1.4375)
+		(end 3.95 1.4375)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88fbb0f0-ee45-4400-8c5d-0daab08a18d7")
+	)
+	(fp_line
+		(start 3.20001 1.43751)
+		(end 3.20001 3.10001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b3e9b52-5264-4cc1-a302-189d35e43a25")
+	)
+	(fp_line
+		(start 3.20001 3.10001)
+		(end 3.95 3.10001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "001ea86f-70db-48ae-a977-1188612feb60")
+	)
+	(fp_line
+		(start 3.95 -1.1125)
+		(end 3.95 1.4375)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c118b20c-9565-4fce-9711-1e363f2e9210")
+	)
+	(fp_line
+		(start 3.95 1.4375)
+		(end 3.95 3.10001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae43ebb9-d93d-4d3e-b134-e618e7c81b86")
+	)
+	(fp_line
+		(start -4 -4.6)
+		(end -4 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "dcf0365c-9d42-45cf-b8ca-b4d2d9738a97")
+	)
+	(fp_line
+		(start -4 -4.6)
+		(end 4 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "b72ee78b-3ddc-41ce-8d6e-aba818f5d5d4")
+	)
+	(fp_line
+		(start -4 3.1)
+		(end -3.2 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "13a76871-fafe-4482-bed5-6dd35a962328")
+	)
+	(fp_line
+		(start -3.2 1.5)
+		(end -3.2 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "1e39822c-9997-4ffd-8195-175fb6b1370d")
+	)
+	(fp_line
+		(start -3.2 1.5)
+		(end 3.2 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "34e26e2b-0b3a-4487-ab42-b07d54501be8")
+	)
+	(fp_line
+		(start 3.2 1.5)
+		(end 3.2 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "fe6ae919-e865-4d02-bb9b-eb2dccfa5bd3")
+	)
+	(fp_line
+		(start 3.2 3.1)
+		(end 4 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9ac18c55-35d9-4bd1-80ae-1e21247b7b09")
+	)
+	(fp_line
+		(start 4 -4.6)
+		(end 4 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "024ebc4f-bc7c-45f4-94da-27211ee50131")
+	)
+	(fp_circle
+		(center 2.4 3.6)
+		(end 2.5 3.6)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.14")
+		(uuid "a1cd58b2-2f6b-4c18-a705-db98a452b508")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.245 -3.2125 270)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "1b14e4fe-03cf-413c-b60f-d15866a9750e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 1 2.75001 270)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0e0ad0c7-8ea4-41df-95e3-f98ad393d3f5")
+	)
+	(pad "2" smd rect
+		(at -1 2.75001 270)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5093e5cc-cc55-4f30-b125-1348723a4d7a")
+	)
+	(pad "M" smd rect
+		(at -3.4 -3.0625 90)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78167529-c226-4acd-b636-9b6218b16434")
+	)
+	(pad "M" smd rect
+		(at 3.4 -3.0625 90)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1fb40a8-4b45-4faf-9018-7ea6b036313e")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/S2B-PH-SM4-TB.STEP"
+		(offset
+			(xyz 7.85007 -12.4499 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

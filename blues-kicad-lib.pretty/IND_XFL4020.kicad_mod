@@ -1,0 +1,213 @@
+(footprint "IND_XFL4020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IND_XFL4020: footprint from the Notecarrier XS v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XS/v1.2/KiCad_format/Notecarrier-XS-altium-import.pretty). Used there for XFL4020-152MEC.")
+	(tags "IND XFL4020 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -3.1172 -1.39641 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ff6f9bf2-663c-47bb-a002-65aeabccdc95")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "IND_XFL4020"
+		(at 2.801972 2.348028 225)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "b3bbd6d7-ea37-435e-9802-6a72e9449ca1")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 270)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "533eae9f-5411-4181-bb29-44f7dbc4d8c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 270)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "81036461-7e7c-4cde-86cf-ce48619c8c63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.15 -2.15)
+		(end -2.15 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e3b7a37-f0d0-4383-85be-7dc12e4bb5ca")
+	)
+	(fp_line
+		(start 2.15 -2.15)
+		(end -2.15 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "841d28b5-3df2-4e2f-8ef7-89518cbd7d4b")
+	)
+	(fp_line
+		(start 2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ae3aaee-0eb7-4a6c-bf5c-e844481fd680")
+	)
+	(fp_line
+		(start 2.15 2.15)
+		(end -2.15 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b1c450b-6ea2-45ba-9e88-5a539562c9a2")
+	)
+	(fp_line
+		(start -2.15 -2.15)
+		(end -2.15 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "2452c32d-71de-47e0-8d8e-1e9fdfc73bf2")
+	)
+	(fp_line
+		(start 2.15 -2.15)
+		(end -2.15 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "33ebea5a-d4a3-4b31-832f-babef66ea277")
+	)
+	(fp_line
+		(start 2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "ded5a348-a59a-43c3-af85-db50c222fd95")
+	)
+	(fp_line
+		(start 2.15 2.15)
+		(end -2.15 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "82d7a5ee-7f97-4684-817c-0030a53e1557")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.88375 1.25 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "48653fab-163f-45f0-b97b-cd3a018538fa")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.185 0 270)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "fdc27a0f-52e2-490a-819c-9e0a2bd09bd0")
+	)
+	(pad "2" smd rect
+		(at 1.185 0 270)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "1f66c08b-bc88-40d4-8115-d99a7e0aafc5")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "0b536685-9dca-4259-a086-3b044da029d5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 144.943595 -115.4786) (xy 144.943595 -116.8786) (xy 141.543595 -116.8786) (xy 141.543595 -115.4786)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Coilcraft-XFL4020.STEP"
+		(offset
+			(xyz -0.00006 0.00008 0.1127)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

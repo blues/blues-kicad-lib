@@ -1,0 +1,306 @@
+(footprint "HEADER 2.54MM 1X4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HEADER 2.54MM 1X4: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for Header 2.54mm 1x4.")
+	(tags "HEADER 2.54MM 1X4 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 8.7734 2.00117 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a7418639-1f95-40b8-8fd5-e70d8413ca45")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "HEADER 2.54MM 1X4"
+		(at 8.9512 -2.69165 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "37b8a2cb-60ba-468d-be62-9dd7224e773b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad9fa3f9-389c-4023-8418-bb8a096a6703")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.54mm pitch 4 pin (1x4) top entry wire to board connector THT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72d06075-d1dd-44f8-a9ee-e0579eeed830")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2001-524"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc228c65-25ab-4b55-a631-f876aeb50ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e21aa33f-b1c2-4aba-97ea-ff1943625ab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Wurth"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34ef27ac-ca12-408a-a01c-5acada06d6bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "61300411121"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b0e2d91-bbdd-41ce-9ee9-c9d12fc0d928")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Puskar"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adfe02a3-548d-4ca0-a2a2-06f89206e922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "29-01-2024"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a56470d2-55f9-4d11-a252-bec010b35866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Dodig"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bed664b2-5aee-4c40-bae2-0abee51bbd6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PKG TYPE" "THT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a16eda2d-9950-436a-b424-5499ad710d76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27d5eba7-275a-4dc2-ac51-bec6e505906d")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "874e8cc8-0177-4a80-a358-af45d6120986")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end 8.89 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b1e2fad-0719-4d73-9fdc-1e83f2b8df00")
+	)
+	(fp_line
+		(start 8.89 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c8c0530-987d-4a13-a87d-dc573ae8ffeb")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "16d1dad4-44e6-4242-b88d-1526803da1b5")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "e3cc319d-0e5c-4a2b-8591-dbe289538e56")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end 8.89 1.27)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "587dad8b-7b7e-467c-816b-34bf48e1a210")
+	)
+	(fp_line
+		(start 8.89 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "cc806676-a6f0-4fb8-b0f0-0db05815b432")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.75 -0.89368 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "5b8695dc-b1e4-4ea8-b5f6-685a4561de71")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "c05fb3b8-2916-4d94-933b-f44da6fc6d16")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(thermal_bridge_angle 90)
+		(uuid "0f35484b-5a59-4f72-8ac4-9581c94e3e45")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3e8b8c1b-bc0e-4617-8be1-a56f465a0bf3")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0fed05f7-39f2-4e3a-8781-240a781c386d")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/61300411121.stp"
+		(offset
+			(xyz 3.85737 0.06175 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

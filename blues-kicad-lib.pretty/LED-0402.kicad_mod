@@ -1,0 +1,364 @@
+(footprint "LED-0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED-0402: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for SML-P12WTT86R. Other Blues boards carry a slightly different variant of this footprint (Notecarrier XS v1.2, Notecarrier X v1.2, Notecarrier CX v1.7).")
+	(tags "LED 0402 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -1.326025 1.976488 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "765c0ab3-a989-4139-b0f3-d41127863cf9")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LED-0402"
+		(at -9.53462 -2.733802 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "43debf87-be16-4711-8c42-9602b5b53e4a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d699ae9-7d33-4cec-b2b3-3a3c98acde23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED YELLOW CLEAR 0402 SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "576ccdb4-c7ba-42f6-a4dc-363421bc4421")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16cdcc1b-982a-4b03-b22e-fe0282cd08bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "ROHM Semiconductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3776b198-148f-4f89-a59a-3a92c3f071ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Hamin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94d4bb70-7f2a-4dad-83cd-2f109b817dd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "19-06-23"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d83628f8-d7c6-41db-9b42-435dbe980ed8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Hamin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b64454f7-8a4d-4d7e-bf6d-8378e8266bcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2007-660"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcd2bc26-4034-4ed9-b7d6-71e3ee5afcd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "SML-P12WTT86R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23d3c262-b933-4c5c-b311-7e27d67634f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PKG TYPE" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cb9745f-21d8-48c8-ba2c-465f97021fae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.10501 -0.3)
+		(end -1.10501 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db3183f3-35e8-45dc-8729-8e51c7a5bccd")
+	)
+	(fp_line
+		(start -1.00501 -0.4)
+		(end -1.10501 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c788358-9ebc-476d-8d36-461e7582d029")
+	)
+	(fp_line
+		(start -1.00501 -0.4)
+		(end -1.00501 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f354d554-6f0a-4598-a565-2a246b1b4f61")
+	)
+	(fp_line
+		(start -1.00501 0.4)
+		(end -1.10501 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcca3e9d-84a8-4731-8431-eb281313a6ed")
+	)
+	(fp_line
+		(start -0.9 -0.45)
+		(end -0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58abf01c-a1a6-45f3-a43a-b414b3ad3226")
+	)
+	(fp_line
+		(start 0.9 -0.45)
+		(end -0.9 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a167f252-a658-4fe6-bb80-e598a170698c")
+	)
+	(fp_line
+		(start 0.9 -0.45)
+		(end 0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e3d9564-3926-401b-93c8-48319a361a63")
+	)
+	(fp_line
+		(start 0.9 0.45)
+		(end -0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef52aad4-15c9-4908-9b4c-5fe11c1c62a6")
+	)
+	(fp_line
+		(start -1.10501 -0.3)
+		(end -1.10501 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "d84740d8-47ec-4a3c-8991-842ce1194fd6")
+	)
+	(fp_line
+		(start -1.00501 -0.4)
+		(end -1.10501 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9af9b264-c03b-4f83-bcbe-f98ac2be48c5")
+	)
+	(fp_line
+		(start -1.00501 -0.4)
+		(end -1.00501 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "b21f79c9-bcc6-4a59-a075-afceb3f53836")
+	)
+	(fp_line
+		(start -1.00501 0.4)
+		(end -1.10501 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "4fd33dd0-04ee-4bb4-b3f3-2a2f1dd0bc6a")
+	)
+	(fp_line
+		(start -0.9 -0.45)
+		(end -0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "199b5819-c512-4a54-9d4f-259c5f1efc77")
+	)
+	(fp_line
+		(start 0.9 -0.45)
+		(end -0.9 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "533d7dfd-1dac-42a3-8216-947f175ea4e5")
+	)
+	(fp_line
+		(start 0.9 -0.45)
+		(end 0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "ab69624e-66fe-4b99-bb33-aba3d09c63e0")
+	)
+	(fp_line
+		(start 0.9 0.45)
+		(end -0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "bad2dc5c-5b49-4ebc-9709-4eba25e89637")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.65 -0.3735 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "b5a13575-5b23-4eb1-a4f1-11360aa3d734")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.49999 0 90)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "aaff1752-86a6-4cdf-b4a1-9600547499a2")
+	)
+	(pad "2" smd rect
+		(at -0.5 0 90)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "ba060330-0432-4af3-a230-c3e9fdbaa292")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SMLP1.step"
+		(offset
+			(xyz 0.00004 0.00008 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

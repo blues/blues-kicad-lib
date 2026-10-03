@@ -1,0 +1,295 @@
+(footprint "C0402B105K016T-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C0402B105K016T-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 1u/16V-X5R, 1uF/ 16V-X5R, 1uF/ 16V-XR5.")
+	(tags "C0402B105K016T Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at 2.447808 1.967845 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb739d5a-0a6e-4a92-806c-35d777d95e1f")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "C0402B105K016T-Footprint-1"
+		(at -2.555992 7.0462 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e8ff964-653e-4a4a-80a6-ad7892cf18c4")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6913c04a-fa38-4865-ab5c-39908b73bb8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Cap Cer 1UF 16V X5R 0402"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e04a1964-dab2-48da-b129-8d62bbd6f70a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.52497 -0.27503)
+		(end 0.52502 -0.27503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1b49d309-8bb1-4394-bb01-c6d13312b7c7")
+	)
+	(fp_line
+		(start -0.52497 0.27498)
+		(end -0.52497 -0.27503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a0e45ea7-c432-4a9d-92ac-4d61604bbe01")
+	)
+	(fp_line
+		(start -0.52497 0.27498)
+		(end 0.52502 0.27498)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "933fe1d8-f2ca-41aa-9efc-84c998a2c15e")
+	)
+	(fp_line
+		(start 0.52502 0.27498)
+		(end 0.52502 -0.27503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e3216a6e-6658-4595-a768-752ae4eac79d")
+	)
+	(fp_line
+		(start -0.87498 -0.47503)
+		(end 0.87503 -0.47503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "5829a871-52f3-4f35-9a2a-649125a82e11")
+	)
+	(fp_line
+		(start -0.87498 0.47498)
+		(end -0.87498 -0.47503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "211142a6-1d84-49a6-8333-5016cb8c6cff")
+	)
+	(fp_line
+		(start -0.87498 0.47498)
+		(end 0.87503 0.47498)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "73d39305-8f53-4444-99a0-1ff79458378e")
+	)
+	(fp_line
+		(start 0.87503 0.47498)
+		(end 0.87503 -0.47503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "370155cf-7261-4acf-99e7-70e976650f69")
+	)
+	(fp_line
+		(start -0.87498 -0.47503)
+		(end 0.87503 -0.47503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "5e4c5b1a-17c2-466b-85f9-1dce6f9e5e78")
+	)
+	(fp_line
+		(start -0.87498 0.47498)
+		(end -0.87498 -0.47503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "2cf9a5d9-4837-451d-96bd-f527810b0100")
+	)
+	(fp_line
+		(start -0.87498 0.47498)
+		(end 0.87503 0.47498)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "0849b5c5-76df-4f4f-810c-d724b6f1d1b3")
+	)
+	(fp_line
+		(start 0.87503 0.47498)
+		(end 0.87503 -0.47503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "318136f3-892b-4662-ae92-bd781ea368ea")
+	)
+	(fp_line
+		(start -0.49997 -0.00005)
+		(end 0.50003 -0.00005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "1494db97-df45-4da8-aeef-fd0cd073ed86")
+	)
+	(fp_line
+		(start 0 0.49998)
+		(end 0 -0.50002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "a0682b31-eb52-4514-a414-7a2f2121f496")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.762 -0.41199 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "99918868-04d0-4c28-a6e4-253b234b7636")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -0.356361 -1.149507) (xy -0.314647 -1.143453) (xy -0.284724 -1.134774) (xy -0.257623 -1.120645)
+					(xy -0.234385 -1.100803) (xy -0.214596 -1.074571) (xy -0.200032 -1.044898) (xy -0.19129 -1.013307)
+					(xy -0.188323 -0.979247) (xy -0.191151 -0.946299) (xy -0.199356 -0.916814) (xy -0.212813 -0.890143)
+					(xy -0.231792 -0.865804) (xy -0.254711 -0.846053) (xy -0.283871 -0.829495) (xy -0.320481 -0.816342)
+					(xy -0.366046 -0.80714) (xy -0.335385 -0.79029) (xy -0.315729 -0.775596) (xy -0.280966 -0.738724)
+					(xy -0.246448 -0.691389) (xy -0.136698 -0.51909) (xy -0.241678 -0.51909) (xy -0.325193 -0.650805)
+					(xy -0.385434 -0.738051) (xy -0.409391 -0.765202) (xy -0.427826 -0.780174) (xy -0.446942 -0.790398)
+					(xy -0.465909 -0.796792) (xy -0.512379 -0.799754) (xy -0.609204 -0.799754) (xy -0.609204 -0.51909)
+					(xy -0.692718 -0.51909) (xy -0.692718 -0.873613) (xy -0.609204 -0.873613) (xy -0.429749 -0.873613)
+					(xy -0.375752 -0.876989) (xy -0.340234 -0.885461) (xy -0.320056 -0.895199) (xy -0.303893 -0.907812)
+					(xy -0.291187 -0.923429) (xy -0.278593 -0.950722) (xy -0.274414 -0.98017) (xy -0.278115 -1.008642)
+					(xy -0.288844 -1.032887) (xy -0.30692 -1.053952) (xy -0.330387 -1.068979) (xy -0.363524 -1.079061)
+					(xy -0.409515 -1.08288) (xy -0.609204 -1.08288) (xy -0.609204 -0.873613) (xy -0.692718 -0.873613)
+					(xy -0.692718 -1.151815) (xy -0.412977 -1.151815)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.055876 -0.51909) (xy -0.055876 -1.151815) (xy 0.400318 -1.151815) (xy 0.400318 -1.077956)
+					(xy 0.027637 -1.077956) (xy 0.027637 -0.883461) (xy 0.37666 -0.883461) (xy 0.37666 -0.809602) (xy 0.027637 -0.809602)
+					(xy 0.027637 -0.592949) (xy 0.414974 -0.592949) (xy 0.414974 -0.51909)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.534533 -0.51909) (xy 0.534533 -1.151815) (xy 0.960146 -1.151815) (xy 0.960146 -1.077956)
+					(xy 0.618009 -1.077956) (xy 0.618009 -0.880999) (xy 0.9141 -0.880999) (xy 0.9141 -0.80714) (xy 0.618009 -0.80714)
+					(xy 0.618009 -0.51909)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.028312 -1.036103) (xy 1.048123 -1.096729) (xy 1.111477 -1.072626) (xy 1.147525 -1.055337)
+					(xy 1.138908 -1.161663) (xy 1.201303 -1.161663) (xy 1.198449 -1.116789) (xy 1.191417 -1.05576)
+					(xy 1.237656 -1.076571) (xy 1.292973 -1.096729) (xy 1.312784 -1.036103) (xy 1.258093 -1.020838)
+					(xy 1.205612 -1.011868) (xy 1.233776 -0.98378) (xy 1.279663 -0.930084) (xy 1.228 -0.893309) (xy 1.202492 -0.930961)
+					(xy 1.169029 -0.986325) (xy 1.137221 -0.929427) (xy 1.113096 -0.893309) (xy 1.062318 -0.930084)
+					(xy 1.109336 -0.986244) (xy 1.133753 -1.011868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.371141 -1.036103) (xy 1.390952 -1.096729) (xy 1.454306 -1.072626) (xy 1.490354 -1.055337)
+					(xy 1.481737 -1.161663) (xy 1.544133 -1.161663) (xy 1.541278 -1.116789) (xy 1.534246 -1.05576)
+					(xy 1.580485 -1.076571) (xy 1.635802 -1.096729) (xy 1.655614 -1.036103) (xy 1.600922 -1.020838)
+					(xy 1.548441 -1.011868) (xy 1.576605 -0.98378) (xy 1.622492 -0.930084) (xy 1.570829 -0.893309)
+					(xy 1.545321 -0.930961) (xy 1.511858 -0.986325) (xy 1.48005 -0.929427) (xy 1.455925 -0.893309)
+					(xy 1.405147 -0.930084) (xy 1.452165 -0.986244) (xy 1.476582 -1.011868)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.49997 -0.00005)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "11ad1d71-f072-4867-bca3-68ae5be659b1")
+	)
+	(pad "2" smd rect
+		(at 0.50003 -0.00005)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "eb7c4a21-02d0-41d1-831f-e976177789bc")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Cap_YAGEO_CC0402KRX7R9BB101_eec.STEP"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

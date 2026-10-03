@@ -1,0 +1,293 @@
+(footprint "FP-ABS06-MFG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FP-ABS06-MFG: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for ABS06-107-32.768KHZ-T.")
+	(tags "FP ABS06 MFG altium cygnet")
+	(property "Reference" "REF**"
+		(at 1.246 -8.303852 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d5cd586-2526-4a9f-ae35-fa4007c355a6")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FP-ABS06-MFG"
+		(at 14.68889 2.479802 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b2c92ed1-0493-4c33-92cc-6b2edb08a06c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cde97f26-e73c-455e-b2d8-3f03210381aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Crystal 0.032768MHz ±20ppm (Tol) ±250ppm (Stability) 4.1pF Flexural 80000Ohm 2-Pin CSMD T/R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9a24584-22e3-479d-b229-6cb3280b7a02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.07504 -0.65001)
+		(end -1.07504 0.65001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6db0fc27-b903-49e4-84e2-e0d601137707")
+	)
+	(fp_line
+		(start 1.07497 -0.65001)
+		(end -1.07504 -0.65001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "7c9eeaa6-75dc-4572-852e-0808fdb1bd97")
+	)
+	(fp_line
+		(start 1.07497 -0.65001)
+		(end 1.07497 0.65001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "087d9ed5-04bd-40f9-8ed8-09e0f140eaf4")
+	)
+	(fp_line
+		(start 1.07497 0.65001)
+		(end -1.07504 0.65001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e42c4eb1-6e08-4240-8ed6-881724110aed")
+	)
+	(fp_line
+		(start -1.2 -0.79997)
+		(end -1.2 0.80003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "97996459-2c97-41bf-a924-b553c7185133")
+	)
+	(fp_line
+		(start 1.19999 -0.79997)
+		(end -1.2 -0.79997)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "3bcd3837-7a9b-433d-94d0-d34edee48622")
+	)
+	(fp_line
+		(start 1.19999 -0.79997)
+		(end 1.19999 0.80003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "20fd9e34-c423-46e3-87ae-380537675606")
+	)
+	(fp_line
+		(start 1.19999 0.80003)
+		(end -1.2 0.80003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "b46c5c9b-738a-40d2-a1af-468c2c05654d")
+	)
+	(fp_line
+		(start -1.2 -0.79997)
+		(end -1.2 0.80003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1fbb009d-e88c-40da-97de-e839965fe2cc")
+	)
+	(fp_line
+		(start 1.19999 -0.79997)
+		(end -1.2 -0.79997)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "44ee9b84-db3e-4fc1-a178-4ab8c205779a")
+	)
+	(fp_line
+		(start 1.19999 -0.79997)
+		(end 1.19999 0.80003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "f929919e-4195-49a0-ba8c-238b9a7996cd")
+	)
+	(fp_line
+		(start 1.19999 0.80003)
+		(end -1.2 0.80003)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "0527419e-3d1f-4cfd-b6cb-afc1e94002c6")
+	)
+	(fp_line
+		(start -0.00001 -0.5)
+		(end -0.00001 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "1f98e30a-520e-47f6-a4fa-711a0a91d21c")
+	)
+	(fp_line
+		(start 0.49997 0.00003)
+		(end -0.50003 0.00003)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c59a0108-51ff-4b0e-9b5b-767c29f1b663")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.00091 0.10711 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "87719267-f78f-40fc-929a-0437fa0c9967")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 0.406548 -0.630407) (xy 0.448262 -0.624353) (xy 0.478185 -0.615674) (xy 0.505286 -0.601545)
+					(xy 0.528524 -0.581703) (xy 0.548313 -0.555471) (xy 0.562877 -0.525798) (xy 0.571619 -0.494207)
+					(xy 0.574586 -0.460147) (xy 0.571758 -0.427199) (xy 0.563553 -0.397714) (xy 0.550096 -0.371043)
+					(xy 0.531117 -0.346704) (xy 0.508198 -0.326953) (xy 0.479038 -0.310395) (xy 0.442428 -0.297242)
+					(xy 0.396863 -0.28804) (xy 0.427524 -0.27119) (xy 0.44718 -0.256496) (xy 0.481943 -0.219624) (xy 0.516461 -0.172289)
+					(xy 0.626211 0.00001) (xy 0.521231 0.00001) (xy 0.437716 -0.131705) (xy 0.377475 -0.218951) (xy 0.353518 -0.246102)
+					(xy 0.335083 -0.261074) (xy 0.315967 -0.271298) (xy 0.297 -0.277692) (xy 0.25053 -0.280654) (xy 0.153705 -0.280654)
+					(xy 0.153705 0.00001) (xy 0.070191 0.00001) (xy 0.070191 -0.354513) (xy 0.153705 -0.354513) (xy 0.33316 -0.354513)
+					(xy 0.387157 -0.357889) (xy 0.422675 -0.366361) (xy 0.442853 -0.376099) (xy 0.459016 -0.388712)
+					(xy 0.471722 -0.404329) (xy 0.484316 -0.431622) (xy 0.488495 -0.46107) (xy 0.484794 -0.489542)
+					(xy 0.474065 -0.513787) (xy 0.455989 -0.534852) (xy 0.432522 -0.549879) (xy 0.399385 -0.559961)
+					(xy 0.353394 -0.56378) (xy 0.153705 -0.56378) (xy 0.153705 -0.354513) (xy 0.070191 -0.354513) (xy 0.070191 -0.632715)
+					(xy 0.349932 -0.632715)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.707033 0.00001) (xy 0.707033 -0.632715) (xy 1.163228 -0.632715) (xy 1.163228 -0.558856) (xy 0.790547 -0.558856)
+					(xy 0.790547 -0.364361) (xy 1.13957 -0.364361) (xy 1.13957 -0.290502) (xy 0.790547 -0.290502) (xy 0.790547 -0.073849)
+					(xy 1.177884 -0.073849) (xy 1.177884 0.00001)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.297443 0.00001) (xy 1.297443 -0.632715) (xy 1.723056 -0.632715) (xy 1.723056 -0.558856) (xy 1.380919 -0.558856)
+					(xy 1.380919 -0.361899) (xy 1.67701 -0.361899) (xy 1.67701 -0.28804) (xy 1.380919 -0.28804) (xy 1.380919 0.00001)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.791222 -0.517003) (xy 1.811033 -0.577629) (xy 1.874387 -0.553526) (xy 1.910435 -0.536237)
+					(xy 1.901818 -0.642563) (xy 1.964213 -0.642563) (xy 1.961359 -0.597689) (xy 1.954327 -0.53666)
+					(xy 2.000566 -0.557471) (xy 2.055883 -0.577629) (xy 2.075694 -0.517003) (xy 2.021003 -0.501738)
+					(xy 1.968522 -0.492768) (xy 1.996686 -0.46468) (xy 2.042573 -0.410984) (xy 1.99091 -0.374209) (xy 1.965402 -0.411861)
+					(xy 1.931939 -0.467225) (xy 1.900131 -0.410327) (xy 1.876006 -0.374209) (xy 1.825228 -0.410984)
+					(xy 1.872246 -0.467144) (xy 1.896663 -0.492768)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.134051 -0.517003) (xy 2.153862 -0.577629) (xy 2.217216 -0.553526) (xy 2.253264 -0.536237)
+					(xy 2.244647 -0.642563) (xy 2.307043 -0.642563) (xy 2.304188 -0.597689) (xy 2.297156 -0.53666)
+					(xy 2.343395 -0.557471) (xy 2.398712 -0.577629) (xy 2.418524 -0.517003) (xy 2.363832 -0.501738)
+					(xy 2.311351 -0.492768) (xy 2.339515 -0.46468) (xy 2.385402 -0.410984) (xy 2.333739 -0.374209)
+					(xy 2.308231 -0.411861) (xy 2.274768 -0.467225) (xy 2.24296 -0.410327) (xy 2.218835 -0.374209)
+					(xy 2.168057 -0.410984) (xy 2.215075 -0.467144) (xy 2.239492 -0.492768)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.72502 0.00003)
+		(size 0.75 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "d596afba-a1d3-4fd2-99d0-6814399541de")
+	)
+	(pad "2" smd rect
+		(at 0.72496 0.00003)
+		(size 0.75 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "3911aaa1-1958-4d63-9f7f-487014492f3f")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Crys_Abracon_ABS06-32_768KHZ-1-T_eec.STEP"
+		(offset
+			(xyz -0 0 0.003)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

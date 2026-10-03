@@ -1,0 +1,209 @@
+(footprint "LM66200DRLR-Footprint-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LM66200DRLR-Footprint-2: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for LM66200DRLR.")
+	(tags "LM66200DRLR Footprint 2 altium cygnet")
+	(property "Reference" "REF**"
+		(at 0.004 -6.196138 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d50c32e8-ad8a-4028-ace5-1fd043a7db9e")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LM66200DRLR-Footprint-2"
+		(at 7.376075 2.810002 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "087f341e-98ab-48ed-8949-ec4f7921cc2a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "330c058e-7fb7-49d1-966f-97f586805ad3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1.6-V to 5.5-V, 40-mΩ, 2.5-A, low-IQ, dual ideal diode 8-SOT-5X3 -40 to 125"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dea0bb4-3c01-46f9-86a5-9e66d748e160")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.67923 -1.05127)
+		(end 0.52077 -1.05127)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1cad7558-c275-4027-b096-fa60d1b02bbc")
+	)
+	(fp_line
+		(start -0.67923 -0.5513)
+		(end -0.17925 -1.05127)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8d2ccedd-4553-4e47-a107-4152e92fb565")
+	)
+	(fp_line
+		(start -0.67923 1.0487)
+		(end -0.67923 -1.05127)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "5d298943-0919-42a4-8995-d390acc8cab7")
+	)
+	(fp_line
+		(start -0.67923 1.0487)
+		(end 0.52077 1.0487)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "620f286e-e45b-4034-a9ac-e27a82fd4fa3")
+	)
+	(fp_line
+		(start 0.52077 1.0487)
+		(end 0.52077 -1.05127)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1c5531ce-d42c-41d6-816a-514926cb95ea")
+	)
+	(fp_line
+		(start -1.30422 -1.25127)
+		(end 1.14576 -1.25127)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "86361b01-73fd-40df-98b9-bde6d1571512")
+	)
+	(fp_line
+		(start -1.30422 1.2487)
+		(end -1.30422 -1.25127)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8d450b63-a410-485f-9039-cd8a036fe4f6")
+	)
+	(fp_line
+		(start -1.30422 1.2487)
+		(end 1.14576 1.2487)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "97279eaa-6a16-4854-aaaf-40398f03b451")
+	)
+	(fp_line
+		(start 1.14576 1.2487)
+		(end 1.14576 -1.25127)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "d52b910c-e400-4b7a-9bf5-bc02a2576c12")
+	)
+	(pad "1" smd rect
+		(at -0.91723 -0.7513)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65b025bc-540d-4b82-8e7f-f816c156f15b")
+	)
+	(pad "2" smd rect
+		(at -0.91723 -0.25128)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8dbb3053-433e-4a46-87b6-a256cd9eef20")
+	)
+	(pad "3" smd rect
+		(at -0.91723 0.2487)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bbc52aa-fdcd-40c3-afc2-d91553c35d21")
+	)
+	(pad "4" smd rect
+		(at -0.91723 0.74872)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4dc07619-8c85-4888-bb09-e2896017684d")
+	)
+	(pad "5" smd rect
+		(at 0.75877 0.74872)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9318ec3f-646d-4466-a2d4-e10d1104e76b")
+	)
+	(pad "6" smd rect
+		(at 0.75877 0.2487)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d38f0f95-b2a4-4217-9450-f56e3824d536")
+	)
+	(pad "7" smd rect
+		(at 0.75877 -0.25128)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a84174f-756d-4a29-9db4-8bbe87dff4d6")
+	)
+	(pad "8" smd rect
+		(at 0.75877 -0.7513)
+		(size 0.475 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b46a899-b901-4811-a763-59791f6e6ee4")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/LM66200DRLR.stp"
+		(offset
+			(xyz -0.07928 0.03132 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

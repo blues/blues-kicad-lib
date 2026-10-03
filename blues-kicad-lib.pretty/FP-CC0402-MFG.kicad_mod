@@ -1,0 +1,294 @@
+(footprint "FP-CC0402-MFG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FP-CC0402-MFG: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 0.1 uF.")
+	(tags "FP CC0402 MFG altium cygnet")
+	(property "Reference" "REF**"
+		(at 2.447798 1.967845 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "055d90be-2ecf-4db3-b0dc-3c4ed6c9910a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FP-CC0402-MFG"
+		(at -2.556002 7.046195 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a58e6241-ce8c-4431-9f5b-ce557a491956")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91a92b4b-0a5c-4831-ac46-7d936daa95f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Multilayer Ceramic Capacitor, 0.1 uF, 25 V, ± 10%, X7R, 0402 [1005 Metric]"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83830c5a-a644-4423-8728-3d1f50968c7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.52499 -0.27502)
+		(end 0.525 -0.27502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "5d8d9bab-6230-4a63-83a0-3f037746839e")
+	)
+	(fp_line
+		(start -0.52499 0.27499)
+		(end -0.52499 -0.27502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8637232c-b585-4e26-9b95-c5359134cda9")
+	)
+	(fp_line
+		(start -0.52499 0.27499)
+		(end 0.525 0.27499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "86c8ea8a-bbfd-4dc7-8f8d-ba0e72ff8076")
+	)
+	(fp_line
+		(start 0.525 0.27499)
+		(end 0.525 -0.27502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "cdd25660-beb9-4282-94a4-de3c4669eac7")
+	)
+	(fp_line
+		(start -0.875 -0.47502)
+		(end 0.87501 -0.47502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "1e591fd3-b35a-4332-a921-82ec523740a7")
+	)
+	(fp_line
+		(start -0.875 0.47499)
+		(end -0.875 -0.47502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "390f1148-ec4a-4ca3-8ab8-26807687f372")
+	)
+	(fp_line
+		(start -0.875 0.47499)
+		(end 0.87501 0.47499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "9d0c67be-9da8-4f9f-8aa9-e5722f7bb668")
+	)
+	(fp_line
+		(start 0.87501 0.47499)
+		(end 0.87501 -0.47502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "830b33e6-facd-4b7c-9f67-e69ed3c5cc43")
+	)
+	(fp_line
+		(start -0.875 -0.47502)
+		(end 0.87501 -0.47502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "277a6e1d-3ab6-4785-9a53-4fa41c7d2d9e")
+	)
+	(fp_line
+		(start -0.875 0.47499)
+		(end -0.875 -0.47502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "2d4e00ef-51f0-4072-bae6-d1f1c42fe1f6")
+	)
+	(fp_line
+		(start -0.875 0.47499)
+		(end 0.87501 0.47499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e5d35085-e948-4755-92cc-7186b63f1130")
+	)
+	(fp_line
+		(start 0.87501 0.47499)
+		(end 0.87501 -0.47502)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "dd8c11c0-ca47-4c0b-aaef-c88bca9ca5d3")
+	)
+	(fp_line
+		(start -0.5 -0.00004)
+		(end 0.5 -0.00004)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "5075195e-47e9-4b3f-aa4f-c909269c463b")
+	)
+	(fp_line
+		(start 0.00003 0.49998)
+		(end 0.00003 -0.50001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "264d2ea3-7bf8-4e7e-9cff-542b95647ee7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.762 -0.412 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "19ab999c-94a8-4997-bf0c-1d81743c3cec")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -0.356361 -1.149517) (xy -0.314647 -1.143463) (xy -0.284724 -1.134784) (xy -0.257623 -1.120655)
+					(xy -0.234385 -1.100813) (xy -0.214596 -1.074581) (xy -0.200032 -1.044908) (xy -0.19129 -1.013317)
+					(xy -0.188323 -0.979257) (xy -0.191151 -0.946309) (xy -0.199356 -0.916824) (xy -0.212813 -0.890153)
+					(xy -0.231792 -0.865814) (xy -0.254711 -0.846063) (xy -0.283871 -0.829505) (xy -0.320481 -0.816352)
+					(xy -0.366046 -0.80715) (xy -0.335385 -0.7903) (xy -0.315729 -0.775606) (xy -0.280966 -0.738734)
+					(xy -0.246448 -0.691399) (xy -0.136698 -0.5191) (xy -0.241678 -0.5191) (xy -0.325193 -0.650815)
+					(xy -0.385434 -0.738061) (xy -0.409391 -0.765212) (xy -0.427826 -0.780184) (xy -0.446942 -0.790408)
+					(xy -0.465909 -0.796802) (xy -0.512379 -0.799764) (xy -0.609204 -0.799764) (xy -0.609204 -0.5191)
+					(xy -0.692718 -0.5191) (xy -0.692718 -0.873623) (xy -0.609204 -0.873623) (xy -0.429749 -0.873623)
+					(xy -0.375752 -0.876999) (xy -0.340234 -0.885471) (xy -0.320056 -0.895209) (xy -0.303893 -0.907822)
+					(xy -0.291187 -0.923439) (xy -0.278593 -0.950732) (xy -0.274414 -0.98018) (xy -0.278115 -1.008652)
+					(xy -0.288844 -1.032897) (xy -0.30692 -1.053962) (xy -0.330387 -1.068989) (xy -0.363524 -1.079071)
+					(xy -0.409515 -1.08289) (xy -0.609204 -1.08289) (xy -0.609204 -0.873623) (xy -0.692718 -0.873623)
+					(xy -0.692718 -1.151825) (xy -0.412977 -1.151825)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.055876 -0.5191) (xy -0.055876 -1.151825) (xy 0.400318 -1.151825) (xy 0.400318 -1.077966)
+					(xy 0.027637 -1.077966) (xy 0.027637 -0.883471) (xy 0.37666 -0.883471) (xy 0.37666 -0.809612) (xy 0.027637 -0.809612)
+					(xy 0.027637 -0.592959) (xy 0.414974 -0.592959) (xy 0.414974 -0.5191)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.534533 -0.5191) (xy 0.534533 -1.151825) (xy 0.960146 -1.151825) (xy 0.960146 -1.077966) (xy 0.618009 -1.077966)
+					(xy 0.618009 -0.881009) (xy 0.9141 -0.881009) (xy 0.9141 -0.80715) (xy 0.618009 -0.80715) (xy 0.618009 -0.5191)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.028312 -1.036113) (xy 1.048123 -1.096739) (xy 1.111477 -1.072636) (xy 1.147525 -1.055347)
+					(xy 1.138908 -1.161673) (xy 1.201303 -1.161673) (xy 1.198449 -1.116799) (xy 1.191417 -1.05577)
+					(xy 1.237656 -1.076581) (xy 1.292973 -1.096739) (xy 1.312784 -1.036113) (xy 1.258093 -1.020848)
+					(xy 1.205612 -1.011878) (xy 1.233776 -0.98379) (xy 1.279663 -0.930094) (xy 1.228 -0.893319) (xy 1.202492 -0.930971)
+					(xy 1.169029 -0.986335) (xy 1.137221 -0.929437) (xy 1.113096 -0.893319) (xy 1.062318 -0.930094)
+					(xy 1.109336 -0.986254) (xy 1.133753 -1.011878)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.371141 -1.036113) (xy 1.390952 -1.096739) (xy 1.454306 -1.072636) (xy 1.490354 -1.055347)
+					(xy 1.481737 -1.161673) (xy 1.544133 -1.161673) (xy 1.541278 -1.116799) (xy 1.534246 -1.05577)
+					(xy 1.580485 -1.076581) (xy 1.635802 -1.096739) (xy 1.655614 -1.036113) (xy 1.600922 -1.020848)
+					(xy 1.548441 -1.011878) (xy 1.576605 -0.98379) (xy 1.622492 -0.930094) (xy 1.570829 -0.893319)
+					(xy 1.545321 -0.930971) (xy 1.511858 -0.986335) (xy 1.48005 -0.929437) (xy 1.455925 -0.893319)
+					(xy 1.405147 -0.930094) (xy 1.452165 -0.986254) (xy 1.476582 -1.011878)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.00004)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "ffe6703b-7f9f-4c90-83dd-793457503fa5")
+	)
+	(pad "2" smd rect
+		(at 0.5 -0.00004)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "6e2ce682-4b5b-42e8-aa57-1882a0843379")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Cap_YAGEO_CC0402KRX7R9BB101_eec.STEP"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

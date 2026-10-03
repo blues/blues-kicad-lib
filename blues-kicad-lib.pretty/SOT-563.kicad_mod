@@ -1,0 +1,223 @@
+(footprint "SOT-563"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-563: footprint from the Notecarrier F v1.5 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-F/v1.5/KiCad_format/Notecarrier-F-altium-import.pretty). Used there for D5V0F4U6V-7.")
+	(tags "SOT 563 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 2.376298 0.07347 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8d4e01ea-deb3-4ec3-813b-dc033dbd8062")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT-563"
+		(at 1.2788 0.120005 270)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "8649310b-a17b-4285-9074-348438b5d70f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4e87acdc-3480-4f2d-92e6-f51377aaea17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fa53b500-8911-4446-a958-bdfe0eb878a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 0.2)
+		(end -0.8 -0.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7703de22-3e9b-494a-b176-00413ff636bb")
+	)
+	(fp_line
+		(start 0.8 0.2)
+		(end 0.8 -0.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f77a4185-5375-42cf-a96c-fa8b3101c595")
+	)
+	(fp_circle
+		(center -0.975 0.8)
+		(end -0.905 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7790270a-36fe-4d64-92e3-9782af8ee852")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "3616500d-ca65-40d6-84bd-f3e9a3c1ec15")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "aeac6ed0-ce31-4df4-ad5e-34f33a32244b")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "b62b8675-ad80-4fb8-8aa7-0e84e86f1bc7")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c4d71ec3-00b6-4de8-8571-87ec1de98199")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8 0.8) (xy -0.4 0.8) (xy -0.8 0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.14")
+		(uuid "e414f46c-27e7-47d3-b4b1-9c55b12e02c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3 0.26125 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "b0e97fe2-214b-4ad5-b516-ba54806d5c30")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0.7 180)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "ecb304d1-4e24-4bcc-8fd5-f894d6bbf205")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.7 180)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "957bb979-3a59-4f11-b535-edcbf4dea427")
+	)
+	(pad "3" smd roundrect
+		(at 0.5 0.7 180)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "4a1b730b-a19e-4d93-8522-4581b333174c")
+	)
+	(pad "4" smd roundrect
+		(at 0.5 -0.7 180)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "ff637031-bf5b-457a-bcf5-f9c0135f314d")
+	)
+	(pad "5" smd roundrect
+		(at 0 -0.7 180)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "baf3c2a5-a7c6-4af3-84c4-94484f76b35b")
+	)
+	(pad "6" smd roundrect
+		(at -0.5 -0.7 180)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "537941af-18f3-4612-94af-8eb71969456d")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SOT-563.STEP"
+		(offset
+			(xyz 0.00011 0.00011 0.015)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

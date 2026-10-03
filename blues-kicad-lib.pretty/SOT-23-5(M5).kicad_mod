@@ -1,0 +1,200 @@
+(footprint "SOT-23-5(M5)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-23-5(M5): footprint from the Notecarrier F v1.5 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-F/v1.5/KiCad_format/Notecarrier-F-altium-import.pretty). Used there for AP2139AK-3.3TRG1. Other Blues boards carry a slightly different variant of this footprint (Notecarrier CX v1.7).")
+	(tags "SOT 23 5 M5 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 1.29314 2.49459 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4320a3e1-18a4-4a57-a248-7dc182a73caf")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOT-23-5(M5)"
+		(at 3.126248 -3.476982 225)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "4e6bb5b7-8114-4117-bd6b-39a90fbad805")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b8f70ef9-824d-47f0-917a-aa984ed74c0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "0e276924-14e3-4aad-b714-219d3e9b510a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -0.9)
+		(end -1.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3210101-e820-4975-af3f-2266df3db586")
+	)
+	(fp_line
+		(start 1.5 -0.9)
+		(end 1.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b95a907-2161-464d-ab96-f838f7faf1cb")
+	)
+	(fp_circle
+		(center -1.6 1.4)
+		(end -1.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1ae27176-8430-429f-b828-cf9e22a1300b")
+	)
+	(fp_line
+		(start -1.5 -0.9)
+		(end -1.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9de166da-9ace-4847-a146-b151c503ebb2")
+	)
+	(fp_line
+		(start -1.5 -0.9)
+		(end 1.5 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "fff84c66-1abb-460f-9a81-239ab7c10d66")
+	)
+	(fp_line
+		(start -1.5 0.9)
+		(end 1.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "401936a2-2712-4cad-be51-30812205b590")
+	)
+	(fp_line
+		(start 1.5 -0.9)
+		(end 1.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c1ad0a70-347f-42ec-9a16-ef7677813542")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 0.9) (xy -1.49998 0.09999) (xy -0.69999 0.89998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.14")
+		(uuid "b480626a-1f90-40aa-aa24-a980550e0345")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.55322 -0.42351 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "813f788e-2f67-487a-a6c6-63b14a9abb29")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1.175 180)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6dc83a6e-4295-4714-a7ce-f96ae0230203")
+	)
+	(pad "2" smd rect
+		(at 0.00001 1.175 180)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b55c0c6-0e99-4326-8c0c-6544cfb19090")
+	)
+	(pad "3" smd rect
+		(at 0.95001 1.175 180)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ded55335-b93a-42d8-9934-976ffefa35fe")
+	)
+	(pad "4" smd rect
+		(at 0.95 -1.175 180)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "21813a0a-2aa7-46aa-8ee3-7fa91c07395c")
+	)
+	(pad "5" smd rect
+		(at -0.95 -1.175 180)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b03bce4-c833-4a5d-92b8-ffe01c4b9d78")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SOT-23-5.STEP"
+		(offset
+			(xyz 0.00011 0.00005 0.95)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

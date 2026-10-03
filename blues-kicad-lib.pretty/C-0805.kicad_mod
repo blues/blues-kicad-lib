@@ -1,0 +1,201 @@
+(footprint "C-0805"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C-0805: footprint from the Notecarrier F v1.5 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-F/v1.5/KiCad_format/Notecarrier-F-altium-import.pretty). Used there for 22u. Other Blues boards carry a slightly different variant of this footprint (Notecarrier X v1.2).")
+	(tags "C 0805 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 2.22511 -0.5894 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e6c463f4-fb40-4aa7-bb88-aab22158459b")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "C-0805"
+		(at -0.8034 0.3745 0)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "54bf1825-94c3-49f9-a885-f74e7e80bb00")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "5d523cd9-db1c-4c5a-b3d4-361fe9869893")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "889bc142-3c3e-4746-8f07-ae745de733fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ec43606-548e-4d27-b78b-10bfd7f59dd5")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5257bab5-b392-4d8e-9d96-e568b9cee5ef")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6decce4-f1a4-457e-9654-2a62a9e98463")
+	)
+	(fp_line
+		(start -0.2 0.6)
+		(end -0.2 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0576142f-9d29-4f25-9bfa-0eb9c1ca88fa")
+	)
+	(fp_line
+		(start 0.2 0.6)
+		(end 0.2 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea496263-7d71-423b-8066-092d4e40ab97")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f74a47e-57cc-47a5-a2e1-b1765ae6150d")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "4756c7a1-2b3a-4bae-b1df-a03179435f7b")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "30a4d43b-eedb-447a-b2e0-21f8d9f31f81")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "e4e7e504-db1a-4001-b25d-bc9406001f66")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "8daebf69-e9c7-4c5e-87a0-49a39e3c422d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.75 0.3735 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "acd9e78d-ecd9-4c42-8da6-a6b4168f4f57")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 0 180)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "8efd1cdc-8578-4695-aed2-b98e5cae9606")
+	)
+	(pad "2" smd rect
+		(at 0.95 0 180)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "3687af05-d281-4b2f-8169-0062ec77fd5e")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/C-0805.step"
+		(offset
+			(xyz 0.00007 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

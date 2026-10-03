@@ -1,0 +1,313 @@
+(footprint "FP-WSL2010-0_508-MFG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FP-WSL2010-0_508-MFG: footprint from the Mojo v1.1 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Mojo/v1.1/KiCad_format/Mojo-altium-import.pretty). Used there for WSL2010R2500FEA.")
+	(tags "FP WSL2010 0 508 MFG altium mojo")
+	(property "Reference" "REF**"
+		(at 4.3634 -0.77105 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fdce9070-8744-4377-8255-78f943750358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP-WSL2010-0_508-MFG"
+		(at -4.4504 5.81016 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6a9b7df2-68f7-4326-b67a-42e99e9767df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f324d2dd-3dd8-4ac3-b478-241188d37048")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db41900b-c18e-4b86-a591-918eeeb3e803")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.275 -1.397)
+		(end -1.27502 -1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c12eb805-fb1a-4595-8916-22bcbe39d6fb")
+	)
+	(fp_line
+		(start 1.275 1.397)
+		(end -1.27502 1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f28cc26-b11e-4a1c-925d-74f0be47650f")
+	)
+	(fp_line
+		(start -3.15002 -1.625)
+		(end -3.15002 1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8072202d-9254-4128-ab70-e1005e225f40")
+	)
+	(fp_line
+		(start 3.15 -1.625)
+		(end -3.15002 -1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8c1ed7cb-e8a5-4afc-ac54-8663dd7a75be")
+	)
+	(fp_line
+		(start 3.15 -1.625)
+		(end 3.15 1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "dd8e97bb-a552-4092-a0f2-8ba728e61baf")
+	)
+	(fp_line
+		(start 3.15 1.625)
+		(end -3.15002 1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "943a28e1-961f-48e9-a248-b57158f0248d")
+	)
+	(fp_line
+		(start -3.15002 -1.625)
+		(end -3.15002 1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "0a7249d4-799d-4c0a-8f81-483bdf32a23e")
+	)
+	(fp_line
+		(start -2.667 -1.397)
+		(end -2.667 1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "3f3f46c8-f8a9-4125-86b0-6aecda1bad16")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "e9ddb3ff-2d62-4dc6-9faa-38411f0b1168")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "368fcb84-2716-4d24-87c8-1ddab7621b38")
+	)
+	(fp_line
+		(start 2.667 -1.397)
+		(end -2.667 -1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "505566b3-01da-4f61-8138-ac90660c19cb")
+	)
+	(fp_line
+		(start 2.667 -1.397)
+		(end 2.667 1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "84a4401c-4294-4653-80b8-692f3cbcce45")
+	)
+	(fp_line
+		(start 2.667 1.397)
+		(end -2.667 1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "f7bc2eef-da40-4a7f-9369-9b49957e094b")
+	)
+	(fp_line
+		(start 3.15 -1.625)
+		(end -3.15002 -1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "56950a8f-1562-4517-a2eb-11b66d25ae8e")
+	)
+	(fp_line
+		(start 3.15 -1.625)
+		(end 3.15 1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "65fda3dd-581c-4801-8595-5d8a1230afe9")
+	)
+	(fp_line
+		(start 3.15 1.625)
+		(end -3.15002 1.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "630a8d1c-1a4d-4f40-a603-fa2a01d99f58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.00002 0.10711 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "a2e3f8c7-bacd-4933-95a2-8339aad57827")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 0.405618 -0.630407) (xy 0.447332 -0.624353) (xy 0.477255 -0.615674) (xy 0.504356 -0.601545)
+					(xy 0.527594 -0.581703) (xy 0.547383 -0.555471) (xy 0.561947 -0.525798) (xy 0.570689 -0.494207)
+					(xy 0.573656 -0.460147) (xy 0.570828 -0.427199) (xy 0.562623 -0.397714) (xy 0.549166 -0.371043)
+					(xy 0.530187 -0.346704) (xy 0.507268 -0.326953) (xy 0.478108 -0.310395) (xy 0.441498 -0.297242)
+					(xy 0.395933 -0.28804) (xy 0.426594 -0.27119) (xy 0.44625 -0.256496) (xy 0.481013 -0.219624) (xy 0.515531 -0.172289)
+					(xy 0.625281 0.00001) (xy 0.520301 0.00001) (xy 0.436786 -0.131705) (xy 0.376545 -0.218951) (xy 0.352588 -0.246102)
+					(xy 0.334153 -0.261074) (xy 0.315037 -0.271298) (xy 0.29607 -0.277692) (xy 0.2496 -0.280654) (xy 0.152775 -0.280654)
+					(xy 0.152775 0.00001) (xy 0.069261 0.00001) (xy 0.069261 -0.354513) (xy 0.152775 -0.354513) (xy 0.33223 -0.354513)
+					(xy 0.386227 -0.357889) (xy 0.421745 -0.366361) (xy 0.441923 -0.376099) (xy 0.458086 -0.388712)
+					(xy 0.470792 -0.404329) (xy 0.483386 -0.431622) (xy 0.487565 -0.46107) (xy 0.483864 -0.489542)
+					(xy 0.473135 -0.513787) (xy 0.455059 -0.534852) (xy 0.431592 -0.549879) (xy 0.398455 -0.559961)
+					(xy 0.352464 -0.56378) (xy 0.152775 -0.56378) (xy 0.152775 -0.354513) (xy 0.069261 -0.354513) (xy 0.069261 -0.632715)
+					(xy 0.349002 -0.632715)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.706103 0.00001) (xy 0.706103 -0.632715) (xy 1.162298 -0.632715) (xy 1.162298 -0.558856) (xy 0.789617 -0.558856)
+					(xy 0.789617 -0.364361) (xy 1.13864 -0.364361) (xy 1.13864 -0.290502) (xy 0.789617 -0.290502) (xy 0.789617 -0.073849)
+					(xy 1.176954 -0.073849) (xy 1.176954 0.00001)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.296513 0.00001) (xy 1.296513 -0.632715) (xy 1.722126 -0.632715) (xy 1.722126 -0.558856) (xy 1.379989 -0.558856)
+					(xy 1.379989 -0.361899) (xy 1.67608 -0.361899) (xy 1.67608 -0.28804) (xy 1.379989 -0.28804) (xy 1.379989 0.00001)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.790292 -0.517003) (xy 1.810103 -0.577629) (xy 1.873457 -0.553526) (xy 1.909505 -0.536237)
+					(xy 1.900888 -0.642563) (xy 1.963283 -0.642563) (xy 1.960429 -0.597689) (xy 1.953397 -0.53666)
+					(xy 1.999636 -0.557471) (xy 2.054953 -0.577629) (xy 2.074764 -0.517003) (xy 2.020073 -0.501738)
+					(xy 1.967592 -0.492768) (xy 1.995756 -0.46468) (xy 2.041643 -0.410984) (xy 1.98998 -0.374209) (xy 1.964472 -0.411861)
+					(xy 1.931009 -0.467225) (xy 1.899201 -0.410327) (xy 1.875076 -0.374209) (xy 1.824298 -0.410984)
+					(xy 1.871316 -0.467144) (xy 1.895733 -0.492768)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.133121 -0.517003) (xy 2.152932 -0.577629) (xy 2.216286 -0.553526) (xy 2.252334 -0.536237)
+					(xy 2.243717 -0.642563) (xy 2.306113 -0.642563) (xy 2.303258 -0.597689) (xy 2.296226 -0.53666)
+					(xy 2.342465 -0.557471) (xy 2.397782 -0.577629) (xy 2.417594 -0.517003) (xy 2.362902 -0.501738)
+					(xy 2.310421 -0.492768) (xy 2.338585 -0.46468) (xy 2.384472 -0.410984) (xy 2.332809 -0.374209)
+					(xy 2.307301 -0.411861) (xy 2.273838 -0.467225) (xy 2.24203 -0.410327) (xy 2.217905 -0.374209)
+					(xy 2.167127 -0.410984) (xy 2.214145 -0.467144) (xy 2.238562 -0.492768)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.35001 0)
+		(size 1.4 3.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "98335bda-89ca-4cf6-8e76-c9314e3cb014")
+	)
+	(pad "2" smd rect
+		(at 2.35 0)
+		(size 1.4 3.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "32273f6c-8261-4cc3-8a0e-50d5e5b1e827")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Res_Vishay_Dale_WSL2010R1500FEA18_eec.STEP"
+		(offset
+			(xyz -0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

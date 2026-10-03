@@ -1,0 +1,356 @@
+(footprint "CONN2_B2B-PH-SM4_JST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN2_B2B-PH-SM4_JST: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for B2B-PH-SM4-TBT (LF)(SN).")
+	(tags "CONN2 B2B PH SM4 JST altium notecarrier")
+	(property "Reference" "REF**"
+		(at 7.566138 -0.9419 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d998ff02-5075-4d97-b0e2-c70f55e0f04b")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CONN2_B2B-PH-SM4_JST"
+		(at -8.093202 14.30752 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2e31bb1b-e457-4b1f-99e2-6439c8634f22")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33dd37a0-81b0-48fc-8f30-babd557f562e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN HEADER SH 2POS VERT 2MM TIN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2f60877-3138-45d2-b251-2b7dc3c91040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "B2B-PH-SM4-TBT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d49b712-28bd-4e6f-85e9-24a191f47e7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "JST Sales America Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4762159b-71e1-42c0-b5e5-49e648286526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PKG TYPE" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da7d7fc4-8191-4dfa-b2ed-2844e5bbb909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1021 -2.6289)
+		(end -4.1021 -1.83504)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c73ac6e-fe5d-4c8c-be89-d24625fb78d9")
+	)
+	(fp_line
+		(start -4.1021 -2.6289)
+		(end 4.1021 -2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5d8140e-db47-4ec5-a620-4350c1dc1e31")
+	)
+	(fp_line
+		(start -4.1021 1.92924)
+		(end -4.1021 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cac52171-1a8e-4119-8f5a-7dba6c5cc40f")
+	)
+	(fp_line
+		(start -4.1021 2.6289)
+		(end -2.09804 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13f014c8-6d41-4967-8bc7-d135eece2258")
+	)
+	(fp_line
+		(start -0.44196 2.6289)
+		(end 0.44196 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5be8c726-94ac-43b4-8f58-3a53ddc7ec49")
+	)
+	(fp_line
+		(start 2.09804 2.6289)
+		(end 4.1021 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efe813b0-1355-4d75-a5b2-82ee39fcad15")
+	)
+	(fp_line
+		(start 4.1021 -2.6289)
+		(end 4.1021 -1.83504)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "820c6577-540a-4a72-a25b-9e396b3371ea")
+	)
+	(fp_line
+		(start 4.1021 1.92924)
+		(end 4.1021 2.6289)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d2214a4-f50b-4144-9382-71cda33d2f62")
+	)
+	(fp_circle
+		(center -5.8801 2.2541)
+		(end -5.4991 2.2541)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f3643c57-be5f-4fc4-a93a-9724e85784eb")
+	)
+	(fp_circle
+		(center -5.8801 2.2541)
+		(end -5.4991 2.2541)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "16e878c8-b907-43ac-9073-c3cc5a7a1f1c")
+	)
+	(fp_line
+		(start -3.9751 -2.5019)
+		(end -3.9751 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "812bf2b8-e5a6-4bf7-af41-afeb76e9e2ae")
+	)
+	(fp_line
+		(start -3.9751 -2.5019)
+		(end 3.9751 -2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "92f2e6e5-e54e-444a-8a98-c3b9363b29e1")
+	)
+	(fp_line
+		(start -3.9751 2.5019)
+		(end 3.9751 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "54010402-31c4-4aa8-b9f4-c314b0198b24")
+	)
+	(fp_line
+		(start 3.9751 -2.5019)
+		(end 3.9751 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "25ec3456-b2b0-4346-80f5-1fddb4125e00")
+	)
+	(fp_circle
+		(center -1.27 0.3491)
+		(end -0.889 0.3491)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "137551ce-3e01-4da4-972e-8d1be070fcf9")
+	)
+	(fp_line
+		(start -4.5049 -2.7559)
+		(end -4.5049 5.264)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ce729a83-8318-425d-9249-feca2badb0c2")
+	)
+	(fp_line
+		(start -4.5049 -2.7559)
+		(end 4.5049 -2.7559)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e43975d8-1cb1-44f8-8546-3548a7260b2d")
+	)
+	(fp_line
+		(start -4.5049 5.264)
+		(end 4.5049 5.264)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "cd58a0fe-686e-48d3-8111-70228f1837a9")
+	)
+	(fp_line
+		(start 4.5049 -2.7559)
+		(end 4.5049 5.264)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "d7bec1a9-9522-49c7-97a1-e88755280e46")
+	)
+	(fp_poly
+		(pts
+			(xy 4.5049 -2.7559) (xy -4.5049 -2.7559) (xy -4.5049 5.264) (xy 4.5049 5.264)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.13")
+		(uuid "72621ed8-83f7-4f82-8033-fb3486cb5a40")
+	)
+	(fp_text user "RefDes2"
+		(at -3.29 2.945575 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "7fc1c1e4-4051-4f2e-b05c-67e4ecab337f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.0762)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 2.2541)
+		(size 0.9906 5.5118)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0)
+		(uuid "3ac7028e-c123-4840-86a2-1eeebac516a3")
+	)
+	(pad "2" smd rect
+		(at 1.27 2.2541)
+		(size 0.9906 5.5118)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0)
+		(uuid "1a5d6361-0739-4ce4-9e71-de9e8e07e75b")
+	)
+	(pad "M" smd rect
+		(at -3.4 0.0471)
+		(size 1.7018 3.0988)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -1.5494)
+		(uuid "523bd607-5951-4f58-a210-591bc35dd8dc")
+	)
+	(pad "M" smd rect
+		(at 3.4 0.0471)
+		(size 1.7018 3.0988)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -1.5494)
+		(uuid "e1dcc835-07cd-4af4-b75d-1891393879f9")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/B2B-PH-SM4-TBT.STEP"
+		(offset
+			(xyz 0.02 0.06 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

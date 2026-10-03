@@ -1,0 +1,228 @@
+(footprint "ISL9122AIINZ-T-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ISL9122AIINZ-T-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for ISL9122AIINZ-T.")
+	(tags "ISL9122AIINZ T Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at 0.304 9.830862 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5821956d-ca87-414a-8db3-90125e35b26a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ISL9122AIINZ-T-Footprint-1"
+		(at 6.664295 4.486402 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "70160aef-63e7-4e0b-beea-ef564b442cce")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9116edfd-d0d2-4f3c-bde8-e6f2b0a49b0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isl9122A 3.3V Ultra Low Iq Buck-Boost Regulator W/ Bypass, / Tape & Reel Rohs Compliant: Yes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb5a1826-cbc2-45cf-b94a-c1f196c68dbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.656 -0.929)
+		(end -0.656 -1.029)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9d695b1a-73d2-442f-ae8d-f0324ea7dc70")
+	)
+	(fp_line
+		(start -0.50003 -0.773)
+		(end 0.49997 -0.773)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c360484a-730e-47ee-9848-43b97c0ebcae")
+	)
+	(fp_line
+		(start -0.50003 -0.31503)
+		(end -0.04201 -0.773)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "4351ed71-812b-4330-96a1-5740e02e61aa")
+	)
+	(fp_line
+		(start -0.50003 1.027)
+		(end -0.50003 -0.773)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "93b0c27d-caf2-4aae-bb96-9fed197307ba")
+	)
+	(fp_line
+		(start -0.50003 1.027)
+		(end 0.49997 1.027)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ee526514-bb16-4931-aa31-a905bee8bc18")
+	)
+	(fp_line
+		(start 0.49997 1.027)
+		(end 0.49997 -0.773)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "3c7123b6-1e87-4177-9466-f80342579747")
+	)
+	(fp_line
+		(start -1.51501 -1.78803)
+		(end 1.51501 -1.78803)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "329690fb-b20d-40bc-9469-80555794903f")
+	)
+	(fp_line
+		(start -1.51501 2.04198)
+		(end -1.51501 -1.78803)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "aad17169-58a9-4a02-9b88-da1131c45219")
+	)
+	(fp_line
+		(start -1.51501 2.04198)
+		(end 1.51501 2.04198)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e76d2af5-6174-450b-a896-3179f6656907")
+	)
+	(fp_line
+		(start 1.51501 2.04198)
+		(end 1.51501 -1.78803)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "7a09d51d-3d3f-4bc6-b26b-400a264bf14e")
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.47302)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "6349dbcc-4120-4876-8b5c-0949c9298599")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.47302)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "50ed837d-27fe-4b4c-bc38-842195ce176a")
+	)
+	(pad "B1" smd circle
+		(at -0.2 -0.07302)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "1cafb216-672c-43c4-8533-adaa827e4a35")
+	)
+	(pad "B2" smd circle
+		(at 0.2 -0.07302)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "e350fa31-e984-4135-9a4e-19235282b39c")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.32698)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "30949a23-39ec-4777-b451-b297ff403398")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.32698)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "e45201d8-a9f8-4396-ab86-0606967a245c")
+	)
+	(pad "D1" smd circle
+		(at -0.2 0.72698)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "f3c8e1cc-00e3-48d4-9683-d351685ae848")
+	)
+	(pad "D2" smd circle
+		(at 0.2 0.72698)
+		(size 0.212 0.212)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "8fcb72b1-7f39-4cce-91f6-efa9d1c65317")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/ISL9122AIINZ-T.stp"
+		(offset
+			(xyz 0 -0.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

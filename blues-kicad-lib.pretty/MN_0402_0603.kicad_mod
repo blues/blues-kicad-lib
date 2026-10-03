@@ -1,0 +1,217 @@
+(footprint "MN_0402_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MN_0402_0603: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for 0.5p, 0R0, 1p, 2.2p.")
+	(tags "MN 0402 0603 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 1.193935 -2.220088 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba5a721d-d365-4b40-a9fc-8f0e92721ac5")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MN_0402_0603"
+		(at 0.90133 2.937002 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f018290c-bd19-426f-bc18-c22458dd670d")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e014c79d-7eef-42b5-b1c2-e63fde3a6b9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Capacitor ceramic 1p ±5% C0G 50V 0402"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ccc6a27-d1a5-48bf-837a-1769de7637d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4b30180-9ec3-4300-a025-3c40515c9758")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4199b4c5-a77c-4607-9023-406b3f22ca3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "GJM1555C1H1R0WB01J"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d706885-64ba-45b6-b577-155fa3326665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.30008 -0.69992)
+		(end 1.29992 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93dc73ee-4c5a-42d5-8f38-f332c2b2bdfa")
+	)
+	(fp_line
+		(start -1.30008 0.70008)
+		(end -1.30008 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4d2fdc3-33e8-4a50-99f6-f8566d51144f")
+	)
+	(fp_line
+		(start -1.30008 0.70008)
+		(end 1.29992 0.70008)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22563cfc-42d6-4ff2-a219-b252adaf4cdb")
+	)
+	(fp_line
+		(start 1.29992 0.70008)
+		(end 1.29992 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e046468c-224d-410d-a18e-d7023a24c9a4")
+	)
+	(fp_line
+		(start -1.3 -0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "52617795-31e8-42d1-a3ef-36e5bad90eb8")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end -1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "3fd0e195-3116-4fb1-b8f2-76891d0c3859")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end 1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "b41979db-0f3e-4381-adf1-5cbe9c2805bf")
+	)
+	(fp_line
+		(start 1.3 0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "18a136ba-29e5-43e2-9ff1-81cc1b03d0de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.75001 0.3735 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "49e4cfc0-6e64-438a-9f92-c7d445962952")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 0 270)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "d7ed6e05-769a-4649-9b90-9b188e26ca29")
+	)
+	(pad "2" smd rect
+		(at 0.725 0 90)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "273f11ee-1400-427c-aa1e-f46b5e978475")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/RESC1608X38N EIA 0603.step"
+		(offset
+			(xyz 0 0.00003 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

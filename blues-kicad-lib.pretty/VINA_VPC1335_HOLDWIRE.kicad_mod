@@ -1,0 +1,89 @@
+(footprint "VINA_VPC1335_HOLDWIRE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VINA_VPC1335_HOLDWIRE: footprint from the Scoop v1.0 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Scoop/v1.0/KiCad_format/Scoop-altium-import.pretty). Used there for Comment.")
+	(tags "VINA VPC1335 HOLDWIRE altium scoop")
+	(property "Reference" "REF**"
+		(at 4.76802 -8.87458 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94c41c0b-85f2-4ca0-8744-c49b2bb1b408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VINA_VPC1335_HOLDWIRE"
+		(at 3.315645 -0.4645 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "89235566-3581-49ec-9738-17086f45b588")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34c9ad7b-381c-4945-9a58-699ed8fbba48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e6a27d-2409-4db3-a47c-7bab4853b09e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "MH" thru_hole circle
+		(at 0 -6.22)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "2697dfb7-9b77-4be9-bec9-779e7bd3e5f9")
+	)
+	(pad "MH1" thru_hole circle
+		(at 0 6.48)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d56ec3cc-16f5-4744-b65d-2210ff0ed2e4")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Hold Wire.stp"
+		(offset
+			(xyz 25.00017 0.02265 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 0)
+		)
+	)
+)

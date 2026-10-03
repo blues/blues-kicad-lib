@@ -1,0 +1,395 @@
+(footprint "SOD-523F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD-523F: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for PESD5V0X1UB,135. Other Blues boards carry a slightly different variant of this footprint (Notecarrier CX v1.7).")
+	(tags "SOD 523F altium notecarrier")
+	(property "Reference" "REF**"
+		(at -2.628688 -1.25679 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "84b9b93e-2fb4-48fc-a5c3-9e5e31e67d11")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOD-523F"
+		(at 2.048002 -10.42317 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "82e2bff6-9123-4a52-a05d-613d4ed93f57")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a501227-1b90-4b5e-9521-1ce3374a1684")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TVS DIODE 5VWM 8VC SOD523"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3af431f1-0e2d-4954-b877-d0425142e93a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2004-110"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80504d1c-566d-4545-a737-6020645618a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1b156a5-41c4-4076-9b28-b5b61192ac0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aed7942-a4b4-45ef-9191-2ef96cbc821b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "PESD5V0X1UB,135"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6c5d483-a374-477f-9bc1-cde3fd197d6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Zvonc"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d5ac168-2501-4bd4-a3cc-7550d545b301")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "17-10-2018"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f1f1418-4676-4483-8268-8af842f04901")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Hamin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27dbddca-d090-4aee-929e-5ad2fbed452f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" "Digi-Key"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82763246-0b7d-405f-a89f-83865e804dc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" "1727-5906-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81a42794-c4de-4069-871a-1a05c47bb662")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 0.3)
+		(end -0.2 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37f26680-c5e4-4292-93b7-295fd9fa9807")
+	)
+	(fp_line
+		(start -0.2 0.3)
+		(end 0.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb096da0-c898-42a5-aa16-39f0b31b26c3")
+	)
+	(fp_line
+		(start -0.125 0.225)
+		(end -0.125 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b16b830b-6fe5-4385-8cf4-25535221db27")
+	)
+	(fp_line
+		(start -0.05 0.15)
+		(end -0.05 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bdff818-85b2-4af4-bb7e-5e3a1cffc9ef")
+	)
+	(fp_line
+		(start 0.025 0.075)
+		(end 0.025 -0.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "505da1c0-8963-4918-aae9-2fad600affd1")
+	)
+	(fp_line
+		(start 0.1 0)
+		(end -0.2 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f603bb3b-12f6-4bd2-8959-c038ee6fc9b0")
+	)
+	(fp_line
+		(start 0.1 0.3)
+		(end 0.1 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dd54a44-1e60-497b-b58c-16667885bde1")
+	)
+	(fp_line
+		(start 0.25 0.47)
+		(end 0.25 -0.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb40e0e0-8184-40e2-bc30-a0c0b846e48e")
+	)
+	(fp_line
+		(start 0.7 -0.47)
+		(end -0.7 -0.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "338dd482-a517-4ad7-a7ca-93280ae7a777")
+	)
+	(fp_line
+		(start 0.7 0.47)
+		(end -0.7 0.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7df6e2e-193e-4467-ac84-47979c210183")
+	)
+	(fp_line
+		(start 0.75 -0.47)
+		(end -0.7 -0.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11509abe-3ffd-4f8a-8dcd-0390e5a64e79")
+	)
+	(fp_line
+		(start 0.75 0.47)
+		(end -0.7 0.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23c8ae4b-80f3-40a6-a7b6-189fa47b6b83")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c22a240b-f8a1-451e-a9e8-4ae77bba6a5e")
+	)
+	(fp_line
+		(start 0.5 0.4)
+		(end 0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "4a73f27c-c4b3-4872-9117-9d44faf5b009")
+	)
+	(fp_line
+		(start 0.55 0.4)
+		(end 0.55 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "1614469c-5e7d-4064-8727-d0c970962bb1")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "d23bfccd-9674-418f-a5e5-b8a94861ec99")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9f0090e5-2db7-45b9-ad1b-093cc00d28df")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "8dc0b68b-fbed-4a34-8f26-f404300011db")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 -0.31125 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "8ce50a97-8de5-4812-b419-5d9aaa5db8ac")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "dbc8dc82-1cad-4ea2-9436-02daac8e169f")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "5e58b760-6bf3-433a-bf73-8002b9828fe4")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SOD-523F.step"
+		(offset
+			(xyz 0.0001 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

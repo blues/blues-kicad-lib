@@ -1,0 +1,408 @@
+(footprint "Slide Switch SSSS820101"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Slide Switch SSSS820101: footprint from the Notecarrier CX v1.7 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-CX/v1.7/KiCad_format/Notecarrier-CX-altium-import.pretty). Used there for SSSS820101.")
+	(tags "Slide Switch SSSS820101 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -3.9707 3.1536 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cb4c7c4a-4130-4d6d-bcd1-8db383908f36")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Slide Switch SSSS820101"
+		(at -2.95021 5.6769 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa7e2427-2494-4109-979f-14740e47f5a8")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40d8a430-80cf-4b72-90ee-2b1891f8334b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Slide Switch DPDT on-on, 5V/300mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07894c75-ab88-4b6e-9b7d-5dc0336837a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2009-940"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4419e4d9-3990-4b75-94ac-6782f80fcad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "734d7921-5709-42bc-a24b-9a8031157456")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Alps Alpine"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b52b2a4e-60c8-496e-8b90-3dd2f479c93a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "SSSS820101"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aca0615-cec1-4ec2-a8ed-ec408fbc0206")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Klaic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "984aed17-0cbf-4707-a2f8-7cb5bd069375")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "08-12-2025"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14ab5555-6a27-4cf2-8bcf-7144c3c2d190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Duracic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a670e91-38f5-4cfa-93a7-1facfb6aa383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53cc58b5-99e7-42e6-bfe1-2b88f37ef7c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31e4bf5c-086e-4547-941a-fd92752ff2fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -1.9)
+		(end -3.3 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fcefd2e-ba10-49a7-9973-2fa29a0bf3e1")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3cf79cf-89d6-4ea5-b519-58372eb4ed0f")
+	)
+	(fp_line
+		(start -3.1 -2.1)
+		(end -3.3 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09d10c2f-6931-4610-81fe-7994309ba435")
+	)
+	(fp_line
+		(start -3.1 2)
+		(end -3.3 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2439851-f7b1-4134-a9c2-ab041b5b96d7")
+	)
+	(fp_line
+		(start -0.2 -2.1)
+		(end -1.3 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2db7782-4540-48d6-a7c6-1a4ef4f4b045")
+	)
+	(fp_line
+		(start -0.2 2)
+		(end -1.3 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0e06474-29cd-4eb3-994d-cc7273ff6b73")
+	)
+	(fp_line
+		(start 3.2 2)
+		(end 3.4 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e302f82-1f88-4d67-84e3-d0c41ec32ab4")
+	)
+	(fp_line
+		(start 3.4 -2.1)
+		(end 3.2 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0b7471d-1312-4705-8eb5-b52bc076900c")
+	)
+	(fp_line
+		(start 3.4 -1.8)
+		(end 3.4 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "257ff4c1-ac8c-4101-9ff7-0513db4a46cb")
+	)
+	(fp_line
+		(start 3.4 2)
+		(end 3.4 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c633bda-54a5-4263-abeb-5c7ef6071f67")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "2cd8011a-dc82-44e7-a16d-6567e241cdfc")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end 3.4 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "facf4eb2-afea-4172-a7cf-08e70ca04ecd")
+	)
+	(fp_line
+		(start 3.4 -2.1)
+		(end -3.3 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "37703437-cbc7-49c0-ab05-a7974d968a67")
+	)
+	(fp_line
+		(start 3.4 2)
+		(end 3.4 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "48cef7e6-d1a1-4333-907a-51814bf8acf3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.4 0.747 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "8c96818f-251b-4297-bbde-78f93f042fe4")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 0)
+		(size 0.001 0.001)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "3e43b77a-b8e5-4de6-9bad-0f1d3a61b23d")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 0)
+		(size 0.001 0.001)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "001406c1-f95b-48b0-abf4-dd1fee1a7b01")
+	)
+	(pad "1" smd roundrect
+		(at -2.25 -2.55)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.025)
+		(uuid "bed0630d-fd24-4214-adca-5e632cdc7523")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 -2.55)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.025)
+		(uuid "f7ff9830-b711-49dd-9525-aefc23053ce5")
+	)
+	(pad "3" smd roundrect
+		(at 2.25 -2.55)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.025)
+		(uuid "ae832e8c-2483-4f66-9d76-9d54f2dd60e8")
+	)
+	(pad "4" smd roundrect
+		(at -2.25 2.55)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.025)
+		(uuid "7862ac69-b75f-473b-a6a1-0e370e4c0fd1")
+	)
+	(pad "5" smd roundrect
+		(at 0.75 2.55)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.025)
+		(uuid "4e8448d3-45aa-4bfd-a1c7-56104b036d26")
+	)
+	(pad "6" smd roundrect
+		(at 2.25 2.55)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.025)
+		(uuid "c9a6a10b-fb4c-41af-ba9a-dff5c81ea1a7")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SSSS820101.STEP"
+		(opacity 0.7500)
+		(offset
+			(xyz 0.0251 0.02509 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

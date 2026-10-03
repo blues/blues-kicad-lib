@@ -1,0 +1,357 @@
+(footprint "HRS_U.FL-R-SMT-1(10)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HRS_U.FL-R-SMT-1(10): footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for U.FL-R-SMT-1(10).")
+	(tags "HRS U.FL R SMT 1 10 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 0.49642 3.782688 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a89f7e42-497b-4bae-adc9-3360eca599f5")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "HRS_U.FL-R-SMT-1(10)"
+		(at -9.407085 -3.902202 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77f2ee1d-ee82-433d-b2a3-812d132385e4")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12c2075b-aea2-4fca-8965-e4ff888e76c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24f8a33e-b1f2-49aa-8688-c35a4745c340")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "Unavailable"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50077c01-4ff0-4ba9-8f34-2d775c1b2e57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3f90617-af07-4349-a647-5fd15e5315cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0309832b-8162-4f3b-a0e5-c1d74dfdba92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0533e48d-53fa-44e6-9d34-28273e226def")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5697602d-18ae-45e4-a8a5-02ebfc39be29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "U.FL-R-SMT-1(10)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb40b6a9-9168-416e-9817-d9adbd04ba56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PKG TYPE" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99d2b3b0-aeeb-40ee-9b41-df88a23156da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Hirose"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fed310a2-fa83-4eca-b543-cc6659097513")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.67 1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9fd6fcd-9782-4df3-8466-af4b85d2abf6")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f73add28-4224-4209-a9f8-4efa6d826e38")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end 0.67 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "233feaa2-75f1-45c8-9619-b7c4dcd418ff")
+	)
+	(fp_line
+		(start -1.3 -1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "659462ad-d164-4e8f-a6e4-b6614f9f8365")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d6322d19-1652-4652-a994-6bc2e8091309")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "29a3df06-81c2-4260-b1fb-f486edbd9a47")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8abc5876-1def-40d8-9464-f9e9a2f707f1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "157ee2bb-b336-4f24-ab63-432a07049047")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "1dcfcdc2-1953-423b-ace7-b5c7145b73c1")
+	)
+	(fp_line
+		(start -2.25 -1.55)
+		(end -2.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "01f48612-494e-449c-8b67-bc5d16ede9c8")
+	)
+	(fp_line
+		(start 2.25 -1.55)
+		(end -2.25 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ba0205cc-c10c-42e6-8e1e-a60d4cef0533")
+	)
+	(fp_line
+		(start 2.25 -1.55)
+		(end 2.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "58c0555a-288f-4936-a629-7a777d8ed3a4")
+	)
+	(fp_line
+		(start 2.25 2.3)
+		(end -2.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "cdc6d0a8-8c66-4a43-96ab-4d66e9cbf9c1")
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea9cde4d-538d-4e06-b4cf-1a74a652a372")
+	)
+	(pad "2" smd rect
+		(at 0 1.525)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03da78ea-d94f-4e78-a2af-5dd7ebc510e5")
+	)
+	(pad "3" smd rect
+		(at 1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8b909eb-bbc1-41e1-b04e-2b54cf5e2a5e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(uuid "d2a4fbf4-ab55-4a85-9a85-b3531b891794")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 171.593605 132.528765) (xy 169.693445 132.528765) (xy 169.693445 130.428595) (xy 171.593605 130.428595)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/U.FL-R-SMT-1(10).STEP"
+		(offset
+			(xyz -0 -0.381 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

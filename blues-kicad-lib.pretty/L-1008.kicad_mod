@@ -1,0 +1,274 @@
+(footprint "L-1008"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L-1008: footprint from the Notecarrier CX v1.7 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-CX/v1.7/KiCad_format/Notecarrier-CX-altium-import.pretty). Used there for 3u3.")
+	(tags "L 1008 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 2.7172 1.9964 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e66ffd4f-efec-4782-ad28-f3c66763f387")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "L-1008"
+		(at -0.8 0.3235 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "66f0748f-759c-48b7-8e3d-47883efaebbf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74fb00b4-3e4f-44aa-9dd6-9cd7959eb9f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor 3u3 ±20% 1.7A SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d319a1cf-a13a-4442-aa52-006b5848e64b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "MAMK2520T3R3M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f317badd-9b69-4896-8c10-1d79f4e3b782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "30-11-2018"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1116534-0e31-49ed-9988-d07235b15b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Hamin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dca58993-d226-40ca-8b8b-e1e59eded7e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Hlupic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed15355-1792-4cfb-9522-fdc912a1d9f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Taiyo Yuden"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f53a85a-2089-4557-a2ff-ecb71713d3ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2004-215"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70af8b82-a431-42d7-b289-5c4a47e2fc0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa01bd5e-b66e-4a40-87d5-69aedbfa508e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" "Digi-Key"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fb86eb9-8ffa-4ad5-acf2-f97e37b99e9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" "587-3227-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0534484-6ef1-45ce-afdf-2454e6ebe1f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.35 -1.00001)
+		(end 0.35 -1.00001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f3cfd32-cbb7-40fb-b35a-0d0227cfb0d8")
+	)
+	(fp_line
+		(start -0.35 1)
+		(end 0.35 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd4b7211-dcb6-45c0-b1d0-aa6386eae524")
+	)
+	(fp_line
+		(start -1.25009 -0.99997)
+		(end -1.25009 1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "6f2ed65a-7342-4d68-9649-5a72b3356637")
+	)
+	(fp_line
+		(start -1.25009 -0.99997)
+		(end 1.24992 -0.99997)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "7dc2dce4-6973-472e-9b17-00f3775ff3a9")
+	)
+	(fp_line
+		(start -1.25009 1.00001)
+		(end 1.24992 1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "27324702-2b4c-4897-828e-d7ad47e8fa56")
+	)
+	(fp_line
+		(start 1.24992 -0.99997)
+		(end 1.24992 1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "f44d2513-d3a5-4373-b07e-4d8175b0e27a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3235 -0.50001 270)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "a6b514f0-6846-4d74-8f5a-afc459be9f4b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0 180)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1e805e3-55b5-4227-aaf8-eda2f4516ab9")
+	)
+	(pad "2" smd rect
+		(at 1 0 180)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce87165f-556d-4ef7-bd7c-8d62753aba64")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/STEP-WE-MAPI-2512-rev1.stp"
+		(offset
+			(xyz -0 0.00003 1.23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -180)
+		)
+	)
+)

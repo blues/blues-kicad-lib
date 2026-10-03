@@ -1,0 +1,262 @@
+(footprint "VINA_VPC1335_RRA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VINA_VPC1335_RRA: footprint from the Scoop v1.0 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Scoop/v1.0/KiCad_format/Scoop-altium-import.pretty). Used there for VEL13353R8257G.")
+	(tags "VINA VPC1335 RRA altium scoop")
+	(property "Reference" "REF**"
+		(at 0.10141 0.05222 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d737b6d-0ed9-41b1-88cf-6d90a1044c7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VINA_VPC1335_RRA"
+		(at 0.785 10.62634 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3fa707be-375f-4015-a1c6-c4804a0e97fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0093fd4f-7a97-4a6a-933a-c0ebecb1f415")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fbec6d8-e86e-4179-be53-5aa3f2f60a21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.40451 -39.37)
+		(end -6.40451 -39.17342)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "57073dd1-4852-4a08-a4c4-34b658c92f71")
+	)
+	(fp_line
+		(start -6.40451 -39.37)
+		(end -6.40451 0.32366)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "14f71d1b-adeb-4071-93e3-f8f63f37482b")
+	)
+	(fp_line
+		(start -6.40451 -39.17342)
+		(end 6.19549 -39.17342)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a46506a0-66e9-4702-9458-66e0190bb3d0")
+	)
+	(fp_line
+		(start -6.40451 0.32366)
+		(end 6.19549 0.32366)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a3f64aa2-3dbc-4d82-bb9d-e1ca8e0c7263")
+	)
+	(fp_line
+		(start 6.19549 -39.17342)
+		(end 6.19549 0.32366)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e32187ed-b877-46de-9908-c51ae831d21f")
+	)
+	(fp_line
+		(start -6.985 -40.005)
+		(end -6.985 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "7b9ae2e0-473b-443b-8147-2398dac6f4bb")
+	)
+	(fp_line
+		(start -6.985 -40.005)
+		(end 6.985 -40.005)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "5f4bff3b-5955-42c8-973d-f614f61df831")
+	)
+	(fp_line
+		(start -6.985 1.27)
+		(end 6.985 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "97f8bb8f-8759-4f4d-9dc1-98668f16dbc5")
+	)
+	(fp_line
+		(start -1.27 -19)
+		(end 0 -19)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "01b6c2a1-dea7-42af-8033-6a4641098c41")
+	)
+	(fp_line
+		(start 0 -20.27)
+		(end 0 -19)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "870afb00-0b40-4c57-aad3-705a9d34882e")
+	)
+	(fp_line
+		(start 0 -19)
+		(end 0 -17.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ab4be58b-e934-4d78-a5ce-ac4dba965504")
+	)
+	(fp_line
+		(start 0 -19)
+		(end 1.27 -19)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8a5d05b5-3157-48dc-ad89-9e5dbaa295df")
+	)
+	(fp_line
+		(start 6.985 -40.005)
+		(end 6.985 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "0a1baad2-ef0d-4bce-b0d4-63aa36db6949")
+	)
+	(fp_text user "+"
+		(at 2.539995 1.06767 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0742ad9e-caa7-4a4c-a2c1-2bd01386a670")
+		(effects
+			(font
+				(face "Arial")
+				(size 1.89 1.89)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+		(render_cache "+" 180
+			(polygon
+				(pts
+					(xy 2.649513 1.699177) (xy 2.649513 2.216191) (xy 3.164679 2.216191) (xy 3.164679 2.430382) (xy 2.649513 2.430382)
+					(xy 2.649513 2.947395) (xy 2.430013 2.947395) (xy 2.430013 2.430382) (xy 1.914846 2.430382) (xy 1.914846 2.216191)
+					(xy 2.430013 2.216191) (xy 2.430013 1.699177)
+				)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -3.4375 2.336 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef707dee-5877-4435-9142-b5ae1e2d85cb")
+		(effects
+			(font
+				(face "Arial")
+				(size 1.89 1.89)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+		(render_cache "-" 270
+			(polygon
+				(pts
+					(xy -2.547485 1.979515) (xy -2.311136 1.979515) (xy -2.311136 2.693524) (xy -2.547485 2.693524)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.5 0 180)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f85427a7-090f-4c8d-9d63-a0d308ce8b62")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 0 180)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "82879869-220b-40a2-9fa8-0803a5f85e36")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/VEL13353R8257G-rra.stp"
+		(offset
+			(xyz 0.00019 2.5002 6.26237)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -180 90)
+		)
+	)
+)
