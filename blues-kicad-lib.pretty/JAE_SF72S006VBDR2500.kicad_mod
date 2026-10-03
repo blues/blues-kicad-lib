@@ -261,7 +261,7 @@
       )
     )
   )
-  (model "/Users/ethan/Development/blues-kicad-lib/3d-models/K3D-SF72S006VBD-V1_JAE_Proprietary.STEP"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/K3D-SF72S006VBD-V1_JAE_Proprietary.STEP"
     (offset (xyz 0 4.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -46,9 +46,4 @@
   (pad "B6" smd rect (at 0.75 -7.355) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b8a7df5a-450d-48e2-b4ab-f009047a1e66))
   (pad "B7" smd rect (at -0.75 -7.355) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9dfbeda2-7dbd-47be-bc7f-dc13ebcc8e46))
   (pad "B8" smd rect (at -1.75 -7.355) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c4218531-2ec9-4a80-965d-864afefaff04))
-  (model "/Users/ethan/blues Dropbox/Ethan Pierce/Projects/T14/GCT_USB410515A120/USB4105-15-A-120.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
 )

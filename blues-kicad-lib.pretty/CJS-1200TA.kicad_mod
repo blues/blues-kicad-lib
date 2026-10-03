@@ -21,9 +21,9 @@
   (pad "1" smd rect (at -1.75 1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f360acfc-f80c-4053-9dfc-496ff0708cac))
   (pad "2" smd rect (at 0 -1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 54c31474-fb6c-4db0-8c69-598132ac8fc1))
   (pad "3" smd rect (at 1.75 1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 390088f1-8252-4e7c-acf1-30f7d4a44085))
-  (model "/Users/ethan/Downloads/Archive Friday, March 18, 2022/CJS-1200TA--3DModel-STEP-56544.step"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/SW-CJS1200TA.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )

@@ -23,7 +23,7 @@
   (pad "2" smd rect (at 2.075 -1.075) (size 1.05 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 812dc384-2df5-4d20-860d-e20292c9178a))
   (pad "3" smd rect (at -2.075 1.075) (size 1.05 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bb32c337-0195-4aab-8327-3e2ac6b1f067))
   (pad "4" smd rect (at 2.075 1.075) (size 1.05 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 14dde9b3-edb7-4774-b351-7e68ae377218))
-  (model "/Users/ethan/Development/blues-kicad-lib/3d-models/PTS810SJG250SMTRLFS.stp"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/PTS810SJG250SMTRLFS.stp"
     (offset (xyz 0 0 1.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

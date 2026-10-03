@@ -40,7 +40,7 @@
   (pad "14" smd rect (at -13.97 -1.46) (size 1.27 3.43) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 71f152bc-ca20-4a68-b549-875c09ef5371))
   (pad "15" smd rect (at -16.51 1.46) (size 1.27 3.43) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c3223d9-0294-41d7-9165-55ff21b360f0))
   (pad "16" smd rect (at -19.05 -1.46) (size 1.27 3.43) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fc8f95fd-5fb9-4953-be82-88c504744bad))
-  (model "/Users/ethan/Development/blues-kicad-lib/3d-models/TSM-116-01-T-SV.stp"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/TSM-116-01-T-SV.stp"
     (offset (xyz 0 0 1.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

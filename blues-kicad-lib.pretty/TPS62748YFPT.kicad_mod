@@ -27,7 +27,7 @@
   (pad "C2" smd roundrect (at 0.2 0.2) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a188a250-149e-4dd4-8aa9-b7f8d3cad3b6))
   (pad "D1" smd roundrect (at -0.2 0.6) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 047db6c4-b2f7-4746-b6dc-603cd12867d7))
   (pad "D2" smd roundrect (at 0.2 0.6) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 8f2cb5f5-d405-4be5-8a56-2ea20dbfa87b))
-  (model "/Users/ethan/Development/blues-kicad-lib/3d-models/TPS62748YFPT v1.step"
+  (model "${BLUES_KICAD_LIB_DIR}/3d-models/TPS62748YFPT v1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
