@@ -1,0 +1,325 @@
+(footprint "Conn BM04B-SRSS-TB(LF)(SN)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Conn BM04B-SRSS-TB(LF)(SN): footprint from the Notecarrier CX v1.7 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-CX/v1.7/KiCad_format/Notecarrier-CX-altium-import.pretty). Used there for BM04B-SRSS-TB(LF)(SN).")
+	(tags "Conn BM04B SRSS TB LF SN altium notecarrier")
+	(property "Reference" "REF**"
+		(at 1.9556 -3.06619 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9f5fdb1-71df-4898-8deb-8db5f4c1ce91")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Conn BM04B-SRSS-TB(LF)(SN)"
+		(at 0.37351 5.55 90)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "435843ef-4ac9-4d91-ae21-56fa8fedb4ff")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2464a4b2-8847-4b35-891c-ca2d63e0dd8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Conn Header, 1x4, 1.00mm, Tin plated, VERT, SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38dab041-a120-45c4-8664-d010cb3dc44d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2007-322"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2218670-ce0b-4ea5-91e1-af64f68243b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f0f03e7-2f4f-43eb-8f20-b5efeded8fe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "JST"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2962060-b6c8-4c91-ac34-096295a87a9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "BM04B-SRSS-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7c47300-803f-462c-a0dc-2b6bb744fb25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Golubic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6372395-f27b-46bf-bc41-65a65f7bef40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "29-01-2024"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6560abca-fbfc-4569-a0b6-7cb1e289059e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Marsic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8745b3b4-2c26-4427-bca8-ed00441ec235")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f991cd8e-17e7-44c2-92bc-8096ee67350b")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -2.7 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89c26110-49e4-4fdb-9f66-2e6cae416f4e")
+	)
+	(fp_line
+		(start -1.5 -2.2)
+		(end 1.5 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1ec6f64-b139-450b-b2c0-a54fb6aa51a4")
+	)
+	(fp_line
+		(start 2.2 2)
+		(end 3.3 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6687487f-595c-461d-8108-fd2ad5de0d19")
+	)
+	(fp_line
+		(start 3.3 2)
+		(end 3.3 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8712ae9-b440-44fb-911c-20f39a65bd3f")
+	)
+	(fp_circle
+		(center -2.4 1.5)
+		(end -2.4 1.35)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dfc9e5e9-0ca6-420f-9617-2b21b4bfc326")
+	)
+	(fp_line
+		(start -3.3 -2.2)
+		(end 3.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "d81bedd1-75f6-4570-98cf-5c8b6fb6ecbe")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "ccd02b5f-ebbd-429f-ae5d-2fff13c1980e")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end 3.3 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "54febff2-1b64-4e16-ab09-71e9c1536543")
+	)
+	(fp_line
+		(start 3.3 2)
+		(end 3.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "a697ab1d-c925-4193-85d9-c5a10d1c9e3d")
+	)
+	(fp_poly
+		(pts
+			(xy -3.3125 2) (xy -2.2875 2) (xy -3.31248 0.97498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.14")
+		(uuid "90e7814c-43a0-4563-b4a4-2c3ef9450142")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.6 0.2235 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "2a7442f7-d3a5-4261-b890-50bf71e7bf33")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 1.3 270)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76ed154c-2f68-4092-bd90-2282720e4bb0")
+	)
+	(pad "2" smd rect
+		(at -0.5 1.3 270)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96373fc5-b7fa-4fbd-9c3b-5bccc7ccbf59")
+	)
+	(pad "3" smd rect
+		(at 0.50001 1.3 270)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88eecc1f-34c9-4770-9377-3227fa188bea")
+	)
+	(pad "4" smd rect
+		(at 1.50001 1.3 270)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35fdabbb-0db6-4f71-b9d9-4440a135f1a4")
+	)
+	(pad "M" smd rect
+		(at -2.6 -1.2 90)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7382ee2-4e47-4f6b-8363-d6d2f352c6ab")
+	)
+	(pad "M" smd rect
+		(at 2.6 -1.2 90)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d51c115-8481-4cae-acae-17d85eee6ba0")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/BM04B-SRSS-TB.STEP"
+		(offset
+			(xyz -0.00007 1.09993 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

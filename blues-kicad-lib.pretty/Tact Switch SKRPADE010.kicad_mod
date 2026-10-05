@@ -1,0 +1,326 @@
+(footprint "Tact Switch SKRPADE010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tact Switch SKRPADE010: footprint from the Notecarrier CX v1.7 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-CX/v1.7/KiCad_format/Notecarrier-CX-altium-import.pretty). Used there for SKRPABE010, SKRPADE010.")
+	(tags "Tact Switch SKRPADE010 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -2.43466 -2.27114 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "51f792fe-d4a7-4b5a-95fc-0b04b8269d5c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Tact Switch SKRPADE010"
+		(at -3.19999 0.3735 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "0f55597b-2c18-4516-a826-9638b7314d9a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f54594f5-b837-471f-9b55-6977f8ce6295")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tact Switch SPST-NO 0.05A 16V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0836615a-4599-4f57-afa0-da9bc8becc26")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2007-145"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23719d0c-f352-46bf-9434-be4381fe1e4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f323d788-b332-4c47-9551-6f2971125353")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Alps"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5c6b12f-a6f1-4fe2-8a43-348dfc9ae6a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "SKRPADE010"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0477128-3a59-406a-9f57-e09485a5fc44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Marsic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94b4a6f8-ae06-4b4d-9778-79e926c4afff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "12-01-2023"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f138acfa-480d-461c-baa5-443b35f42bfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Hlupic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6a84daf-ab42-4a8e-ac47-ace087f76f55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 0.5)
+		(end -2.1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8533fabf-8f31-4b82-9ab0-b6ec74628ee5")
+	)
+	(fp_line
+		(start -1.3 -1.6)
+		(end 1.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93ff0dcd-95f9-4128-9828-b6080d3d8f83")
+	)
+	(fp_line
+		(start -1.3 1.6)
+		(end 1.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f456ede-8e03-4ae9-9c27-d1b0f57caae5")
+	)
+	(fp_line
+		(start -0.7 -0.8)
+		(end 0.70001 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a3195b8-40fb-4f1c-a195-66039626bac7")
+	)
+	(fp_line
+		(start -0.7 0.8)
+		(end 0.70001 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65573cf4-364f-4788-82b3-299e69521fe3")
+	)
+	(fp_line
+		(start 2.1 0.5)
+		(end 2.1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "437bd0cc-bb4e-4eeb-8b3f-847c16dde3de")
+	)
+	(fp_arc
+		(start -0.7 0.8)
+		(mid -1.5 0)
+		(end -0.7 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a353db8a-de9b-46c6-abaa-46ffbc10854e")
+	)
+	(fp_arc
+		(start 0.70001 -0.8)
+		(mid 1.50001 0)
+		(end 0.70001 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3aa87e08-b674-42c8-95f1-5741090ff00c")
+	)
+	(fp_line
+		(start -2.1 -1.60016)
+		(end 2.1 -1.60016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "ae97c55b-bf0b-497e-97d8-2fa100470837")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end -2.1 -1.60016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "24fb6b64-0a8e-44c7-ae89-9dbac8b9dd56")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "20f57677-5a91-4f27-a9a3-d92e97053e1e")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end 2.1 -1.60016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "4a0c0c0c-e130-47bb-9b7c-5b325a81a96a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.1 0.647 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "92ef1cb0-cb93-43f8-95de-62e4fa98c632")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 -1.075 270)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "3b2420df-49d4-42e8-9817-aa5f505cc8b6")
+	)
+	(pad "1" smd rect
+		(at 2.075 -1.075 270)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "ff5e6ae9-e890-439f-b4fe-847064f04852")
+	)
+	(pad "2" smd rect
+		(at -2.075 1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "f0db8d29-d016-4b80-b69d-fed4e5d47912")
+	)
+	(pad "2" smd rect
+		(at 2.075 1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "b89f2645-1252-486d-a2ea-a284cd7c018d")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SKRPAD.STEP"
+		(offset
+			(xyz 0.0001 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

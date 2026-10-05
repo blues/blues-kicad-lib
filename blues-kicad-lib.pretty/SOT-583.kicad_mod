@@ -1,0 +1,226 @@
+(footprint "SOT-583"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-583: footprint from the Notecarrier XS v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XS/v1.2/KiCad_format/Notecarrier-XS-altium-import.pretty). Used there for LM66200DRLR. Other Blues boards carry a slightly different variant of this footprint (Notecarrier XM v1.2).")
+	(tags "SOT 583 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 0.8902 1.6913 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "06b23d16-fec3-40f9-840d-8a1fa98bcc04")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOT-583"
+		(at 3.8 -0.3735 180)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "8c423c76-2b52-4190-9fea-dd9311a83021")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3e45ee7d-f50e-4c16-a1cf-77d8232d3ba1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fdc1394a-042a-49ba-bd17-15e21f11f19a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -0.6)
+		(end -1.1 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e6e976a-1ff0-4ac5-ac50-97437dd148b8")
+	)
+	(fp_line
+		(start 1.1 -0.6)
+		(end 1.1 0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4207af08-0887-4b41-9978-8bedead14bb1")
+	)
+	(fp_circle
+		(center -1.2 0.8)
+		(end -1.2 0.87)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7dca8482-3258-4852-b674-4463aae66d49")
+	)
+	(fp_line
+		(start -1.05 -0.8)
+		(end -1.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "837affd3-e8b7-4285-892c-a75af6ea7316")
+	)
+	(fp_line
+		(start -1.05 -0.8)
+		(end 1.05 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9521f0fe-f3ad-4a34-8425-decad98d75f4")
+	)
+	(fp_line
+		(start -1.05 0.8)
+		(end 1.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9581a15b-a68d-4dc7-a046-a6c478c9d75f")
+	)
+	(fp_line
+		(start 1.05 -0.8)
+		(end 1.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "71531af5-6c7d-4f12-a328-9318f6abde61")
+	)
+	(fp_poly
+		(pts
+			(xy -1.05 0.8) (xy -0.34995 0.79995) (xy -1.04995 0.09995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.14")
+		(uuid "6a81ab03-6138-46cb-9739-ffb946a3cd3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.55 -0.3735 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "3ffe67fd-6340-4e84-9b25-8607ce10bacd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.74999 0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "5adb4d96-1e40-4c15-992e-3781c1ebeb71")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "86cc32d4-c16f-405a-857c-a94c99cb98f2")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "14add817-2939-4442-9117-99ca7a301b87")
+	)
+	(pad "4" smd rect
+		(at 0.75001 0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "7bd53383-a071-4eb8-b6ca-efb6df8b0a5c")
+	)
+	(pad "5" smd rect
+		(at 0.75001 -0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "b1f3c7f3-ce74-4668-8437-c3dcbb768eff")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "d7f835fa-f8d0-4015-a499-4305943f1978")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "463f1557-b438-408a-8040-917cf36f373e")
+	)
+	(pad "8" smd rect
+		(at -0.74999 -0.725 180)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "34386d11-7997-48cd-8de9-1b3c80c0fcad")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/LM66200DRLR.stp"
+		(offset
+			(xyz 0.00006 0.0001 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 0 -90)
+		)
+	)
+)

@@ -1,0 +1,286 @@
+(footprint "1769 - JST-PH 2-PIN SMT-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1769 - JST-PH 2-PIN SMT-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 1769 - JST-PH 2-PIN SMT.")
+	(tags "1769 JST PH 2 PIN SMT Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at -0.531 6.389148 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "85808d46-ce99-4d3a-ba3e-fa663654b069")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1769 - JST-PH 2-PIN SMT-Footprint-1"
+		(at -1.207655 6.645442 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9e402057-75ec-415a-a62b-e5213c37ab77")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83254028-b2b0-4f64-872e-cd0b010d6dd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1769 - JST-PH 2-PIN SMT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f80b40f1-0961-4749-8ec5-1adfcadb1c83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX OPERATING TEMPERATURE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd031262-7dc4-4586-ace3-ea3e7931b7f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PINS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9142c23c-5bf9-40fb-9459-f2101de0918c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX CURRENT RATING" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e879b02-4ba5-47cc-be16-d78b68633802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS COMPLIANT" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c67522d4-0e5c-496b-949c-c36635540f68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN OPERATING TEMPERATURE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc572920-d4d1-4ff4-a82b-8b33dff5be6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOLTAGE RATING" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fc795e3-ebeb-4aac-b355-c16be2337f7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE/PACKAGE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb6d0837-b6c5-40a5-aa45-36cd0f2d88c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "GENDER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b484ea1-13d6-4199-9fa1-cae38c88aaf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f3836d0-2974-4abb-a822-3d264a1aaa87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONNECTOR TYPE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8df834f3-9ef5-4759-8175-8e30ae0d7f86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.196 3.42)
+		(end -2.196 3.42)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58aa0830-044b-4fcf-a923-25bf76229949")
+	)
+	(fp_circle
+		(center -1.069 -6.011)
+		(end -1.069 -5.959)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "99eb250e-c5d1-41ba-a753-1d883bd9b720")
+	)
+	(fp_line
+		(start -3.95 -3.429)
+		(end -3.95 3.42)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "9b85f324-5cfa-4f37-8a84-7599a141baef")
+	)
+	(fp_line
+		(start 3.95 -3.429)
+		(end -3.95 -3.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8a5f22f3-56b0-4b53-90da-478b825863c9")
+	)
+	(fp_line
+		(start 3.95 -3.429)
+		(end 3.95 3.42)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b9075356-9383-472d-b63b-833a65af4e2b")
+	)
+	(fp_line
+		(start 3.95 3.42)
+		(end -3.95 3.42)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c840549f-3707-4c75-b2c8-4a6e90dc6076")
+	)
+	(pad "1" smd rect
+		(at -1 -3.429 90)
+		(size 3.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7eff958-6f60-44d3-8a50-4498ed0ce55e")
+	)
+	(pad "2" smd rect
+		(at 1 -3.429 90)
+		(size 3.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1446a943-e33d-4ecc-8044-2751386ad056")
+	)
+	(pad "MP1" smd rect
+		(at -3.35 2.121 90)
+		(size 3.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23110cd1-9dcb-4755-ad88-9ff9d2a20317")
+	)
+	(pad "MP2" smd rect
+		(at 3.35 2.121 90)
+		(size 3.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0825d45c-dd07-4b4d-9895-d3b2751ef705")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/1769.stp"
+		(offset
+			(xyz -0 -3.641 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

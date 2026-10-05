@@ -1,0 +1,464 @@
+(footprint "XTAL_3.2x1.5 MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XTAL_3.2x1.5 MM: footprint from the Notecarrier CX v1.7 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-CX/v1.7/KiCad_format/Notecarrier-CX-altium-import.pretty). Used there for ABS07-32.768KHZ-6-T.")
+	(tags "XTAL 3.2x1.5 MM altium notecarrier")
+	(property "Reference" "REF**"
+		(at 4.97114 -15.15408 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f448a7c1-bc60-4c86-8978-5fd0ee77ae70")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "XTAL_3.2x1.5 MM"
+		(at -3.542158 -2.344792 325)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "eed9e357-95b6-4c47-949c-f8478569bc57")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac3265b0-07a6-4653-a34e-cc6653ce1f57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CRYSTAL 32.768KHZ 6PF SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f68d534-8887-4829-a462-c63f3c7bdf3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "ABS07-32.768KHZ-6-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a6143b2-a812-4893-99b7-1ba6ce1a67ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "25-02-2021"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3584ec37-982c-4a55-9d79-d42816f29da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Hlupic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76821d2a-b74f-4efe-b284-9860e4dc837b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Fumic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83e0aebc-728f-4bbb-9fe6-4ef6437a1de9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Abracon Corporation"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfaaa1b4-e40e-4a9d-88f5-1a47549ab913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2005-489"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85e52ad2-5695-4cdc-82d6-7598ebacbbf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4d74412-9a85-4964-aab6-b828328a23c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62ec6614-e517-42a6-9aef-7862f158dae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ffdb1a9-8349-42c1-bdac-d14fec57b9ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0)
+		(end -0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17671076-5a90-46ea-9483-89fb04550b42")
+	)
+	(fp_line
+		(start -0.45 -0.8)
+		(end 0.45 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c88a19d-d07e-434c-ba3b-c56797527545")
+	)
+	(fp_line
+		(start -0.45 0.8)
+		(end 0.45 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1228c61e-6fb4-4359-86fa-f9559c437119")
+	)
+	(fp_line
+		(start -0.25 -0.25)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bb25804-2606-4ccb-b693-a638972d6d5c")
+	)
+	(fp_line
+		(start -0.1 -0.5)
+		(end -0.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c19cf062-8dfd-4181-8ad7-c29cc34025c0")
+	)
+	(fp_line
+		(start -0.1 -0.5)
+		(end 0.1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c303fc94-7304-47a8-957f-8bd2467c29ed")
+	)
+	(fp_line
+		(start -0.1 0.5)
+		(end 0.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34f50b4b-895d-491e-9729-f35901a0c3a3")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c509f7f-f752-4e8a-9c1a-e57c1a876fb5")
+	)
+	(fp_line
+		(start 0.1 -0.5)
+		(end 0.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09de1a70-ee81-4e51-a5ed-95346cba4ee4")
+	)
+	(fp_line
+		(start 0.25 -0.25)
+		(end 0.25 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc001579-9996-48a8-8d87-49be96a08718")
+	)
+	(fp_line
+		(start 0.25 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8ca7c8f-0796-4edc-b1e2-a6dd30e9288d")
+	)
+	(fp_rect
+		(start -1.725 0.17631)
+		(end -0.775 -0.17369)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "15133a62-a5ea-45d9-a8f2-1ae2cc56ea21")
+	)
+	(fp_rect
+		(start -1.725 0.82496)
+		(end -0.775 0.39996)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "82ae0439-695e-4007-ab7f-2d12ba050d34")
+	)
+	(fp_rect
+		(start -0.775005 -0.824975)
+		(end -1.725005 -0.399985)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "bd933a42-819f-4233-aa00-71c1e0c822ae")
+	)
+	(fp_rect
+		(start 0.77375 0.17506)
+		(end 1.72375 -0.17494)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "3faca739-0751-41e9-a9bd-72dde4c77e7b")
+	)
+	(fp_rect
+		(start 0.774995 0.824965)
+		(end 1.724995 0.399975)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "ddfca3ee-755a-4008-ae21-705870d77c42")
+	)
+	(fp_rect
+		(start 1.725005 -0.824985)
+		(end 0.775005 -0.399995)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "4d92edb9-14b9-4eab-b898-5688fb8a7400")
+	)
+	(fp_line
+		(start -1.65 -0.8)
+		(end -1.65 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "96f5b3b2-5389-423a-8ed9-beb193bc2350")
+	)
+	(fp_line
+		(start -1.65 -0.8)
+		(end 1.65 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "e897d661-bc67-4952-8e74-0527016b0873")
+	)
+	(fp_line
+		(start -1.65 0.8)
+		(end 1.65 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "7dd357b9-1af7-499d-a769-7db91934a439")
+	)
+	(fp_line
+		(start 1.65 -0.8)
+		(end 1.65 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "46f5262c-77cb-4a81-9883-fe04ee9fe75f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3235 -0.455 270)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "804c4653-af01-402a-a25d-ab1a739276d6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0 90)
+		(size 1.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -5)
+		(uuid "7a221843-c21a-4751-ac78-0f6e0dfb9df0")
+	)
+	(pad "2" smd rect
+		(at 1.25 0 90)
+		(size 1.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -5)
+		(uuid "e6f90398-1292-4f4b-9225-6ead5362222f")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "1b85afb3-a442-4a67-9a06-a11a3a17e7d2")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 154.856095 114.7536) (xy 156.856095 114.7536) (xy 156.856095 116.5536) (xy 154.856095 116.5536)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/XTAL_3.2x1.5 MM.STEP"
+		(offset
+			(xyz 0.00006 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

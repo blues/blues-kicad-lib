@@ -1,0 +1,173 @@
+(footprint "SM6T6V8A-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SM6T6V8A-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for SM6T6V8A.")
+	(tags "SM6T6V8A Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at 4.784598 1.053195 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b56e4807-cc61-4014-9290-dcc1cb921cb7")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SM6T6V8A-Footprint-1"
+		(at -5.400802 4.10021 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2ce3a94b-9149-4835-84de-f28f27c0ffe7")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04b55679-5a2e-43f4-a08c-0cbb3aa994d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TVS DIODE 5.8VWM 13.4VC SMB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea5a08d1-f060-45fd-8b2f-9662a29cea62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.95396 -1.80998)
+		(end 2.44603 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "777f9dde-69ed-449b-a01a-0c73ceb000d0")
+	)
+	(fp_line
+		(start -2.95396 -0.73495)
+		(end -1.87898 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fabf1619-5f53-47ae-830e-243da660200d")
+	)
+	(fp_line
+		(start -2.95396 1.81002)
+		(end -2.95396 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "77bbe43b-4b63-49bb-829c-731b43904c5c")
+	)
+	(fp_line
+		(start -2.95396 1.81002)
+		(end 2.44603 1.81002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ce073233-a060-4b3e-b53c-b2dde2244e68")
+	)
+	(fp_line
+		(start 2.44603 1.81002)
+		(end 2.44603 -1.80998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d2983860-6a4e-45d3-9b9e-87bb128c7f58")
+	)
+	(fp_line
+		(start -3.804 -2.21999)
+		(end 3.29601 -2.21999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "64e64dda-5a56-4e24-897a-8ae8f5086e47")
+	)
+	(fp_line
+		(start -3.804 2.22003)
+		(end -3.804 -2.21999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "76d87b23-bcf2-4b2a-86ca-ebfd69b3c0ae")
+	)
+	(fp_line
+		(start -3.804 2.22003)
+		(end 3.29601 2.22003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1c528cdb-cefc-4cbe-af4d-910a61577cd2")
+	)
+	(fp_line
+		(start 3.29601 2.22003)
+		(end 3.29601 -2.21999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "63991f19-e540-4997-9493-9abca2fe9e9d")
+	)
+	(pad "1" smd rect
+		(at -2.45399 0.00002)
+		(size 2.2 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "737d4760-5301-495e-8ae6-27c67eed36f1")
+	)
+	(pad "2" smd rect
+		(at 1.946 0.00002)
+		(size 2.2 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1fdbdeec-456d-42a5-9aef-1821c6aa7609")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SM6T6V8A-E3_52.stp"
+		(offset
+			(xyz -0.254 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

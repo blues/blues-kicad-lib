@@ -1,0 +1,187 @@
+(footprint "HOLE_2MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HOLE_2MM: footprint from the Mojo v1.1 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Mojo/v1.1/KiCad_format/Mojo-altium-import.pretty). Used there for M2.")
+	(tags "HOLE 2MM altium mojo")
+	(property "Reference" "REF**"
+		(at 0.1571 0.0391 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a5d678d-4f09-4174-a4c5-72a6e980c0da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HOLE_2MM"
+		(at -1.08704 3.409 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "89bc8347-7803-4419-bae1-55d311522623")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "009d3599-4171-4f43-88a4-b5f31c696b13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d5b5545-8f63-4bb3-b71a-43be7029fd62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.001 0.001)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "cfdfc2a8-f27b-4f5d-95ec-55597ab0918e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "143c1c73-47dd-461a-9e16-9c8f6bf69757")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 159.094201 92.666257) (xy 159.374696 92.741415) (xy 159.642981 92.852543) (xy 159.894466 92.997737)
+				(xy 160.124848 93.174516) (xy 160.330184 93.379852) (xy 160.506963 93.610234) (xy 160.652157 93.861719)
+				(xy 160.763285 94.130004) (xy 160.838443 94.410499) (xy 160.876347 94.698405) (xy 160.876347 94.988795)
+				(xy 160.838443 95.276701) (xy 160.763285 95.557196) (xy 160.652157 95.825481) (xy 160.506963 96.076966)
+				(xy 160.330184 96.307348) (xy 160.124848 96.512684) (xy 159.894466 96.689463) (xy 159.642981 96.834657)
+				(xy 159.374696 96.945785) (xy 159.094201 97.020943) (xy 158.806295 97.058847) (xy 158.515905 97.058847)
+				(xy 158.227999 97.020943) (xy 157.947504 96.945785) (xy 157.679219 96.834657) (xy 157.427734 96.689463)
+				(xy 157.197352 96.512684) (xy 156.992016 96.307348) (xy 156.815237 96.076966) (xy 156.670043 95.825481)
+				(xy 156.558915 95.557196) (xy 156.483757 95.276701) (xy 156.445853 94.988795) (xy 156.445853 94.704648)
+				(xy 156.5411 94.704648) (xy 156.5411 94.982552) (xy 156.577374 95.258079) (xy 156.649301 95.526514)
+				(xy 156.75565 95.783264) (xy 156.894602 96.023936) (xy 157.063779 96.244412) (xy 157.260288 96.440921)
+				(xy 157.480764 96.610098) (xy 157.721436 96.74905) (xy 157.978186 96.855399) (xy 158.246621 96.927326)
+				(xy 158.522148 96.9636) (xy 158.800052 96.9636) (xy 159.075579 96.927326) (xy 159.344014 96.855399)
+				(xy 159.600764 96.74905) (xy 159.841436 96.610098) (xy 160.061912 96.440921) (xy 160.258421 96.244412)
+				(xy 160.427598 96.023936) (xy 160.56655 95.783264) (xy 160.672899 95.526514) (xy 160.744826 95.258079)
+				(xy 160.7811 94.982552) (xy 160.7811 94.704648) (xy 160.744826 94.429121) (xy 160.672899 94.160686)
+				(xy 160.56655 93.903936) (xy 160.427598 93.663264) (xy 160.258421 93.442788) (xy 160.061912 93.246279)
+				(xy 159.841436 93.077102) (xy 159.600764 92.93815) (xy 159.344014 92.831801) (xy 159.075579 92.759874)
+				(xy 158.800052 92.7236) (xy 158.522148 92.7236) (xy 158.246621 92.759874) (xy 157.978186 92.831801)
+				(xy 157.721436 92.93815) (xy 157.480764 93.077102) (xy 157.260288 93.246279) (xy 157.063779 93.442788)
+				(xy 156.894602 93.663264) (xy 156.75565 93.903936) (xy 156.649301 94.160686) (xy 156.577374 94.429121)
+				(xy 156.5411 94.704648) (xy 156.445853 94.704648) (xy 156.445853 94.698405) (xy 156.483757 94.410499)
+				(xy 156.558915 94.130004) (xy 156.670043 93.861719) (xy 156.815237 93.610234) (xy 156.992016 93.379852)
+				(xy 157.197352 93.174516) (xy 157.427734 92.997737) (xy 157.679219 92.852543) (xy 157.947504 92.741415)
+				(xy 158.227999 92.666257) (xy 158.515905 92.628353) (xy 158.806295 92.628353)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "103e4996-1f09-4f2f-aaa2-1d26eb6e8621")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 158.6611 97.0136)
+					(mid 157.126678 96.378022)
+					(end 156.4911 94.8436)
+				)
+				(arc
+					(start 156.4911 94.8436)
+					(mid 157.126678 93.309178)
+					(end 158.6611 92.6736)
+				)
+				(arc
+					(start 158.6611 92.6736)
+					(mid 160.195522 93.309178)
+					(end 160.8311 94.8436)
+				)
+				(arc
+					(start 160.8311 94.8436)
+					(mid 160.195522 96.378022)
+					(end 158.6611 97.0136)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/91292A005_TYPE 18-8 SS SHCS M2x5.STEP"
+		(opacity 0.2500)
+		(offset
+			(xyz 0.00008 0.00008 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 0)
+		)
+	)
+)

@@ -1,19 +1,75 @@
-(footprint "MountingHole_3.3mm_no-courtyard" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Mounting Hole 3.3mm, no annular, no courtyard")
-  (tags "mounting hole 3.3mm no annular, no courtyard")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -4.5) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3208d224-3b59-4d67-8776-131eb6af3b78)
-  )
-  (fp_text value "MountingHole_3.3mm_no-courtyard" (at 0 2.7) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7da7845d-6c69-400b-96e5-d0a66a7b9cfb)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2708b38d-6fb1-4829-ba4d-90f08d623708)
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 3.3 3.3) (drill 3.3) (layers "F&B.Cu" "*.Mask") (tstamp 19d0b209-8e85-4465-8893-daacb6f3f64e))
+(footprint "MountingHole_3.3mm_no-courtyard"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.3mm, no annular, no courtyard")
+	(tags "mounting hole 3.3mm no annular, no courtyard")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3208d224-3b59-4d67-8776-131eb6af3b78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.3mm_no-courtyard"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "7da7845d-6c69-400b-96e5-d0a66a7b9cfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "707b8826-f9b4-4f28-92cc-0d236e6cc0bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f4225a9-b24f-4290-835f-4cd35cd99fdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2708b38d-6fb1-4829-ba4d-90f08d623708")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "19d0b209-8e85-4465-8893-daacb6f3f64e")
+	)
+	(embedded_fonts no)
 )

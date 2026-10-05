@@ -1,0 +1,285 @@
+(footprint "R-1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "R-1206: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for 1M.")
+	(tags "R 1206 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -1.2976 -1.78741 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "637b4e9e-a4f1-4d44-9969-f7c123e07dff")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "R-1206"
+		(at 0.4604 -0.37912 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "4b84bed4-b97a-40c1-92ae-b92baf50a927")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a0c9601-5483-4da2-8c0f-ce1f3c311bf5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor 1M ±1% 1206"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3053e614-f35e-4028-8c0d-0766b756eadc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "CRG1206F1M0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d29de559-b2cd-4ef6-bf5b-dcd15c7de792")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "01-07-2014"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5cf75e5-ee23-4f23-8edd-a3fdc680ae07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Golubic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78caefd2-103c-4737-b1fd-7728225fe8fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Zvonc"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fb284e2-f7a8-4dd9-83a0-1da7231ceb62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "TE Connectivity Passive Product"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b45a5c21-91d3-4172-8f07-81493389c4d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2001-438"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "227a2ffb-11fe-40f2-9307-e49a59961041")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PKG TYPE" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81f8205b-bedd-4160-8ae9-e6e994c0b813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "1206"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67f75930-14e5-4a4b-b7a3-0c2519eb9968")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -1.00001)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f4fe6ad-a31c-4271-b462-76300e903fb3")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end -2.4 -1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14781f10-a859-42c4-872d-f46a856c35b0")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end 2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b186324-38c4-4078-b31b-853d2f6dc5cc")
+	)
+	(fp_line
+		(start 2.4 1)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2561abde-e8ba-4c13-952d-a1a2668f0beb")
+	)
+	(fp_line
+		(start -2.4 -1.00001)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "604143c6-003b-4aeb-b4d8-719bc294c2c0")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end -2.4 -1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c9f64b14-5c8a-497d-9875-e60d574b6e55")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end 2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "5618b92b-70cb-4256-b979-ae4b1ba6ea98")
+	)
+	(fp_line
+		(start 2.4 1)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "af507208-c53d-458a-b808-2eeb5235fe55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.6 -0.3235 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "ad9df7dc-947a-480a-ba2c-6e3a627bf021")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(solder_paste_margin -0.025)
+		(uuid "3ee77564-205b-4d97-a54a-c156a4c39123")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(solder_paste_margin -0.025)
+		(uuid "fcf5f976-d7f2-4b17-85ad-85c6384a0c80")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/RESC3116X65N EIA 1206.step"
+		(offset
+			(xyz -0.00001 -0.00003 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

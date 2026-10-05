@@ -1,29 +1,137 @@
-(footprint "CJS-1200TA" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -3.3 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e30318df-bd67-46d2-a63b-beff0082cec1)
-  )
-  (fp_text value "CJS-1200TA" (at 0 1 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cdc972df-51f9-490e-8312-39fff701b508)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a51f2b7d-47a8-412b-9319-85794ffa17f3)
-  )
-  (fp_line (start -2.5 -2.1) (end 2.5 -2.1) (layer "F.SilkS") (width 0.12) (tstamp 185ea783-e80e-4d8a-a00d-7746dc0af3cf))
-  (fp_line (start 2.5 2.1) (end -2.5 2.1) (layer "F.SilkS") (width 0.12) (tstamp a9f1d30d-1927-4a4e-b0a2-c3f49e425556))
-  (fp_line (start -2.5 2.1) (end -2.5 -2.1) (layer "F.SilkS") (width 0.12) (tstamp c14bfcb6-883d-4df9-8950-5c4b40c757b6))
-  (fp_line (start 2.5 -2.1) (end 2.5 2.1) (layer "F.SilkS") (width 0.12) (tstamp f4eff7ef-ab31-4fb5-85d7-8a5c64b4b513))
-  (pad "1" smd rect (at -1.75 1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f360acfc-f80c-4053-9dfc-496ff0708cac))
-  (pad "2" smd rect (at 0 -1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 54c31474-fb6c-4db0-8c69-598132ac8fc1))
-  (pad "3" smd rect (at 1.75 1.15) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 390088f1-8252-4e7c-acf1-30f7d4a44085))
-  (model "/Users/ethan/Downloads/Archive Friday, March 18, 2022/CJS-1200TA--3DModel-STEP-56544.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "CJS-1200TA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e30318df-bd67-46d2-a63b-beff0082cec1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CJS-1200TA"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cdc972df-51f9-490e-8312-39fff701b508")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99af6bb3-ec40-4b22-b45f-096d5ddd5817")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e73e4530-f7f3-4d47-855d-1bbf5057b1ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.1)
+		(end 2.5 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "185ea783-e80e-4d8a-a00d-7746dc0af3cf")
+	)
+	(fp_line
+		(start -2.5 2.1)
+		(end -2.5 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c14bfcb6-883d-4df9-8950-5c4b40c757b6")
+	)
+	(fp_line
+		(start 2.5 -2.1)
+		(end 2.5 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4eff7ef-ab31-4fb5-85d7-8a5c64b4b513")
+	)
+	(fp_line
+		(start 2.5 2.1)
+		(end -2.5 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9f1d30d-1927-4a4e-b0a2-c3f49e425556")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a51f2b7d-47a8-412b-9319-85794ffa17f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 1.15)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f360acfc-f80c-4053-9dfc-496ff0708cac")
+	)
+	(pad "2" smd rect
+		(at 0 -1.15)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54c31474-fb6c-4db0-8c69-598132ac8fc1")
+	)
+	(pad "3" smd rect
+		(at 1.75 1.15)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "390088f1-8252-4e7c-acf1-30f7d4a44085")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/SW-CJS1200TA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,0 +1,293 @@
+(footprint "FP-GRM18-0_15-IPC_A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FP-GRM18-0_15-IPC_A: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 10uF/ 10V-X5R, 10uF/ 10v-X5R, 22u/ 10V-X5R.")
+	(tags "FP GRM18 0 15 IPC A altium cygnet")
+	(property "Reference" "REF**"
+		(at 0.520045 -2.600198 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3290b58b-2e58-4eac-ab8e-a2e2db02e476")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FP-GRM18-0_15-IPC_A"
+		(at 1.91659 2.708402 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6c9ffc03-361d-42c7-8fb3-12cc4aafe31f")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0b27df9-0f14-4e41-8fc9-42b501e87b16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Multilayer Ceramic Capacitor, 10 uF, 10 V, ± 10%, X5R, 0603 [1608 Metric]"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5806e51a-58b8-4119-9383-a3d1a24e3f5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 0.40001)
+		(end -0.8 -0.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "0604d2c0-d6ab-4770-8ca3-d6e8382c43e7")
+	)
+	(fp_line
+		(start 0.8 -0.39999)
+		(end -0.8 -0.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "3f31a5a2-0892-4e1f-8c32-5b25bbee3cb8")
+	)
+	(fp_line
+		(start 0.8 0.40001)
+		(end -0.8 0.40001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d92a8e19-1865-4877-9a6c-ab4d01911689")
+	)
+	(fp_line
+		(start 0.8 0.40001)
+		(end 0.8 -0.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c6f310f8-d6d9-4319-a56b-7e2695dc70b5")
+	)
+	(fp_line
+		(start -1.92913 1.02912)
+		(end -1.92913 -1.02909)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "0b64498a-ebe2-4706-b1f8-bd11a3ea4e84")
+	)
+	(fp_line
+		(start 1.92908 -1.02909)
+		(end -1.92913 -1.02909)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "b7fab726-b3e8-4bd2-b7b5-058ff5df3df1")
+	)
+	(fp_line
+		(start 1.92908 1.02912)
+		(end -1.92913 1.02912)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "b034104c-b592-4d28-947f-86f761e70cfa")
+	)
+	(fp_line
+		(start 1.92908 1.02912)
+		(end 1.92908 -1.02909)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "3fdc98e8-064e-4c3a-b889-4d75057e5382")
+	)
+	(fp_line
+		(start -1.92913 1.02912)
+		(end -1.92913 -1.02909)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "5d5985f5-6248-4d91-97ab-d2641e56007d")
+	)
+	(fp_line
+		(start 1.92908 -1.02909)
+		(end -1.92913 -1.02909)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8d4722cb-2c68-4a39-904e-ad02008b461e")
+	)
+	(fp_line
+		(start 1.92908 1.02912)
+		(end -1.92913 1.02912)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8d719f21-99ef-4c98-a7d8-04c91e3a065e")
+	)
+	(fp_line
+		(start 1.92908 1.02912)
+		(end 1.92908 -1.02909)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "787f53c0-8184-419e-9b42-5996cfcfcfdb")
+	)
+	(fp_line
+		(start 0 0.49999)
+		(end 0 -0.50001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "40eb8710-a130-4187-932a-de9dd7dee738")
+	)
+	(fp_line
+		(start 0.49998 0.00001)
+		(end -0.50002 0.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "8718d4d1-6a0e-4261-8147-1cb5cc2cb4d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.12701 -1.047 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "cebe4be6-8135-4c75-b347-20a002fd9c90")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 0.532648 -1.784517) (xy 0.574362 -1.778463) (xy 0.604285 -1.769784) (xy 0.631386 -1.755655)
+					(xy 0.654624 -1.735813) (xy 0.674413 -1.709581) (xy 0.688977 -1.679908) (xy 0.697719 -1.648317)
+					(xy 0.700686 -1.614257) (xy 0.697858 -1.581309) (xy 0.689653 -1.551824) (xy 0.676196 -1.525153)
+					(xy 0.657217 -1.500814) (xy 0.634298 -1.481063) (xy 0.605138 -1.464505) (xy 0.568528 -1.451352)
+					(xy 0.522963 -1.44215) (xy 0.553624 -1.4253) (xy 0.57328 -1.410606) (xy 0.608043 -1.373734) (xy 0.642561 -1.326399)
+					(xy 0.752311 -1.1541) (xy 0.647331 -1.1541) (xy 0.563816 -1.285815) (xy 0.503575 -1.373061) (xy 0.479618 -1.400212)
+					(xy 0.461183 -1.415184) (xy 0.442067 -1.425408) (xy 0.4231 -1.431802) (xy 0.37663 -1.434764) (xy 0.279805 -1.434764)
+					(xy 0.279805 -1.1541) (xy 0.196291 -1.1541) (xy 0.196291 -1.508623) (xy 0.279805 -1.508623) (xy 0.45926 -1.508623)
+					(xy 0.513257 -1.511999) (xy 0.548775 -1.520471) (xy 0.568953 -1.530209) (xy 0.585116 -1.542822)
+					(xy 0.597822 -1.558439) (xy 0.610416 -1.585732) (xy 0.614595 -1.61518) (xy 0.610894 -1.643652)
+					(xy 0.600165 -1.667897) (xy 0.582089 -1.688962) (xy 0.558622 -1.703989) (xy 0.525485 -1.714071)
+					(xy 0.479494 -1.71789) (xy 0.279805 -1.71789) (xy 0.279805 -1.508623) (xy 0.196291 -1.508623) (xy 0.196291 -1.786825)
+					(xy 0.476032 -1.786825)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.833133 -1.1541) (xy 0.833133 -1.786825) (xy 1.289328 -1.786825) (xy 1.289328 -1.712966) (xy 0.916647 -1.712966)
+					(xy 0.916647 -1.518471) (xy 1.26567 -1.518471) (xy 1.26567 -1.444612) (xy 0.916647 -1.444612) (xy 0.916647 -1.227959)
+					(xy 1.303984 -1.227959) (xy 1.303984 -1.1541)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.423543 -1.1541) (xy 1.423543 -1.786825) (xy 1.849156 -1.786825) (xy 1.849156 -1.712966) (xy 1.507019 -1.712966)
+					(xy 1.507019 -1.516009) (xy 1.80311 -1.516009) (xy 1.80311 -1.44215) (xy 1.507019 -1.44215) (xy 1.507019 -1.1541)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.917322 -1.671113) (xy 1.937133 -1.731739) (xy 2.000487 -1.707636) (xy 2.036535 -1.690347)
+					(xy 2.027918 -1.796673) (xy 2.090313 -1.796673) (xy 2.087459 -1.751799) (xy 2.080427 -1.69077)
+					(xy 2.126666 -1.711581) (xy 2.181983 -1.731739) (xy 2.201794 -1.671113) (xy 2.147103 -1.655848)
+					(xy 2.094622 -1.646878) (xy 2.122786 -1.61879) (xy 2.168673 -1.565094) (xy 2.11701 -1.528319) (xy 2.091502 -1.565971)
+					(xy 2.058039 -1.621335) (xy 2.026231 -1.564437) (xy 2.002106 -1.528319) (xy 1.951328 -1.565094)
+					(xy 1.998346 -1.621254) (xy 2.022763 -1.646878)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.260151 -1.671113) (xy 2.279962 -1.731739) (xy 2.343316 -1.707636) (xy 2.379364 -1.690347)
+					(xy 2.370747 -1.796673) (xy 2.433143 -1.796673) (xy 2.430288 -1.751799) (xy 2.423256 -1.69077)
+					(xy 2.469495 -1.711581) (xy 2.524812 -1.731739) (xy 2.544624 -1.671113) (xy 2.489932 -1.655848)
+					(xy 2.437451 -1.646878) (xy 2.465615 -1.61879) (xy 2.511502 -1.565094) (xy 2.459839 -1.528319)
+					(xy 2.434331 -1.565971) (xy 2.400868 -1.621335) (xy 2.36906 -1.564437) (xy 2.344935 -1.528319)
+					(xy 2.294157 -1.565094) (xy 2.341175 -1.621254) (xy 2.365592 -1.646878)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.80101 0.00001)
+		(size 1.25626 1.05822)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "ad618a8f-2e63-4b04-9864-f89722a2a13e")
+	)
+	(pad "2" smd rect
+		(at 0.80097 0.00001)
+		(size 1.25626 1.05822)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "3f00febc-c302-47bc-a35c-db54efd2f57e")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Cap_Murata_GRM188R61A106KE69D_eec.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

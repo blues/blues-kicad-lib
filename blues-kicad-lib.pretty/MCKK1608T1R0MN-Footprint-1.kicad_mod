@@ -1,0 +1,163 @@
+(footprint "MCKK1608T1R0MN-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MCKK1608T1R0MN-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 1uH.")
+	(tags "MCKK1608T1R0MN Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at -0.03843 -2.244598 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d3bf7ea-0656-4a50-8134-ef8618f3913f")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MCKK1608T1R0MN-Footprint-1"
+		(at 9.102615 2.352802 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "db02b83c-aa21-4ba1-a797-7b7eacc67144")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deaeea73-9c9c-4f5a-b512-0cf5a72fba11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ind Chip Power Chip Molded Multi-Layer 1uH 20% 1MHz Metal 1.3A 0603 Emboss T/R MCKK1608T1R0MN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4ae4f74-8294-48b7-93b5-d0515f0302dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b5be2763-a0c1-4eb9-9598-7525a1e8a69a")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "69c971fd-a440-45ca-9dfb-764d8231b497")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "81c5d83b-a444-4c59-bb6d-5736bf6eccc3")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "2fcbf41b-51c9-4511-abe8-cddb7df5601c")
+	)
+	(fp_line
+		(start -1.525 -0.75)
+		(end -1.525 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "d447c5e8-802a-4992-98d8-d38388d75d62")
+	)
+	(fp_line
+		(start 1.525 -0.75)
+		(end -1.525 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "a0bde473-0203-4543-b42a-de8a428b02cc")
+	)
+	(fp_line
+		(start 1.525 -0.75)
+		(end 1.525 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "39557e9e-5275-490c-82e9-7eae46b21d2f")
+	)
+	(fp_line
+		(start 1.525 0.75)
+		(end -1.525 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "59c141fa-f346-4eed-a5a9-b41553f25a72")
+	)
+	(pad "1" smd rect
+		(at -0.8 0 90)
+		(size 1 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f8daa2d-b15a-46c9-90ac-c99b7225a538")
+	)
+	(pad "2" smd rect
+		(at 0.8 0 90)
+		(size 1 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b17ac81a-b9ed-4b3d-9b1a-40555fb5a706")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/MCKK1608T1R0MN.stp"
+		(offset
+			(xyz -0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

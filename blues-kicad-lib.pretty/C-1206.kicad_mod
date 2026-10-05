@@ -1,0 +1,298 @@
+(footprint "C-1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C-1206: footprint from the Notecarrier XI v1.4 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XI/v1.4/KiCad_format/Notecarrier-XI-altium-import.pretty). Used there for 10n/1000V, 10u.")
+	(tags "C 1206 altium notecarrier")
+	(property "Reference" "REF**"
+		(at -1.2976 -1.78741 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c95def59-1ea5-44a8-a219-fee67b58211c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "C-1206"
+		(at 2.4924 -0.36732 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "bd5ff69c-bb6c-4597-b2a0-adb04fd816fa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1449a09c-13a2-4ece-9c9b-693e6e630d40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Capacitor ceramic 10n ±10% X7R 1000V 1206"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9259d07-7704-42d2-8fa5-7f6a343c9d2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "2007-449"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "431601d5-2108-45aa-865b-9b45337d032a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "YAGEO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4823812-fa5e-46fe-84ef-10818f8e4a8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "CS1206KKX7RCBB103"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2878c0fb-a23a-4757-8564-f9e4bf0e3cd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Hamin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ca773af-beec-46de-ab42-6f08b9682303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "03-05-2023"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1df06ba4-5e62-4297-a954-6ab9544d65bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Marsic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1783d849-ff32-4009-b548-e690633b5e89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" "Digi-Key"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02da1434-e07f-4344-bc4a-b71a09bd44e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" "311-3578-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5057f26-095d-475e-9d1f-810248637189")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcd78fff-ae35-42e1-a823-04606d5f909c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -1.00001)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "642954ae-1c09-48f8-b602-84e28a4b6bec")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end -2.4 -1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e38f9593-817a-4fb7-9d9f-45c8cfe9761b")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end 2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41a552e3-e1ea-4d20-99c2-0067e377af0d")
+	)
+	(fp_line
+		(start 2.4 1)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c685ef0d-75dd-4a34-a2f6-bd98f572c749")
+	)
+	(fp_line
+		(start -2.4 -1.00001)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "fad98c1b-3ddd-46b2-a0b6-563135030db2")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end -2.4 -1.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "383bfcff-884c-42ab-8fab-6b97bf826074")
+	)
+	(fp_line
+		(start 2.4 -1.00001)
+		(end 2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "9f902314-0c79-47d2-a4fd-992fe72e2e8d")
+	)
+	(fp_line
+		(start 2.4 1)
+		(end -2.4 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "7febecd7-f8d5-4a84-9d5b-a2f86ef4c974")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 -0.3735 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "940f98fa-6419-4316-b303-21f9219bd654")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(solder_paste_margin -0.025)
+		(uuid "a06ebe18-833b-4766-ad2e-5824be47594d")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(solder_paste_margin -0.025)
+		(uuid "7ea8c212-0323-4cc1-afb8-24d293845c09")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/C-1206.step"
+		(offset
+			(xyz -0.05 -0.00001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -1,13 +1,66 @@
-(footprint "TESTPAD_127" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Imported from Notecarrier-F")
-  (fp_text reference "TP1" (at 1.4224 -0.4064 -90 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 7cee350c-21df-484b-a583-a7d0e6fbfeef)
-  )
-  (fp_text value "TESTPAD" (at -2.9337 -0.3937 -90 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 0374f9a2-e4ff-4079-96b0-46ec077af575)
-  )
-  (pad "1" smd circle (at 0 0) (size 1.27 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6adc4de2-2912-4f51-b8d5-7d9d8dfe5643))
+(footprint "TESTPAD_127"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Imported from Notecarrier-F")
+	(property "Reference" "TP1"
+		(at 1.4224 -0.4064 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7cee350c-21df-484b-a583-a7d0e6fbfeef")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TESTPAD"
+		(at -2.9337 -0.3937 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0374f9a2-e4ff-4079-96b0-46ec077af575")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "156dd82f-839e-4460-bf71-e6976a73b476")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "872bc163-28f8-4ed1-9f98-26934f77352e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6adc4de2-2912-4f51-b8d5-7d9d8dfe5643")
+	)
+	(embedded_fonts no)
 )

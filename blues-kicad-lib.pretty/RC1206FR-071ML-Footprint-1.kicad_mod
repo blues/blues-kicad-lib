@@ -1,0 +1,163 @@
+(footprint "RC1206FR-071ML-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RC1206FR-071ML-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 1M.")
+	(tags "RC1206FR 071ML Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at 0.012045 -3.285998 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c3e12e07-fb6d-474c-b3bf-55b5b18b3913")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RC1206FR-071ML-Footprint-1"
+		(at -0.87667 3.394202 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "de3c9ad7-c294-4347-b36c-816553a4b9bc")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9eacbf2d-0481-4fa3-a4ff-a918863bbc7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD Chip Resistor, 1 MOhm, ± 1%, 250 mW, 1206 [3216 Metric], Thick Film, General Purpose"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c05e83f1-0e1c-46d6-9cee-e5019ba8dd6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.21897 -0.80001)
+		(end 1.98102 -0.80001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "767c6f94-4709-46ba-b864-864191263212")
+	)
+	(fp_line
+		(start -1.21897 0.79999)
+		(end -1.21897 -0.80001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "13e4ca10-d572-4bb8-ac0a-fa3cbf9e5f3d")
+	)
+	(fp_line
+		(start -1.21897 0.79999)
+		(end 1.98102 0.79999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "3c872785-20c4-4171-9b73-3263542785db")
+	)
+	(fp_line
+		(start 1.98102 0.79999)
+		(end 1.98102 -0.80001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "5b0a71d1-9b45-49c3-be04-13d40cac267b")
+	)
+	(fp_line
+		(start -2.494 -1.80001)
+		(end 3.256 -1.80001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "b07e52f9-67bd-4800-8ca7-a4b424a55b1c")
+	)
+	(fp_line
+		(start -2.494 1.79999)
+		(end -2.494 -1.80001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "a4936c8c-ba1c-42b7-b69b-8f70ae3a4937")
+	)
+	(fp_line
+		(start -2.494 1.79999)
+		(end 3.256 1.79999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "9275ec67-0409-4050-ab7d-949e0821ad2c")
+	)
+	(fp_line
+		(start 3.256 1.79999)
+		(end 3.256 -1.80001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e99b2ccd-8c1b-4e7e-8a8b-43023a16507c")
+	)
+	(pad "1" smd rect
+		(at -1.119 -0.00001 90)
+		(size 1.8 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ce184ba-e79e-42be-8821-f8e63f79c572")
+	)
+	(pad "2" smd rect
+		(at 1.88099 -0.00001 90)
+		(size 1.8 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f9e4a05-a21a-4cdf-bf97-f9026fe21172")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/C1206C103KDRACTU.stp"
+		(offset
+			(xyz -1.319 -0.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

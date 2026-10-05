@@ -1,22 +1,76 @@
-(footprint "TPS-SPEA" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "SMD pad as test Point, diameter 1.0mm, ported from OrCAD")
-  (tags "test point SMD pad")
-  (clearance 0.2)
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -1.448) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ed08342a-eaee-43e9-b96e-1dd00b47763e)
-  )
-  (fp_text value "TPS-SPEA" (at 0 1.55) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a41410ba-6764-40d3-8271-3889cd1f68dc)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -1.45) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ecb9d95d-c3e5-4a80-b7be-d742b8cad331)
-  )
-  (fp_circle (center 0 0) (end 0.5 0)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp f02f025d-d308-4e0d-bc6c-e230724bf915))
-  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (tstamp bab732e9-e79a-410d-8a2b-e7d9e8d299bb))
+(footprint "TPS-SPEA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD pad as test Point, diameter 1.0mm, ported from OrCAD")
+	(tags "test point SMD pad")
+	(property "Reference" "REF**"
+		(at 0 -1.448 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS-SPEA"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1970612-3117-4cd9-8383-c61aebb80728")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf13f7d-2df6-4bfa-88d5-7cb03d7901b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.2)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f02f025d-d308-4e0d-bc6c-e230724bf915")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bab732e9-e79a-410d-8a2b-e7d9e8d299bb")
+	)
+	(embedded_fonts no)
 )

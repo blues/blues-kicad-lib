@@ -1,0 +1,300 @@
+(footprint "RESC1005X40X25ML05T05"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RESC1005X40X25ML05T05: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 1k.")
+	(tags "RESC1005X40X25ML05T05 altium cygnet")
+	(property "Reference" "REF**"
+		(at 0.698085 -2.041398 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bd2e04db-0521-44ce-a4bf-212e65a87255")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC1005X40X25ML05T05"
+		(at 0.44417 2.149602 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ee4c4923-869d-47d4-8cb2-f2203a889e02")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53e87926-3f98-41e1-9f35-8f5882a653b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Chip Resistor, 1 KOhm, +/- 1%, 63 mW, -55 to 155 degC, 0402 (1005 Metric)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7a322e5-9487-4c20-8e51-226759a8a7db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TOLERANCE" "1%"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72155e2a-18a6-4a11-8952-730761caf929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOLTAGE RATING" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c25d37a-50b0-4a91-98e1-02ef1cfec7e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX OPERATING TEMPERATURE" "155°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfb516e4-71bf-4ce6-a52b-265e29ae9ca9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN OPERATING TEMPERATURE" "-55°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2182d8a9-1538-4424-854d-bf225fd72b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" "SM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01bc7c9b-1354-4d83-9a9c-06337eb6b38f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PINS" "2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c24a23a7-ec6a-46f8-b7ab-28f5e4aaaab6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS COMPLIANT" "True"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65fa9b9e-e854-4bb5-8554-8788aea7daca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POWER" "63mW"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d12427-407d-4a65-ae63-56a82f2aa172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE/PACKAGE" "0402"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2b44602-198d-432d-9f28-d9450642e476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.52497 -0.27499)
+		(end 0.52501 -0.27499)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "7ac5ab6d-e813-48ff-993d-ec7ca5936bed")
+	)
+	(fp_line
+		(start -0.52497 0.27502)
+		(end -0.52497 -0.27499)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fee49bcc-7e40-416e-bfbc-ab07490c20eb")
+	)
+	(fp_line
+		(start -0.52497 0.27502)
+		(end 0.52501 0.27502)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "82b067a3-9936-4f18-8897-4cc8e0a5ea11")
+	)
+	(fp_line
+		(start 0.52501 0.27502)
+		(end 0.52501 -0.27499)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ceef2997-f9a6-4e9e-b7e2-761cea0546c3")
+	)
+	(fp_line
+		(start -1.04999 -0.54997)
+		(end 1.05003 -0.54997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1d8b0370-28cf-47e4-b79a-2448e87c0227")
+	)
+	(fp_line
+		(start -1.04999 0.55)
+		(end -1.04999 -0.54997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ecfaea13-0b20-4d2e-94d3-8d3b4c7d6f11")
+	)
+	(fp_line
+		(start -1.04999 0.55)
+		(end 1.05003 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ece31e31-3cc9-4435-9e05-0a1eb28c36ae")
+	)
+	(fp_line
+		(start -0.27498 0.00004)
+		(end 0.27503 0.00004)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ed35f519-3e84-4b4f-b19a-8a76846204fd")
+	)
+	(fp_line
+		(start 0 0.27502)
+		(end 0 -0.27499)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "db9af3b3-2857-46ae-8b4e-920df1b35aac")
+	)
+	(fp_line
+		(start 1.05003 0.55)
+		(end 1.05003 -0.54997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "a2e624c8-8895-477f-b7f7-c25ac29bf1ac")
+	)
+	(pad "1" smd rect
+		(at -0.49998 0.00004 90)
+		(size 0.65 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1807ccb2-9483-4a1a-b027-e86afcadf842")
+	)
+	(pad "2" smd rect
+		(at 0.50002 0.00004 90)
+		(size 0.65 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "933b83c2-4321-4154-b441-dbd9fa9196d5")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/RESC1005X04M.step"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

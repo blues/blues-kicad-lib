@@ -1,0 +1,298 @@
+(footprint "STANDOFF_9774040151R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "STANDOFF_9774040151R: footprint from the Notecarrier CX v1.7 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-CX/v1.7/KiCad_format/Notecarrier-CX-altium-import.pretty). Used there for 9774040151R.")
+	(tags "STANDOFF 9774040151R altium notecarrier")
+	(property "Reference" "REF**"
+		(at 1.3422 -2.76639 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ffcb855f-9636-448d-a56e-1701792d97f7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "STANDOFF_9774040151R"
+		(at -3.1086 0.37471 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "1572f180-5b00-48b6-897f-b37e815a0172")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26affa8-02c1-4dbb-bf20-2954caba5147")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ROUND STANDOFF M2.5 STEEL 4MM, SMT FEMALE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39c7269b-2b47-4b0d-af76-c49dac973fdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BL PART NUMBER" "6000-267"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21414351-5c33-416b-8330-4bf43b3ea46c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOTE" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f014862a-1afd-4453-bc61-a4b28391b63e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Würth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ca976e-fd26-4b2b-b4a1-76fbba1b1c8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "9774040151R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b21ec2d-3953-4429-93e6-6f035596d5c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRAWN_BY" "Marsic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c9a2eaf-93eb-49db-a38f-62849fa2a69d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATEMODIFIED" "08-12-2025"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "336a64fa-4517-4f2d-b2b1-23edadbe813e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHECKED_BY" "Duracic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8be3d990-030c-42f7-af0c-6cdb376f3584")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "263fa4cb-2d40-4b0c-b6bb-2c5e749d64db")
+	)
+	(fp_poly
+		(pts
+			(xy -2.89999 -0.325) (xy -1.87279 -0.325)
+			(arc
+				(start -1.872799 -0.320348)
+				(mid -1.345306 -1.341697)
+				(end -0.325377 -1.871932)
+			)
+			(xy -0.32537 -1.87193) (xy -0.325 -1.86976) (xy -0.325 -2.9)
+			(arc
+				(start -0.325206 -2.901834)
+				(mid -2.064752 -2.064752)
+				(end -2.901834 -0.325206)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "969d376f-65ed-4022-b74c-c3326e8f9ab6")
+	)
+	(fp_poly
+		(pts
+			(xy -2.89999 0.325) (xy -1.87279 0.325)
+			(arc
+				(start -1.872799 0.320348)
+				(mid -1.345306 1.341697)
+				(end -0.325377 1.871932)
+			)
+			(xy -0.32537 1.87193) (xy -0.325 1.86977) (xy -0.325 2.9)
+			(arc
+				(start -0.325206 2.901834)
+				(mid -2.064752 2.064752)
+				(end -2.901834 0.325206)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "f764cbe6-4dff-4094-aa20-c64908e42a68")
+	)
+	(fp_poly
+		(pts
+			(xy 2.9 -0.325) (xy 1.8728 -0.325)
+			(arc
+				(start 1.872799 -0.320348)
+				(mid 1.345306 -1.341697)
+				(end 0.325377 -1.871932)
+			)
+			(xy 0.32538 -1.87193) (xy 0.32501 -1.86976) (xy 0.32501 -2.9)
+			(arc
+				(start 0.325206 -2.901834)
+				(mid 2.064752 -2.064752)
+				(end 2.901834 -0.325206)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "9367d2a3-1993-450c-bfe7-26cb8b27e95b")
+	)
+	(fp_poly
+		(pts
+			(xy 2.9 0.325) (xy 1.8728 0.325)
+			(arc
+				(start 1.872799 0.320348)
+				(mid 1.345306 1.341697)
+				(end 0.325377 1.871932)
+			)
+			(xy 0.32538 1.87193) (xy 0.32501 1.86977) (xy 0.32501 2.9)
+			(arc
+				(start 0.325206 2.901834)
+				(mid 2.064752 2.064752)
+				(end 2.901834 0.325206)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "89bf90de-4b62-4436-83bd-8968297625c2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.14")
+		(uuid "e405a0f3-f15e-4b63-8dd8-e1ff6779ab29")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.3 0.4235 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "c0c43990-a5dd-4117-b1e2-af418b214a96")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3.7)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "9f85fc9b-9f49-4aff-97c1-25e8e5a85edd")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/9774040151R (rev1).stp"
+		(offset
+			(xyz 0.00012 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

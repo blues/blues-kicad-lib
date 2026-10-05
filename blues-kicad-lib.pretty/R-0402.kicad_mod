@@ -1,0 +1,183 @@
+(footprint "R-0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "R-0402: footprint from the Notecarrier F v1.5 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-F/v1.5/KiCad_format/Notecarrier-F-altium-import.pretty). Used there for 100k, 10M, 10k, 15k. Other Blues boards carry a slightly different variant of this footprint (Notecarrier XS v1.2, Notecarrier X v1.2, Notecarrier XM v1.2).")
+	(tags "R 0402 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 1.0765 -0.6 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "00858432-d9f0-48dd-bb2e-db7b57752806")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "R-0402"
+		(at -0.7108 0.3717 0)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "e3353e49-e569-4452-863d-0f7f40e39581")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "cc6d92d6-5e84-47f2-9f4b-a0ac1126eb7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "44bf48d5-52cd-4f1d-8139-1d97181040bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.90008 -0.44991)
+		(end 0.89992 -0.44991)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e598181c-4804-4407-9c33-6666f0de7f41")
+	)
+	(fp_line
+		(start -0.90008 0.45008)
+		(end -0.90008 -0.44991)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d5d7f3c-a7ec-4367-b03c-97a3000534cb")
+	)
+	(fp_line
+		(start -0.90008 0.45008)
+		(end 0.89992 0.45008)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "344c85d4-744d-4750-b3f4-ba802cdcdae0")
+	)
+	(fp_line
+		(start 0.89992 0.45008)
+		(end 0.89992 -0.44991)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a38777f-a8fb-426f-9847-7065354f1160")
+	)
+	(fp_line
+		(start -0.9 -0.45)
+		(end 0.9 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "720ed955-61a1-4058-bd1f-d6b3e1a75355")
+	)
+	(fp_line
+		(start -0.9 0.45)
+		(end -0.9 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "91b2f7ef-dfa3-4186-b182-8435d29cb691")
+	)
+	(fp_line
+		(start -0.9 0.45)
+		(end 0.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "f6760b4a-4718-407e-b279-3e206b7e4e8e")
+	)
+	(fp_line
+		(start 0.9 0.45)
+		(end 0.9 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "42bf4c41-29ca-4b95-91f2-4a4e8a3d75e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 0.249 0)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "f275b27d-7323-43cd-ac0c-7cdc01780685")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.07)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "f872fe7a-9ece-466f-a615-82caedb7be73")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.025)
+		(uuid "1cb76709-d623-4577-b1c6-14cb8cf88d62")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/RESC1005X38N EIA 0402.step"
+		(offset
+			(xyz -0 0.00003 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

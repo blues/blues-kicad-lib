@@ -1,0 +1,174 @@
+(footprint "CS1206KKX7RCBB103-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CS1206KKX7RCBB103-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 0.01 uF.")
+	(tags "CS1206KKX7RCBB103 Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at -0.368955 -3.285998 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4cfb1f78-45b4-47cb-b6cb-4282c1d7fe04")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CS1206KKX7RCBB103-Footprint-1"
+		(at 1.662385 3.394202 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "050c0e65-b76d-472c-b12b-591445f30d80")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02a135f7-19d0-4916-bf1f-a61166907106")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Multilayer Ceramic Capacitor, 0.01 uF, 1000 V, ± 10%, X7R, 1206 [3216 Metric] CS1206KKX7RCBB103"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c10da5c9-07a0-41a4-a828-21b04ec3e414")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.048 0)
+		(end -3.048 -0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dffb458b-270e-486c-90a3-8108b6656235")
+	)
+	(fp_line
+		(start -1.59997 -0.80001)
+		(end 1.60002 -0.80001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c8ee12fc-5857-48e8-ab3e-b22004c928a8")
+	)
+	(fp_line
+		(start -1.59997 0.79999)
+		(end -1.59997 -0.80001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fe830540-5007-4d7f-ae8e-aad5d00e51bc")
+	)
+	(fp_line
+		(start -1.59997 0.79999)
+		(end 1.60002 0.79999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "2d054a9f-842f-49e6-a2d7-82eb10b42bb0")
+	)
+	(fp_line
+		(start 1.60002 0.79999)
+		(end 1.60002 -0.80001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6fd8e5b4-6158-4380-96d8-06880a20aeaa")
+	)
+	(fp_line
+		(start -2.875 -1.8)
+		(end 2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "95e76e29-a535-4568-81ae-7dec32ed469c")
+	)
+	(fp_line
+		(start -2.875 1.79999)
+		(end -2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "935f0de5-1916-4cdb-8978-8af2c43cd30e")
+	)
+	(fp_line
+		(start -2.875 1.79999)
+		(end 2.875 1.79999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8f4963bd-41e2-4404-a6d6-a102ffd509f8")
+	)
+	(fp_line
+		(start 2.875 1.79999)
+		(end 2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "22a632e2-abc5-4afd-b2cc-3cf065d44abe")
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.00001 90)
+		(size 1.8 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b3aa475-a29e-4bf6-a042-f77e4d5dd862")
+	)
+	(pad "2" smd rect
+		(at 1.49999 -0.00001 90)
+		(size 1.8 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3387cf91-6b0f-4a7f-8087-1594a1e1ba71")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/C1206C103KDRACTU.stp"
+		(offset
+			(xyz -1.7 -0.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

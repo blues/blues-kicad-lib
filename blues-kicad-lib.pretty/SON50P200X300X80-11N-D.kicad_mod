@@ -1,0 +1,240 @@
+(footprint "SON50P200X300X80-11N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SON50P200X300X80-11N-D: footprint from the Mojo v1.1 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Mojo/v1.1/KiCad_format/Mojo-altium-import.pretty). Used there for LTC2959IDDB#TRMPBF.")
+	(tags "SON50P200X300X80 11N D altium mojo")
+	(property "Reference" "REF**"
+		(at -0.0245 0.11038 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ab72d285-3474-4b86-a060-6fe1f06939ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SON50P200X300X80-11N-D"
+		(at 7.38588 3.028 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "847c1918-7b9f-4bae-8fde-63f4a1701bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58573a37-54f9-4764-a0e7-eb5957e10e8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c158b0a6-eaa4-4199-8ffc-e1b0118d0a13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.992 -1.778)
+		(end -1.867 -1.778)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0ddcdcc5-e4a0-413c-afa0-7c98d465628f")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ebb11018-8f7f-4677-98bf-c080dff2dd14")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ab31e3f2-4e56-497d-aa3e-a7651ae43fc8")
+	)
+	(fp_line
+		(start -0.5 -1.5)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c9fd7950-4f1b-45ce-b8c6-fe98a0c36f21")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "05789b23-ffb5-439d-bc63-7ea1b06cabc0")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "cf90124b-3f47-42a8-acd7-0e79609f22a8")
+	)
+	(fp_line
+		(start -1.625 -1.8)
+		(end -1.625 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e2285789-cb2a-4fa1-b904-96f7554c40f9")
+	)
+	(fp_line
+		(start -1.625 -1.8)
+		(end 1.625 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "5f684b53-9d36-462e-9355-30138b923c1b")
+	)
+	(fp_line
+		(start -1.625 1.8)
+		(end 1.625 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "69ed24f2-0cbe-4747-a48d-15f5339e1e45")
+	)
+	(fp_line
+		(start 1.625 -1.8)
+		(end 1.625 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "6401152f-d7c7-439e-b41e-53662a704ac1")
+	)
+	(pad "1" smd rect
+		(at -0.95 -1)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efc98d53-54e9-4784-8399-9b3fa6d43e55")
+	)
+	(pad "2" smd rect
+		(at -0.95 -0.5)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "440a693e-9a29-484a-ba9a-952f481ce237")
+	)
+	(pad "3" smd rect
+		(at -0.95 0)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a7d8fd7d-84e2-4c9a-938b-011cb3c2f58e")
+	)
+	(pad "4" smd rect
+		(at -0.95 0.5)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5e8ec8b-7f83-4d9b-809c-4e6dd9b5b259")
+	)
+	(pad "5" smd rect
+		(at -0.95 1)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74b2e96b-c892-4fb5-8fe2-ca7fec1c03ea")
+	)
+	(pad "6" smd rect
+		(at 0.95 1)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "95fc5f26-c9f1-4c28-b6be-282a0e0640ab")
+	)
+	(pad "7" smd rect
+		(at 0.95 0.5)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba3a959a-9d2f-425a-b74d-c4a2132f2e29")
+	)
+	(pad "8" smd rect
+		(at 0.95 0)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "278a7f57-a38e-4529-bbc1-d3b953028cc0")
+	)
+	(pad "9" smd rect
+		(at 0.95 -0.49999)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "965b9227-2987-4f41-b2b5-d8a18739c266")
+	)
+	(pad "10" smd rect
+		(at 0.95 -1)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75e37a42-0a2b-4141-8eda-8757e77cee2d")
+	)
+	(pad "11" smd rect
+		(at 0 0 90)
+		(size 2.44 0.69)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -2147.483637)
+		(uuid "9af2b325-7ccf-4a86-92a1-e3bda845de83")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/LTC2959IDDB#TRMPBF.stp"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

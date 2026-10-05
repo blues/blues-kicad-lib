@@ -40,14 +40,16 @@ The directory name must remain `3d-models` to ensure the links to footprints sta
 
 ## KiCad version
 
-The library is used with KiCad 9 and later. The symbol file is still written in the KiCad 7 (`20220914`) format, and additions to it are made in that syntax so the file stays readable by KiCad 7. Newer footprint files are written in the current format by whichever KiCad saved them, so a few footprints need KiCad 9 or later; each `.kicad_mod` file carries its own version header.
+The library is written in the KiCad 9 file formats (symbol library `20241209`, footprints `20241229`) and needs KiCad 9 or later. It was upgraded with `kicad-cli sym upgrade` / `kicad-cli fp upgrade` in October 2026, after every design that uses it had moved to KiCad 9; until then the symbol file had been kept in the KiCad 7 format. Keep it that way: `tools/check_library.py` fails if footprint files are ever in mixed format versions again, so an edit saved by a newer KiCad should be followed by upgrading the rest of the library the same way.
 
 ## Where the parts come from
 
 Parts arrive in the library from Blues designs as they are ported to or built in KiCad. Each footprint's description says which design it came from when that matters.
 
 - The original port of the OrCAD designs, and the Notecarrier F KiCad port (rev B): the bulk of the library, including the Notecard M.2 socket (`J-75-0050-MOS-M2-E`), the standoff and mounting-hole footprints, the Ignion antennas (`ANT-NN03310-LTE`, `ANT-NN03320-GPS`) and their `FRACTUS-0404` matching-network pads.
+  The rev B port also contributed 36 `*_Fv1.2` footprint variants; they were removed in October 2026 once that hand-made port was retired from note-hardware in favour of a direct conversion of the Notecarrier F Altium sources, and no design referenced them any more. They remain in the git history.
 - The Notecarrier XM design: the Renesas ISL9122 buck-boost in WLCSP-8 (`BGA8N40P2X4_180x100x50`) and the Amphenol 12402012E212A USB-C receptacle (`CONN_12402012E212A`).
+- The KiCad conversions of the Altium designs in [note-hardware](https://github.com/blues/note-hardware) (Notecarrier F v1.3 and v1.5, X, XS and XM v1.2, XI v1.4, CX v1.7, Cygnet v1.2, Mojo v1.1, Scoop v1.0): 85 footprints and the 63 STEP models they use, added in October 2026. Each of those boards was converted with the KiCad 9 Altium importer and validated against its released fabrication outputs, so the pad geometry is the shipped geometry; the footprint keeps its Altium name, and its `descr` names the board it was taken from and the parts it is used for there. The importer puts Altium's mechanical outlines on `User.12`/`User.14` rather than `F.Fab`/`F.CrtYd`. The models were extracted from the data the conversions embed in their board files; the two M.2 socket variants whose models are full Notecard/Starnote assemblies (14 MB and 89 MB) were left out.
 - The Songbird reference design (a socketed Notecard carrier with an STM32U575 host): the TI BQ25628 charger (`QFN40P300X250X80-18N`), the STDC14 debug header on the Samtec FTSH-107 (`STDC14_FTSH-107-01-L-DV-K`), the ST SM6T Transil in SMB (`SMB_SM6T6V8A`), onsemi SOD-523 (`ONSC-SOD-523-2-502-01_V`), the Würth WL-SFTW RGB LED (`LED_PLCC4_3528_WE-150141M173100`), the Same Sky CMT-8504 transducer and the Alps SKRP tactile switch family (`SW_SKRPADE010`), with matching symbols for the BQ25628, STDC14, ISL9122, USB-C, BME280, RGB LED and transducer.
 
 ## Contributing
@@ -56,9 +58,10 @@ A footprint added to `blues-kicad-lib.pretty` should have its `Reference` field 
 
 A symbol added to `blues-kicad-lib.kicad_sym` carries only the fields described above: `Reference`, `Value`, `Footprint`, `Datasheet`, the description and the keywords. Manufacturer part numbers, distributor numbers and BOM notes belong in the project that uses the symbol. Pin names and numbers should be read from the manufacturer's drawing rather than the datasheet's text tables where the two can be compared; the two have been known to disagree.
 
-Before opening a pull request, check that KiCad loads every part:
+Before opening a pull request, run the library check (KiCad 9's `kicad-cli` on `PATH`, or set `KICAD_CLI`):
 
 ```
-kicad-cli sym export svg -o /tmp/symcheck blues-kicad-lib.kicad_sym
-mkdir -p /tmp/fpcheck && kicad-cli fp export svg -o /tmp/fpcheck blues-kicad-lib.pretty
+python3 tools/check_library.py
 ```
+
+It fails on anything that would break a user of the library: a model linked by a path other than `${BLUES_KICAD_LIB_DIR}/3d-models/<file>`, a linked model file that is not in `3d-models`, a model in `3d-models` that no footprint links, a footprint that still references a `kicad-embed://` model or is locked, a symbol whose `Footprint` field names a footprint this library does not have or uses a stale nickname, footprint files in mixed format versions, or anything `kicad-cli` cannot load and plot. It also lists, without failing, footprints that do not yet follow the conventions above. The same check runs on every push and pull request in GitHub Actions, inside the `kicad/kicad:9.0.9` image.

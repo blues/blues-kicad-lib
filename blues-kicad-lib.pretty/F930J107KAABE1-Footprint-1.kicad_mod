@@ -1,0 +1,173 @@
+(footprint "F930J107KAABE1-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "F930J107KAABE1-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 100uF/ 6.3V.")
+	(tags "F930J107KAABE1 Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at 3.946398 1.155085 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c07c849f-afc6-46d9-baf6-24006ad3c839")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "F930J107KAABE1-Footprint-1"
+		(at -4.105402 8.645665 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0049c937-8da9-41bb-93d2-f66883a0e93d")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5de2b722-dc8b-4db7-add9-d93e37941bc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "F93-BE Series 1206 100 uF ±10% 6.3 V Surface Mount J-Lead Tantalum Capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c867ef2f-2d76-49c5-838c-368d2eecbd66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.61636 -0.88118)
+		(end 1.58363 -0.88118)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "7420e857-a48b-478c-a5e7-7aca9f521244")
+	)
+	(fp_line
+		(start -1.61636 -0.25618)
+		(end -0.99137 -0.88118)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "36dbb7c6-b1b8-4118-92b3-987fca61ebbc")
+	)
+	(fp_line
+		(start -1.61636 0.71882)
+		(end -1.61636 -0.88118)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "989bd2f8-9d52-4450-af03-bdfdebf29100")
+	)
+	(fp_line
+		(start -1.61636 0.71882)
+		(end 1.58363 0.71882)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "861133ed-d3a9-4a7d-9230-beb355639b30")
+	)
+	(fp_line
+		(start 1.58363 0.71882)
+		(end 1.58363 -0.88118)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fb0f4a6a-1def-4e90-b5d6-fa4443daf136")
+	)
+	(fp_line
+		(start -2.49134 -1.23114)
+		(end 2.45866 -1.23114)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "cd6393c8-d90c-4f10-a501-107bf7387262")
+	)
+	(fp_line
+		(start -2.49134 1.06883)
+		(end -2.49134 -1.23114)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "31c0d36e-5b79-49df-9c9e-f28437ba36ac")
+	)
+	(fp_line
+		(start -2.49134 1.06883)
+		(end 2.45866 1.06883)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "e99e4788-29f7-4082-a159-09e04e80b02f")
+	)
+	(fp_line
+		(start 2.45866 1.06883)
+		(end 2.45866 -1.23114)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "55f0ce2b-f9f3-4328-aa16-30bf893758ba")
+	)
+	(pad "1" smd rect
+		(at -1.36637 -0.08118)
+		(size 1.75 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0099072e-cb27-453d-b405-9e871a7bdec8")
+	)
+	(pad "2" smd rect
+		(at 1.33365 -0.08118 180)
+		(size 1.75 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e17ced25-18f5-46ed-b025-92734c207f7e")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/F930J107KAABE1.stp"
+		(offset
+			(xyz -0.01634 0.0812 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

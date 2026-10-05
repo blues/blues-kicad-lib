@@ -1,0 +1,191 @@
+(footprint "AP2139AK-3.3TRG1-Footprint-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AP2139AK-3.3TRG1-Footprint-1: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for AP2139AK-3.3TRG1.")
+	(tags "AP2139AK 3.3TRG1 Footprint 1 altium cygnet")
+	(property "Reference" "REF**"
+		(at -10.155062 0.504 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "06a87b21-3118-49ed-95a8-931a95cf061c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AP2139AK-3.3TRG1-Footprint-1"
+		(at 9.788005 3.343402 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ad76905-b9ca-49c4-96aa-c9661cbe30f7")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7323ff4-4c40-46da-8407-aa3f5a7982b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "250mA 3.3V Ultra Low IQ LDO Reg. SOT23-5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2308fae-6de7-4a3e-82e7-4720b8a8b72a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.812 -1.45)
+		(end -0.812 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1f4e62e8-89fc-4848-9934-1c8f50ad938b")
+	)
+	(fp_line
+		(start -0.812 -1.45)
+		(end 0.812 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "72e1f6cb-f430-4058-a254-9cc8070e4f2c")
+	)
+	(fp_line
+		(start -0.812 1.45)
+		(end 0.812 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f8134c0e-bb44-4261-8f1e-ac9c445c61f5")
+	)
+	(fp_line
+		(start 0.138 -1.45)
+		(end -0.812 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6ecaca69-5062-4ec4-b7d1-428d725e716a")
+	)
+	(fp_line
+		(start 0.812 -1.45)
+		(end 0.812 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f7fd89dd-cbcf-422d-8b4d-d7d24041213d")
+	)
+	(fp_line
+		(start -2.125 -1.75)
+		(end -2.125 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "18470df9-600a-4d28-9e6a-a30084a298de")
+	)
+	(fp_line
+		(start -2.125 -1.75)
+		(end 2.125 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "25464075-a306-4313-97cf-6f78026a2522")
+	)
+	(fp_line
+		(start -2.125 1.75)
+		(end 2.125 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "d70dcd23-98ff-4525-9f03-ad6d42519b2b")
+	)
+	(fp_line
+		(start 2.125 -1.75)
+		(end 2.125 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "8e1269cc-00ea-4018-b513-8e1375289517")
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c79e5bfb-adbe-427d-a2fb-a10325ed9479")
+	)
+	(pad "2" smd rect
+		(at -1.25 0)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4026eab3-0883-4bcd-aafa-3e221bae2dc1")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.95)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8c3bd32-b8dd-4fe9-83ee-09a902558ecf")
+	)
+	(pad "4" smd rect
+		(at 1.25 0.95)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "67254d30-3785-4347-8e9b-9d9ca0038fe0")
+	)
+	(pad "5" smd rect
+		(at 1.25 -0.95)
+		(size 1.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35ee2f73-a171-4058-b965-3fc4a5a01ccd")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/MAX40203AUK+T.stp"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

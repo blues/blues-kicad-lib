@@ -1,0 +1,265 @@
+(footprint "FP-XFL4020-MFG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FP-XFL4020-MFG: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 1.5uH.")
+	(tags "FP XFL4020 MFG altium cygnet")
+	(property "Reference" "REF**"
+		(at 0.811 -4.553852 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c687ffd-8c28-4429-9409-dfef17a08826")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FP-XFL4020-MFG"
+		(at 7.934175 3.927592 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93ed90f9-b363-474d-8373-70c01a41e8a9")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "914e1999-4f35-463a-adef-436578579e67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor Power Shielded Wirewound 1.5uH 20% 100KHz 9.1A 15.8mOhm DCR 1515 Automotive Embossed Plastic T/R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65b8957d-f011-4c5d-bfbc-88eadcd210d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.6 0)
+		(end -2.6 0.0125)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5e698116-5b9b-4b39-9c65-b48988ba0014")
+	)
+	(fp_line
+		(start -2.25003 -2.24998)
+		(end -2.25003 2.24999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "6ab601d1-5b22-418a-8586-e7667fcdae74")
+	)
+	(fp_line
+		(start 2.24999 -2.24998)
+		(end -2.25003 -2.24998)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "f9ed9897-2ac2-4e5d-9ea0-572d77419d93")
+	)
+	(fp_line
+		(start 2.24999 -2.24998)
+		(end 2.24999 2.24999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "ed6bf5bd-448c-4ecf-acec-5fea8f19834a")
+	)
+	(fp_line
+		(start 2.24999 2.24999)
+		(end -2.25003 2.24999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "24718e4e-3051-4a0e-83ce-e72347d6bae4")
+	)
+	(fp_line
+		(start -2.25003 -2.24998)
+		(end -2.25003 2.24999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1c35ae02-a11a-4090-9c9e-6e553d20d79b")
+	)
+	(fp_line
+		(start 2.24999 -2.24998)
+		(end -2.25003 -2.24998)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "49c5d5a3-4962-4710-9908-93e6b50751e1")
+	)
+	(fp_line
+		(start 2.24999 -2.24998)
+		(end 2.24999 2.24999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1bb59eab-73ea-4803-b75a-7eed670192ee")
+	)
+	(fp_line
+		(start 2.24999 2.24999)
+		(end -2.25003 2.24999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "3c5ee675-0cba-4033-ab66-3cf5d23ff6a8")
+	)
+	(fp_line
+		(start -0.00004 -0.50002)
+		(end -0.00004 0.49998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "0fe3cd4e-0b73-4787-9d23-c0b2a66b8ca2")
+	)
+	(fp_line
+		(start 0.49998 0.00001)
+		(end -0.50002 0.00001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "fcc88ca5-5292-4d90-971b-002c27316b6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.43291 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "65b5888b-5e5e-4d4c-ba03-ce340891bd47")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 0.405638 -3.170427) (xy 0.447352 -3.164373) (xy 0.477275 -3.155694) (xy 0.504376 -3.141565)
+					(xy 0.527614 -3.121723) (xy 0.547403 -3.095491) (xy 0.561967 -3.065818) (xy 0.570709 -3.034227)
+					(xy 0.573676 -3.000167) (xy 0.570848 -2.967219) (xy 0.562643 -2.937734) (xy 0.549186 -2.911063)
+					(xy 0.530207 -2.886724) (xy 0.507288 -2.866973) (xy 0.478128 -2.850415) (xy 0.441518 -2.837262)
+					(xy 0.395953 -2.82806) (xy 0.426614 -2.81121) (xy 0.44627 -2.796516) (xy 0.481033 -2.759644) (xy 0.515551 -2.712309)
+					(xy 0.625301 -2.54001) (xy 0.520321 -2.54001) (xy 0.436806 -2.671725) (xy 0.376565 -2.758971) (xy 0.352608 -2.786122)
+					(xy 0.334173 -2.801094) (xy 0.315057 -2.811318) (xy 0.29609 -2.817712) (xy 0.24962 -2.820674) (xy 0.152795 -2.820674)
+					(xy 0.152795 -2.54001) (xy 0.069281 -2.54001) (xy 0.069281 -2.894533) (xy 0.152795 -2.894533) (xy 0.33225 -2.894533)
+					(xy 0.386247 -2.897909) (xy 0.421765 -2.906381) (xy 0.441943 -2.916119) (xy 0.458106 -2.928732)
+					(xy 0.470812 -2.944349) (xy 0.483406 -2.971642) (xy 0.487585 -3.00109) (xy 0.483884 -3.029562)
+					(xy 0.473155 -3.053807) (xy 0.455079 -3.074872) (xy 0.431612 -3.089899) (xy 0.398475 -3.099981)
+					(xy 0.352484 -3.1038) (xy 0.152795 -3.1038) (xy 0.152795 -2.894533) (xy 0.069281 -2.894533) (xy 0.069281 -3.172735)
+					(xy 0.349022 -3.172735)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.706123 -2.54001) (xy 0.706123 -3.172735) (xy 1.162318 -3.172735) (xy 1.162318 -3.098876)
+					(xy 0.789637 -3.098876) (xy 0.789637 -2.904381) (xy 1.13866 -2.904381) (xy 1.13866 -2.830522) (xy 0.789637 -2.830522)
+					(xy 0.789637 -2.613869) (xy 1.176974 -2.613869) (xy 1.176974 -2.54001)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.296533 -2.54001) (xy 1.296533 -3.172735) (xy 1.722146 -3.172735) (xy 1.722146 -3.098876)
+					(xy 1.380009 -3.098876) (xy 1.380009 -2.901919) (xy 1.6761 -2.901919) (xy 1.6761 -2.82806) (xy 1.380009 -2.82806)
+					(xy 1.380009 -2.54001)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.790312 -3.057023) (xy 1.810123 -3.117649) (xy 1.873477 -3.093546) (xy 1.909525 -3.076257)
+					(xy 1.900908 -3.182583) (xy 1.963303 -3.182583) (xy 1.960449 -3.137709) (xy 1.953417 -3.07668)
+					(xy 1.999656 -3.097491) (xy 2.054973 -3.117649) (xy 2.074784 -3.057023) (xy 2.020093 -3.041758)
+					(xy 1.967612 -3.032788) (xy 1.995776 -3.0047) (xy 2.041663 -2.951004) (xy 1.99 -2.914229) (xy 1.964492 -2.951881)
+					(xy 1.931029 -3.007245) (xy 1.899221 -2.950347) (xy 1.875096 -2.914229) (xy 1.824318 -2.951004)
+					(xy 1.871336 -3.007164) (xy 1.895753 -3.032788)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.133141 -3.057023) (xy 2.152952 -3.117649) (xy 2.216306 -3.093546) (xy 2.252354 -3.076257)
+					(xy 2.243737 -3.182583) (xy 2.306133 -3.182583) (xy 2.303278 -3.137709) (xy 2.296246 -3.07668)
+					(xy 2.342485 -3.097491) (xy 2.397802 -3.117649) (xy 2.417614 -3.057023) (xy 2.362922 -3.041758)
+					(xy 2.310441 -3.032788) (xy 2.338605 -3.0047) (xy 2.384492 -2.951004) (xy 2.332829 -2.914229) (xy 2.307321 -2.951881)
+					(xy 2.273858 -3.007245) (xy 2.24205 -2.950347) (xy 2.217925 -2.914229) (xy 2.167147 -2.951004)
+					(xy 2.214165 -3.007164) (xy 2.238582 -3.032788)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.18505 0.00001)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "caa2bc35-e463-41f2-9f36-ea9fda7586d0")
+	)
+	(pad "2" smd rect
+		(at 1.18497 0.00001)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "0da3f4c6-d0ef-4e7d-a285-a7d9e2a8958a")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Ind_Coilcraft_XFL4020-152MEC_eec.STEP"
+		(offset
+			(xyz -0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

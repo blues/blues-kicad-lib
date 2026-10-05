@@ -1,0 +1,201 @@
+(footprint "R-0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "R-0603: footprint from the Notecarrier XS v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Notecarrier-XS/v1.2/KiCad_format/Notecarrier-XS-altium-import.pretty). Used there for 0R0.")
+	(tags "R 0603 altium notecarrier")
+	(property "Reference" "REF**"
+		(at 3.20079 -0.31239 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f6ad8784-2bf7-43da-9bd6-19e28d8be366")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "R-0603"
+		(at -0.8106 0.36571 180)
+		(unlocked yes)
+		(layer "User.12")
+		(uuid "d0c70b90-dd31-4da4-b853-d6394ed27d46")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7aa85f9b-0221-4e05-809b-932a172e9d2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "015d2628-3757-45e0-9830-addc90669db2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.30008 0.70008)
+		(end -1.30008 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "065338d5-e8d0-4e74-bf6d-9c40dac747b3")
+	)
+	(fp_line
+		(start 0.15 -0.45)
+		(end -0.15 -0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea2d1097-64c3-412d-a457-810ea499928f")
+	)
+	(fp_line
+		(start 0.15 0.45)
+		(end -0.15 0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79b4666a-8e00-435a-a6ef-238fcccc8b72")
+	)
+	(fp_line
+		(start 1.29992 -0.69992)
+		(end -1.30008 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f21e6b0-d50e-4d99-9288-fdddc3e472f0")
+	)
+	(fp_line
+		(start 1.29992 0.70008)
+		(end -1.30008 0.70008)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b4fad93-9ec6-4424-90e2-c8677e83b9a0")
+	)
+	(fp_line
+		(start 1.29992 0.70008)
+		(end 1.29992 -0.69992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58691c09-d350-4351-a7f0-7938976def86")
+	)
+	(fp_line
+		(start -1.3 0.7)
+		(end -1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "199d2cc1-ccfc-420f-8aaf-59844306100c")
+	)
+	(fp_line
+		(start 1.3 -0.7)
+		(end -1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "e17926e1-9b76-4a02-ae6d-a176eb088360")
+	)
+	(fp_line
+		(start 1.3 0.7)
+		(end -1.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "1579cd2b-a65b-4bd2-bc1e-52b04f3ed1e4")
+	)
+	(fp_line
+		(start 1.3 0.7)
+		(end 1.3 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "c85c6a5c-0fb1-4be9-a2e6-d36a14b29700")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 0.3235 180)
+		(unlocked yes)
+		(layer "User.14")
+		(uuid "c9aeb68a-f2bc-4b9c-b3dd-140a90d07cbe")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 0 90)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "641a8b33-112a-48db-a519-dfea00f119af")
+	)
+	(pad "2" smd rect
+		(at 0.725 0 270)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.025)
+		(uuid "5bd22565-fc99-499b-a0ab-db02a5f425eb")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/RESC1608X38N EIA 0603.step"
+		(offset
+			(xyz -0 0.00003 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

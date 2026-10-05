@@ -1,0 +1,294 @@
+(footprint "FP-GRM033-0_03-MFG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FP-GRM033-0_03-MFG: footprint from the Cygnet v1.2 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Cygnet/v1.2/KiCad_format/Cygnet-altium-import.pretty). Used there for 10nF/ 16V-X5R, 4pF.")
+	(tags "FP GRM033 0 03 MFG altium cygnet")
+	(property "Reference" "REF**"
+		(at 2.041398 1.764685 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "452b330c-d653-4979-b060-751523a395ed")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FP-GRM033-0_03-MFG"
+		(at -2.403522 1.89164 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "897d6566-38b5-46ec-943e-6af6dfbc6b32")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5c04cd9-f43b-4a08-afe4-037ca6a6287b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14aaf94e-0b55-4c8a-81c8-249917bc8164")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.31503 0.16503)
+		(end -0.31503 -0.16496)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6144b80e-48d5-450b-99c9-c58ff1d5b8ee")
+	)
+	(fp_line
+		(start 0.31499 -0.16496)
+		(end -0.31503 -0.16496)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d0e33668-0813-4a97-abcd-1a0174a373c6")
+	)
+	(fp_line
+		(start 0.31499 0.16503)
+		(end -0.31503 0.16503)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d97f4995-2aa8-4197-97a7-e846baaba993")
+	)
+	(fp_line
+		(start 0.31499 0.16503)
+		(end 0.31499 -0.16496)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ecc23654-22c8-4b5a-a2f9-848c8107ced4")
+	)
+	(fp_line
+		(start -0.4625 0.26501)
+		(end -0.4625 -0.26499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "65db57ad-a6b6-4890-9c1b-867d3b1d5d2e")
+	)
+	(fp_line
+		(start 0.46246 -0.26499)
+		(end -0.4625 -0.26499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "abad04d2-cc38-4e11-a78a-bc7267ff5b8e")
+	)
+	(fp_line
+		(start 0.46246 0.26501)
+		(end -0.4625 0.26501)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "a46ee16d-8e90-4562-a895-42648a3873a5")
+	)
+	(fp_line
+		(start 0.46246 0.26501)
+		(end 0.46246 -0.26499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "d711b1ac-eef1-48ba-9465-2ca5fb7721e1")
+	)
+	(fp_line
+		(start -0.4625 0.26501)
+		(end -0.4625 -0.26499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "948472bb-1dd2-4d4a-9daf-b0af2e0db334")
+	)
+	(fp_line
+		(start 0.46246 -0.26499)
+		(end -0.4625 -0.26499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "6459de12-b964-457b-8485-d763de67e3a6")
+	)
+	(fp_line
+		(start 0.46246 0.26501)
+		(end -0.4625 0.26501)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "72e647a4-84aa-4809-86ef-9f881d63c97b")
+	)
+	(fp_line
+		(start 0.46246 0.26501)
+		(end 0.46246 -0.26499)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "60b8176f-0a6c-486b-be17-0dd32c5afe04")
+	)
+	(fp_line
+		(start -0.00002 0.50001)
+		(end -0.00002 -0.49999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "015d93bf-83c5-408b-9c1c-f2e88ffd5986")
+	)
+	(fp_line
+		(start 0.5 0.00003)
+		(end -0.49999 0.00003)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.14")
+		(uuid "084505d7-e8b7-47c8-a65b-8635541a15b1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.00001 0.09602 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "f72743c3-0382-4880-b322-00922040c484")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 0.405628 -0.641497) (xy 0.447342 -0.635443) (xy 0.477265 -0.626764) (xy 0.504366 -0.612635)
+					(xy 0.527604 -0.592793) (xy 0.547393 -0.566561) (xy 0.561957 -0.536888) (xy 0.570699 -0.505297)
+					(xy 0.573666 -0.471237) (xy 0.570838 -0.438289) (xy 0.562633 -0.408804) (xy 0.549176 -0.382133)
+					(xy 0.530197 -0.357794) (xy 0.507278 -0.338043) (xy 0.478118 -0.321485) (xy 0.441508 -0.308332)
+					(xy 0.395943 -0.29913) (xy 0.426604 -0.28228) (xy 0.44626 -0.267586) (xy 0.481023 -0.230714) (xy 0.515541 -0.183379)
+					(xy 0.625291 -0.01108) (xy 0.520311 -0.01108) (xy 0.436796 -0.142795) (xy 0.376555 -0.230041) (xy 0.352598 -0.257192)
+					(xy 0.334163 -0.272164) (xy 0.315047 -0.282388) (xy 0.29608 -0.288782) (xy 0.24961 -0.291744) (xy 0.152785 -0.291744)
+					(xy 0.152785 -0.01108) (xy 0.069271 -0.01108) (xy 0.069271 -0.365603) (xy 0.152785 -0.365603) (xy 0.33224 -0.365603)
+					(xy 0.386237 -0.368979) (xy 0.421755 -0.377451) (xy 0.441933 -0.387189) (xy 0.458096 -0.399802)
+					(xy 0.470802 -0.415419) (xy 0.483396 -0.442712) (xy 0.487575 -0.47216) (xy 0.483874 -0.500632)
+					(xy 0.473145 -0.524877) (xy 0.455069 -0.545942) (xy 0.431602 -0.560969) (xy 0.398465 -0.571051)
+					(xy 0.352474 -0.57487) (xy 0.152785 -0.57487) (xy 0.152785 -0.365603) (xy 0.069271 -0.365603) (xy 0.069271 -0.643805)
+					(xy 0.349012 -0.643805)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.706113 -0.01108) (xy 0.706113 -0.643805) (xy 1.162308 -0.643805) (xy 1.162308 -0.569946)
+					(xy 0.789627 -0.569946) (xy 0.789627 -0.375451) (xy 1.13865 -0.375451) (xy 1.13865 -0.301592) (xy 0.789627 -0.301592)
+					(xy 0.789627 -0.084939) (xy 1.176964 -0.084939) (xy 1.176964 -0.01108)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.296523 -0.01108) (xy 1.296523 -0.643805) (xy 1.722136 -0.643805) (xy 1.722136 -0.569946)
+					(xy 1.379999 -0.569946) (xy 1.379999 -0.372989) (xy 1.67609 -0.372989) (xy 1.67609 -0.29913) (xy 1.379999 -0.29913)
+					(xy 1.379999 -0.01108)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.790302 -0.528093) (xy 1.810113 -0.588719) (xy 1.873467 -0.564616) (xy 1.909515 -0.547327)
+					(xy 1.900898 -0.653653) (xy 1.963293 -0.653653) (xy 1.960439 -0.608779) (xy 1.953407 -0.54775)
+					(xy 1.999646 -0.568561) (xy 2.054963 -0.588719) (xy 2.074774 -0.528093) (xy 2.020083 -0.512828)
+					(xy 1.967602 -0.503858) (xy 1.995766 -0.47577) (xy 2.041653 -0.422074) (xy 1.98999 -0.385299) (xy 1.964482 -0.422951)
+					(xy 1.931019 -0.478315) (xy 1.899211 -0.421417) (xy 1.875086 -0.385299) (xy 1.824308 -0.422074)
+					(xy 1.871326 -0.478234) (xy 1.895743 -0.503858)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.133131 -0.528093) (xy 2.152942 -0.588719) (xy 2.216296 -0.564616) (xy 2.252344 -0.547327)
+					(xy 2.243727 -0.653653) (xy 2.306123 -0.653653) (xy 2.303268 -0.608779) (xy 2.296236 -0.54775)
+					(xy 2.342475 -0.568561) (xy 2.397792 -0.588719) (xy 2.417604 -0.528093) (xy 2.362912 -0.512828)
+					(xy 2.310431 -0.503858) (xy 2.338595 -0.47577) (xy 2.384482 -0.422074) (xy 2.332819 -0.385299)
+					(xy 2.307311 -0.422951) (xy 2.273848 -0.478315) (xy 2.24204 -0.421417) (xy 2.217915 -0.385299)
+					(xy 2.167137 -0.422074) (xy 2.214155 -0.478234) (xy 2.238572 -0.503858)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.23751 0.00003)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "b7bdd415-e37f-49a4-b8d5-6fa6df7bd9ee")
+	)
+	(pad "2" smd rect
+		(at 0.23747 0.00003)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "30158c95-e896-49b3-b148-e39baa8873ba")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/Cap_Murata_GRM0335C1HR30BA01D_eec.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0.001)
+		)
+	)
+)

@@ -1,0 +1,304 @@
+(footprint "QWIIC_SM04B-SRSS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "QWIIC_SM04B-SRSS: footprint from the Mojo v1.1 Altium design, converted with the KiCad 9 Altium importer for the blues/note-hardware KiCad port and validated there against the released fabrication outputs (source: Mojo/v1.1/KiCad_format/Mojo-altium-import.pretty). Used there for QWIIC SM04B-SRSS-TB(LF)(SN).")
+	(tags "QWIIC SM04B SRSS altium mojo")
+	(property "Reference" "REF**"
+		(at -0.13986 0.0401 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ee823c95-9479-44f0-94a3-9508fd807501")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "QWIIC_SM04B-SRSS"
+		(at 8.89539 4.7298 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "07e24d43-a0f9-46c3-a45f-81877ec294f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59afeb4f-78f7-4a5b-b291-b0d9b82cc156")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0693f1c1-460e-4bbe-b74b-dde2e84818bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.032 -0.1)
+		(end -3.032 2.413)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f8fefc3-02e2-4213-b15e-76728a0fdc46")
+	)
+	(fp_line
+		(start -2.27 2.413)
+		(end -3.032 2.413)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c474275-4394-472f-ba4f-f9a942c31ca1")
+	)
+	(fp_line
+		(start 1.7 -2.2)
+		(end -1.84 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d48d6d91-3c71-4936-8b8d-383dc12d3994")
+	)
+	(fp_line
+		(start 3.03199 2.413)
+		(end 2.27 2.413)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5814a808-6f3b-42ac-bb60-11e810b0d7fb")
+	)
+	(fp_line
+		(start 3.032 0)
+		(end 3.03199 2.413)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75d9486c-eed7-4881-b127-3a1d56f75a69")
+	)
+	(fp_circle
+		(center 2.54 1.908)
+		(end 2.54 2.033)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2f7df38e-4ee9-405b-98b5-0085035669b8")
+	)
+	(fp_line
+		(start -4.048 -3.302)
+		(end -4.048 3.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "10b4f81f-dfc2-45da-998a-a7b70e5e7ffa")
+	)
+	(fp_line
+		(start 0 -0.635)
+		(end 0 0.635)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "306429c7-6344-4698-96b4-548fbed90792")
+	)
+	(fp_line
+		(start 0.635 0)
+		(end -0.635 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "5f6990c6-75f7-4bd8-9758-b9e14b4581fd")
+	)
+	(fp_line
+		(start 4.048 -3.302)
+		(end 4.048 3.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "fc99ee07-ddb4-48a2-84b1-3e5fa2973506")
+	)
+	(fp_line
+		(start 4.064 -3.302)
+		(end -4.048 -3.302)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ed28f482-9184-47e9-b20a-9ece0ff561df")
+	)
+	(fp_line
+		(start 4.064 3.429)
+		(end -4.048 3.429)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "b440634b-e90a-4f9a-8f4e-ec63af2c69fc")
+	)
+	(fp_text_box "B"
+		(start -1 -0.29987)
+		(end -0.16684 0.79987)
+		(margins 0 0 0 0)
+		(layer "F.SilkS")
+		(uuid "08908bda-7176-4fe3-a875-44189ba20ee9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(fp_text_box "R"
+		(start 0.25 -0.29987)
+		(end 1.08316 0.79987)
+		(margins 0 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1e48adb7-96fc-419f-bbd4-4dc832c9611b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(fp_text_box "Y"
+		(start -2 -0.29987)
+		(end -1.16684 0.79987)
+		(margins 0 0 0 0)
+		(layer "F.SilkS")
+		(uuid "93796884-cf80-4cda-b6c3-5694b96bbfe2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(fp_text_box "K"
+		(start 1.25 -0.29987)
+		(end 2.08316 0.79987)
+		(margins 0 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cb3647bd-4ebd-4705-8205-4087b1e2fe29")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.5 2.032 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18ca839a-df68-484e-a08d-f132951856db")
+	)
+	(pad "2" smd rect
+		(at 0.5 2.032 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09c50777-aaf3-4be6-9f25-65deb11d8692")
+	)
+	(pad "3" smd rect
+		(at -0.5 2.032 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "977eaceb-fb2c-4421-8896-f8884ffb81a8")
+	)
+	(pad "4" smd rect
+		(at -1.5 2.032 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c05aacb2-23be-45b3-b7d7-060ad792e645")
+	)
+	(pad "M" smd rect
+		(at -2.8 -1.5 90)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "97099611-0ad5-4ae3-894c-180e40699324")
+	)
+	(pad "M" smd rect
+		(at 2.8 -1.5 90)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "361899df-4251-475e-8620-9d77e6a0fb7b")
+	)
+	(embedded_fonts no)
+	(model "${BLUES_KICAD_LIB_DIR}/3d-models/JST SM04B-SRSS-TB.STEP"
+		(offset
+			(xyz 0.00008 -1.32793 -0.31)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
